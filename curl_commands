@@ -1,0 +1,30 @@
+curl -H "Content-Type: application/json" -X POST -d '{"name":"maibock","description":"May Bock","price":4.3}' http://localhost:9000/item
+curl -H "Content-Type: application/json" -X POST -d '{"name":"Pils","description":"Pilsner","price":2.3}' http://localhost:9000/item
+curl -H "Content-Type: application/json" -X POST -d '{"name":"Helles","description":"Light","price":2.0}' http://localhost:9000/item
+curl -H "Content-Type: application/json"-X POST -d '{"name":"Honey Helles","description":"Honey Light","price":2.0}' http://localhost:9000/item
+curl -X "DELETE" http://localhost:9000/item/8
+curl  -X PUT http://localhost:9000/item/8/LIGHT/Honey/4.3
+curl http://localhost:9000/item
+curl -H  "Content-Type: application/json" http://localhost:9000/item/1
+
+curl -H "Content-Type: application/json" -X POST -d '{"name":"Don Kagle","email":"dkagle@cox.net","pword":"word"}' http://localhost:9000/customer
+curl -H "Content-Type: application/json" -X POST -d '{"name":"Cathy Kagle","email":"ckagle@cox.net","pword":"word"}' http://localhost:9000/customer
+curl -X "DELETE" http://localhost:9000/customer/3
+curl  -X PUT http://localhost:9000/customer/2/Allen%20Kagle/allen@cox.net/password
+
+curl -H "Content-Type: application/json" -X POST -d '{"cust_id":1,"address1":"6524 Barnesdale Path","address2":"suite 201","city":"Centreville","state":"VA","zip":"20120"}' http://localhost:9000/address
+curl -H "Content-Type: application/json" -X POST -d '{"cust_id":1,"address1":"6524 Barnesdale Path","address2":"suite 201","city":"Centreville","zip":"20120"}' http://localhost:9000/address
+curl -X "DELETE" http://localhost:9000/address/3
+curl  -X PUT http://localhost:9000/address/1/111 Herndon Pwy/Suite 105/Herndon/VA/22079
+
+curl -H "Content-Type: application/json" -X POST -d '{"item_id":1,"datetime":"2016-04-27 12:51:01"}' http://localhost:9000/transaction
+curl  -X PUT http://localhost:9000/transaction/8/2/2016-04-15%2018:01:04
+curl -X "DELETE" http://localhost:9000/transaction/8
+curl http://localhost:9000/transaction
+
+
+curl http://localhost:9000/transactionitem/1
+
+curl http://localhost:9000/addresscustomer/1
+
+

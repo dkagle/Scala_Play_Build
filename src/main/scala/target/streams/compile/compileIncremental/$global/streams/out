@@ -1,0 +1,326 @@
+[0m[[0mdebug[0m] [0m[naha] [0m
+[0m[[0mdebug[0m] [0m[naha] Initial source changes: [0m
+[0m[[0mdebug[0m] [0m[naha] 	removed:Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	added: Set(/home/dkagle/src/scala/release3.1.6/src/main/scala/printCoffee.scala, /home/dkagle/src/scala/release3.1.6/src/main/scala/scalabuild.scala, /home/dkagle/src/scala/release3.1.6/src/main/scala/printTest.scala, /home/dkagle/src/scala/release3.1.6/src/main/scala/printHTML.scala, /home/dkagle/src/scala/release3.1.6/src/main/scala/ezbuild.scala, /home/dkagle/src/scala/release3.1.6/src/main/scala/printSchema.scala, /home/dkagle/src/scala/release3.1.6/src/main/scala/printRoutes.scala, /home/dkagle/src/scala/release3.1.6/src/main/scala/scalaMVC.scala, /home/dkagle/src/scala/release3.1.6/src/main/scala/scalaMVCFile.scala, /home/dkagle/src/scala/release3.1.6/src/main/scala/printModel.scala, /home/dkagle/src/scala/release3.1.6/src/main/scala/printJoins.scala, /home/dkagle/src/scala/release3.1.6/src/main/scala/printController.scala, /home/dkagle/src/scala/release3.1.6/src/main/scala/printControllerAuth.scala, /home/dkagle/src/scala/release3.1.6/src/main/scala/printStatics.scala, /home/dkagle/src/scala/release3.1.6/src/main/scala/printUser.scala, /home/dkagle/src/scala/release3.1.6/src/main/scala/fieldsFrame.scala, /home/dkagle/src/scala/release3.1.6/src/main/scala/printAuth.scala, /home/dkagle/src/scala/release3.1.6/src/main/scala/printLogin.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] 	modified: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated products: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] External API changes: API Changes: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Modified binary dependencies: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Initial directly invalidated sources: Set(/home/dkagle/src/scala/release3.1.6/src/main/scala/printCoffee.scala, /home/dkagle/src/scala/release3.1.6/src/main/scala/scalabuild.scala, /home/dkagle/src/scala/release3.1.6/src/main/scala/printTest.scala, /home/dkagle/src/scala/release3.1.6/src/main/scala/printHTML.scala, /home/dkagle/src/scala/release3.1.6/src/main/scala/ezbuild.scala, /home/dkagle/src/scala/release3.1.6/src/main/scala/printSchema.scala, /home/dkagle/src/scala/release3.1.6/src/main/scala/printRoutes.scala, /home/dkagle/src/scala/release3.1.6/src/main/scala/scalaMVC.scala, /home/dkagle/src/scala/release3.1.6/src/main/scala/scalaMVCFile.scala, /home/dkagle/src/scala/release3.1.6/src/main/scala/printModel.scala, /home/dkagle/src/scala/release3.1.6/src/main/scala/printJoins.scala, /home/dkagle/src/scala/release3.1.6/src/main/scala/printController.scala, /home/dkagle/src/scala/release3.1.6/src/main/scala/printControllerAuth.scala, /home/dkagle/src/scala/release3.1.6/src/main/scala/printStatics.scala, /home/dkagle/src/scala/release3.1.6/src/main/scala/printUser.scala, /home/dkagle/src/scala/release3.1.6/src/main/scala/fieldsFrame.scala, /home/dkagle/src/scala/release3.1.6/src/main/scala/printAuth.scala, /home/dkagle/src/scala/release3.1.6/src/main/scala/printLogin.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] [0m
+[0m[[0mdebug[0m] [0m[naha] Sources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m[naha] 	product: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	binary dep: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	external source: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/home/dkagle/src/scala/release3.1.6/src/main/scala/printCoffee.scala, /home/dkagle/src/scala/release3.1.6/src/main/scala/scalabuild.scala, /home/dkagle/src/scala/release3.1.6/src/main/scala/printTest.scala, /home/dkagle/src/scala/release3.1.6/src/main/scala/printHTML.scala, /home/dkagle/src/scala/release3.1.6/src/main/scala/ezbuild.scala, /home/dkagle/src/scala/release3.1.6/src/main/scala/printSchema.scala, /home/dkagle/src/scala/release3.1.6/src/main/scala/printRoutes.scala, /home/dkagle/src/scala/release3.1.6/src/main/scala/scalaMVC.scala, /home/dkagle/src/scala/release3.1.6/src/main/scala/scalaMVCFile.scala, /home/dkagle/src/scala/release3.1.6/src/main/scala/printModel.scala, /home/dkagle/src/scala/release3.1.6/src/main/scala/printJoins.scala, /home/dkagle/src/scala/release3.1.6/src/main/scala/printController.scala, /home/dkagle/src/scala/release3.1.6/src/main/scala/printControllerAuth.scala, /home/dkagle/src/scala/release3.1.6/src/main/scala/printStatics.scala, /home/dkagle/src/scala/release3.1.6/src/main/scala/printUser.scala, /home/dkagle/src/scala/release3.1.6/src/main/scala/fieldsFrame.scala, /home/dkagle/src/scala/release3.1.6/src/main/scala/printAuth.scala, /home/dkagle/src/scala/release3.1.6/src/main/scala/printLogin.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/home/dkagle/src/scala/release3.1.6/src/main/scala/printCoffee.scala, /home/dkagle/src/scala/release3.1.6/src/main/scala/scalabuild.scala, /home/dkagle/src/scala/release3.1.6/src/main/scala/printTest.scala, /home/dkagle/src/scala/release3.1.6/src/main/scala/printHTML.scala, /home/dkagle/src/scala/release3.1.6/src/main/scala/ezbuild.scala, /home/dkagle/src/scala/release3.1.6/src/main/scala/printSchema.scala, /home/dkagle/src/scala/release3.1.6/src/main/scala/printRoutes.scala, /home/dkagle/src/scala/release3.1.6/src/main/scala/scalaMVC.scala, /home/dkagle/src/scala/release3.1.6/src/main/scala/scalaMVCFile.scala, /home/dkagle/src/scala/release3.1.6/src/main/scala/printModel.scala, /home/dkagle/src/scala/release3.1.6/src/main/scala/printJoins.scala, /home/dkagle/src/scala/release3.1.6/src/main/scala/printController.scala, /home/dkagle/src/scala/release3.1.6/src/main/scala/printControllerAuth.scala, /home/dkagle/src/scala/release3.1.6/src/main/scala/printStatics.scala, /home/dkagle/src/scala/release3.1.6/src/main/scala/printUser.scala, /home/dkagle/src/scala/release3.1.6/src/main/scala/fieldsFrame.scala, /home/dkagle/src/scala/release3.1.6/src/main/scala/printAuth.scala, /home/dkagle/src/scala/release3.1.6/src/main/scala/printLogin.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Recompiling all 18 sources: invalidated sources (18) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 18 Scala sources to /home/dkagle/src/scala/release3.1.6/src/main/scala/target/scala-2.10/classes...[0m
+[0m[[0mdebug[0m] [0mGetting org.scala-sbt:compiler-interface:0.13.16:component from component compiler for Scala 2.10.6[0m
+[0m[[0mdebug[0m] [0mGetting org.scala-sbt:compiler-interface:0.13.16:component from component compiler for Scala 2.10.6[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 5433dd59, interfacing (CompilerInterface) with Scala compiler version 2.10.6[0m
+[0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes:/home/dkagle/.sbt/boot/scala-2.10.6/lib/scala-library.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	/home/dkagle/src/scala/release3.1.6/src/main/scala/target/scala-2.10/classes[0m
+[0m[[31merror[0m] [0m/home/dkagle/src/scala/release3.1.6/src/main/scala/scalabuild.scala:3: object swing is not a member of package scala[0m
+[0m[[31merror[0m] [0mimport scala.swing._[0m
+[0m[[31merror[0m] [0m             ^[0m
+[0m[[31merror[0m] [0m/home/dkagle/src/scala/release3.1.6/src/main/scala/scalabuild.scala:6: object swing is not a member of package scala[0m
+[0m[[31merror[0m] [0mimport scala.swing.BorderPanel.Position._[0m
+[0m[[31merror[0m] [0m             ^[0m
+[0m[[31merror[0m] [0m/home/dkagle/src/scala/release3.1.6/src/main/scala/scalabuild.scala:7: not found: object event[0m
+[0m[[31merror[0m] [0mimport event._[0m
+[0m[[31merror[0m] [0m       ^[0m
+[0m[[31merror[0m] [0m/home/dkagle/src/scala/release3.1.6/src/main/scala/scalabuild.scala:9: object swing is not a member of package scala[0m
+[0m[[31merror[0m] [0mobject scalabuild  extends scala.swing.SimpleSwingApplication  {[0m
+[0m[[31merror[0m] [0m                                 ^[0m
+[0m[[31merror[0m] [0m/home/dkagle/src/scala/release3.1.6/src/main/scala/scalabuild.scala:10: not found: type Button[0m
+[0m[[31merror[0m] [0mval addButton = new Button {[0m
+[0m[[31merror[0m] [0m                    ^[0m
+[0m[[31merror[0m] [0m/home/dkagle/src/scala/release3.1.6/src/main/scala/scalabuild.scala:11: package scala.text is not a value[0m
+[0m[[31merror[0m] [0m	text = "Add"[0m
+[0m[[31merror[0m] [0m	^[0m
+[0m[[31merror[0m] [0m/home/dkagle/src/scala/release3.1.6/src/main/scala/scalabuild.scala:12: not found: value borderPainted[0m
+[0m[[31merror[0m] [0m	borderPainted = true[0m
+[0m[[31merror[0m] [0m	^[0m
+[0m[[31merror[0m] [0m/home/dkagle/src/scala/release3.1.6/src/main/scala/scalabuild.scala:13: not found: value enabled[0m
+[0m[[31merror[0m] [0m	enabled = true[0m
+[0m[[31merror[0m] [0m	^[0m
+[0m[[31merror[0m] [0m/home/dkagle/src/scala/release3.1.6/src/main/scala/scalabuild.scala:16: not found: type Button[0m
+[0m[[31merror[0m] [0mval doneButton = new Button {[0m
+[0m[[31merror[0m] [0m                     ^[0m
+[0m[[31merror[0m] [0m/home/dkagle/src/scala/release3.1.6/src/main/scala/scalabuild.scala:17: package scala.text is not a value[0m
+[0m[[31merror[0m] [0m	text = "Done"[0m
+[0m[[31merror[0m] [0m	^[0m
+[0m[[31merror[0m] [0m/home/dkagle/src/scala/release3.1.6/src/main/scala/scalabuild.scala:18: not found: value borderPainted[0m
+[0m[[31merror[0m] [0m	borderPainted = true[0m
+[0m[[31merror[0m] [0m	^[0m
+[0m[[31merror[0m] [0m/home/dkagle/src/scala/release3.1.6/src/main/scala/scalabuild.scala:19: not found: value enabled[0m
+[0m[[31merror[0m] [0m	enabled = true[0m
+[0m[[31merror[0m] [0m	^[0m
+[0m[[31merror[0m] [0m/home/dkagle/src/scala/release3.1.6/src/main/scala/scalabuild.scala:22: not found: type Button[0m
+[0m[[31merror[0m] [0mval deleteButton = new Button {[0m
+[0m[[31merror[0m] [0m                       ^[0m
+[0m[[31merror[0m] [0m/home/dkagle/src/scala/release3.1.6/src/main/scala/scalabuild.scala:23: package scala.text is not a value[0m
+[0m[[31merror[0m] [0m	text = "Delete"[0m
+[0m[[31merror[0m] [0m	^[0m
+[0m[[31merror[0m] [0m/home/dkagle/src/scala/release3.1.6/src/main/scala/scalabuild.scala:24: not found: value borderPainted[0m
+[0m[[31merror[0m] [0m	borderPainted = true[0m
+[0m[[31merror[0m] [0m	^[0m
+[0m[[31merror[0m] [0m/home/dkagle/src/scala/release3.1.6/src/main/scala/scalabuild.scala:25: not found: value enabled[0m
+[0m[[31merror[0m] [0m	enabled = true[0m
+[0m[[31merror[0m] [0m	^[0m
+[0m[[31merror[0m] [0m/home/dkagle/src/scala/release3.1.6/src/main/scala/scalabuild.scala:29: not found: type Button[0m
+[0m[[31merror[0m] [0mval editFieldsButton = new Button {[0m
+[0m[[31merror[0m] [0m                           ^[0m
+[0m[[31merror[0m] [0m/home/dkagle/src/scala/release3.1.6/src/main/scala/scalabuild.scala:30: package scala.text is not a value[0m
+[0m[[31merror[0m] [0m	text = "Edit Fields"[0m
+[0m[[31merror[0m] [0m	^[0m
+[0m[[31merror[0m] [0m/home/dkagle/src/scala/release3.1.6/src/main/scala/scalabuild.scala:31: not found: value borderPainted[0m
+[0m[[31merror[0m] [0m	borderPainted = true[0m
+[0m[[31merror[0m] [0m	^[0m
+[0m[[31merror[0m] [0m/home/dkagle/src/scala/release3.1.6/src/main/scala/scalabuild.scala:32: not found: value enabled[0m
+[0m[[31merror[0m] [0m	enabled = true[0m
+[0m[[31merror[0m] [0m	^[0m
+[0m[[31merror[0m] [0m/home/dkagle/src/scala/release3.1.6/src/main/scala/scalabuild.scala:35: not found: type Button[0m
+[0m[[31merror[0m] [0mval addFieldButton = new Button {[0m
+[0m[[31merror[0m] [0m                         ^[0m
+[0m[[31merror[0m] [0m/home/dkagle/src/scala/release3.1.6/src/main/scala/scalabuild.scala:36: package scala.text is not a value[0m
+[0m[[31merror[0m] [0m	text = "Add"[0m
+[0m[[31merror[0m] [0m	^[0m
+[0m[[31merror[0m] [0m/home/dkagle/src/scala/release3.1.6/src/main/scala/scalabuild.scala:37: not found: value borderPainted[0m
+[0m[[31merror[0m] [0m	borderPainted = true[0m
+[0m[[31merror[0m] [0m	^[0m
+[0m[[31merror[0m] [0m/home/dkagle/src/scala/release3.1.6/src/main/scala/scalabuild.scala:38: not found: value enabled[0m
+[0m[[31merror[0m] [0m	enabled = true[0m
+[0m[[31merror[0m] [0m	^[0m
+[0m[[31merror[0m] [0m/home/dkagle/src/scala/release3.1.6/src/main/scala/scalabuild.scala:41: not found: type Button[0m
+[0m[[31merror[0m] [0mval saveButton = new Button {[0m
+[0m[[31merror[0m] [0m                     ^[0m
+[0m[[31merror[0m] [0m/home/dkagle/src/scala/release3.1.6/src/main/scala/scalabuild.scala:42: package scala.text is not a value[0m
+[0m[[31merror[0m] [0m	text = "Save"[0m
+[0m[[31merror[0m] [0m	^[0m
+[0m[[31merror[0m] [0m/home/dkagle/src/scala/release3.1.6/src/main/scala/scalabuild.scala:43: not found: value borderPainted[0m
+[0m[[31merror[0m] [0m	borderPainted = true[0m
+[0m[[31merror[0m] [0m	^[0m
+[0m[[31merror[0m] [0m/home/dkagle/src/scala/release3.1.6/src/main/scala/scalabuild.scala:44: not found: value enabled[0m
+[0m[[31merror[0m] [0m	enabled = true[0m
+[0m[[31merror[0m] [0m	^[0m
+[0m[[31merror[0m] [0m/home/dkagle/src/scala/release3.1.6/src/main/scala/scalabuild.scala:48: not found: type Button[0m
+[0m[[31merror[0m] [0mval saveFieldButton = new Button {[0m
+[0m[[31merror[0m] [0m                          ^[0m
+[0m[[31merror[0m] [0m/home/dkagle/src/scala/release3.1.6/src/main/scala/scalabuild.scala:49: package scala.text is not a value[0m
+[0m[[31merror[0m] [0m	text = "Save"[0m
+[0m[[31merror[0m] [0m	^[0m
+[0m[[31merror[0m] [0m/home/dkagle/src/scala/release3.1.6/src/main/scala/scalabuild.scala:50: not found: value borderPainted[0m
+[0m[[31merror[0m] [0m	borderPainted = true[0m
+[0m[[31merror[0m] [0m	^[0m
+[0m[[31merror[0m] [0m/home/dkagle/src/scala/release3.1.6/src/main/scala/scalabuild.scala:51: not found: value enabled[0m
+[0m[[31merror[0m] [0m	enabled = true[0m
+[0m[[31merror[0m] [0m	^[0m
+[0m[[31merror[0m] [0m/home/dkagle/src/scala/release3.1.6/src/main/scala/scalabuild.scala:54: not found: type Button[0m
+[0m[[31merror[0m] [0mval deleteFieldButton = new Button {[0m
+[0m[[31merror[0m] [0m                            ^[0m
+[0m[[31merror[0m] [0m/home/dkagle/src/scala/release3.1.6/src/main/scala/scalabuild.scala:55: package scala.text is not a value[0m
+[0m[[31merror[0m] [0m	text = "Delete"[0m
+[0m[[31merror[0m] [0m	^[0m
+[0m[[31merror[0m] [0m/home/dkagle/src/scala/release3.1.6/src/main/scala/scalabuild.scala:56: not found: value borderPainted[0m
+[0m[[31merror[0m] [0m	borderPainted = true[0m
+[0m[[31merror[0m] [0m	^[0m
+[0m[[31merror[0m] [0m/home/dkagle/src/scala/release3.1.6/src/main/scala/scalabuild.scala:57: not found: value enabled[0m
+[0m[[31merror[0m] [0m	enabled = true[0m
+[0m[[31merror[0m] [0m	^[0m
+[0m[[31merror[0m] [0m/home/dkagle/src/scala/release3.1.6/src/main/scala/scalabuild.scala:67: not found: type MainFrame[0m
+[0m[[31merror[0m] [0mdef top = new MainFrame {[0m
+[0m[[31merror[0m] [0m              ^[0m
+[0m[[31merror[0m] [0m/home/dkagle/src/scala/release3.1.6/src/main/scala/scalabuild.scala:84: not found: type FileChooser[0m
+[0m[[31merror[0m] [0m		val fc = new FileChooser()[0m
+[0m[[31merror[0m] [0m		             ^[0m
+[0m[[31merror[0m] [0m/home/dkagle/src/scala/release3.1.6/src/main/scala/scalabuild.scala:68: not found: value title[0m
+[0m[[31merror[0m] [0m		title = "ScalaBuild"[0m
+[0m[[31merror[0m] [0m		^[0m
+[0m[[31merror[0m] [0m/home/dkagle/src/scala/release3.1.6/src/main/scala/scalabuild.scala:107: not found: type ListView[0m
+[0m[[31merror[0m] [0m			val tableListView = new ListView(tables) [0m
+[0m[[31merror[0m] [0m			                        ^[0m
+[0m[[31merror[0m] [0m/home/dkagle/src/scala/release3.1.6/src/main/scala/scalabuild.scala:108: not found: type ListView[0m
+[0m[[31merror[0m] [0m			val selectTableListView = new ListView(selectTables) [0m
+[0m[[31merror[0m] [0m			                              ^[0m
+[0m[[31merror[0m] [0m/home/dkagle/src/scala/release3.1.6/src/main/scala/scalabuild.scala:109: not found: type ListView[0m
+[0m[[31merror[0m] [0m			val selectFieldListView = new ListView(selectFields) [0m
+[0m[[31merror[0m] [0m			                              ^[0m
+[0m[[31merror[0m] [0m/home/dkagle/src/scala/release3.1.6/src/main/scala/scalabuild.scala:110: not found: type FlowPanel[0m
+[0m[[31merror[0m] [0m			val tablePanel = new FlowPanel(new ScrollPane(tableListView) )[0m
+[0m[[31merror[0m] [0m			                     ^[0m
+[0m[[31merror[0m] [0m/home/dkagle/src/scala/release3.1.6/src/main/scala/scalabuild.scala:111: not found: type FlowPanel[0m
+[0m[[31merror[0m] [0m			val selectedTablePanel = new FlowPanel(new ScrollPane(selectTableListView) )[0m
+[0m[[31merror[0m] [0m			                             ^[0m
+[0m[[31merror[0m] [0m/home/dkagle/src/scala/release3.1.6/src/main/scala/scalabuild.scala:112: not found: type FlowPanel[0m
+[0m[[31merror[0m] [0m			val selectedFieldPanel = new FlowPanel(new ScrollPane(selectFieldListView) )[0m
+[0m[[31merror[0m] [0m			                             ^[0m
+[0m[[31merror[0m] [0m/home/dkagle/src/scala/release3.1.6/src/main/scala/scalabuild.scala:113: not found: type ListView[0m
+[0m[[31merror[0m] [0m			val fieldListView = new ListView(viewFields) [0m
+[0m[[31merror[0m] [0m			                        ^[0m
+[0m[[31merror[0m] [0m/home/dkagle/src/scala/release3.1.6/src/main/scala/scalabuild.scala:114: not found: type FlowPanel[0m
+[0m[[31merror[0m] [0m			val fieldPanel = new FlowPanel(new ScrollPane(fieldListView) )[0m
+[0m[[31merror[0m] [0m			                     ^[0m
+[0m[[31merror[0m] [0m/home/dkagle/src/scala/release3.1.6/src/main/scala/scalabuild.scala:116: not found: type Label[0m
+[0m[[31merror[0m] [0m			val allLabel = new Label("All Tables")[0m
+[0m[[31merror[0m] [0m			                   ^[0m
+[0m[[31merror[0m] [0m/home/dkagle/src/scala/release3.1.6/src/main/scala/scalabuild.scala:117: not found: type Label[0m
+[0m[[31merror[0m] [0m			val filterLabel = new Label("Selected Tables")[0m
+[0m[[31merror[0m] [0m			                      ^[0m
+[0m[[31merror[0m] [0m/home/dkagle/src/scala/release3.1.6/src/main/scala/scalabuild.scala:119: not found: type GridPanel[0m
+[0m[[31merror[0m] [0m			val labelPanel = new GridPanel(1,2) {[0m
+[0m[[31merror[0m] [0m			                     ^[0m
+[0m[[31merror[0m] [0m/home/dkagle/src/scala/release3.1.6/src/main/scala/scalabuild.scala:120: not found: value contents[0m
+[0m[[31merror[0m] [0m				contents += allLabel[0m
+[0m[[31merror[0m] [0m				^[0m
+[0m[[31merror[0m] [0m/home/dkagle/src/scala/release3.1.6/src/main/scala/scalabuild.scala:121: not found: value contents[0m
+[0m[[31merror[0m] [0m				contents += filterLabel[0m
+[0m[[31merror[0m] [0m				^[0m
+[0m[[31merror[0m] [0m/home/dkagle/src/scala/release3.1.6/src/main/scala/scalabuild.scala:124: not found: type BoxPanel[0m
+[0m[[31merror[0m] [0m			val tableBoxPanel = new BoxPanel(Orientation.Horizontal) {[0m
+[0m[[31merror[0m] [0m			                        ^[0m
+[0m[[31merror[0m] [0m/home/dkagle/src/scala/release3.1.6/src/main/scala/scalabuild.scala:125: not found: value contents[0m
+[0m[[31merror[0m] [0m				contents += tablePanel[0m
+[0m[[31merror[0m] [0m				^[0m
+[0m[[31merror[0m] [0m/home/dkagle/src/scala/release3.1.6/src/main/scala/scalabuild.scala:126: not found: value contents[0m
+[0m[[31merror[0m] [0m				contents += selectedTablePanel[0m
+[0m[[31merror[0m] [0m				^[0m
+[0m[[31merror[0m] [0m/home/dkagle/src/scala/release3.1.6/src/main/scala/scalabuild.scala:129: not found: type BoxPanel[0m
+[0m[[31merror[0m] [0m			val buttonPanel = new BoxPanel(Orientation.Horizontal) {[0m
+[0m[[31merror[0m] [0m			                      ^[0m
+[0m[[31merror[0m] [0m/home/dkagle/src/scala/release3.1.6/src/main/scala/scalabuild.scala:130: not found: type ButtonGroup[0m
+[0m[[31merror[0m] [0m				val mutex = new ButtonGroup(addButton,editFieldsButton,saveButton,deleteButton)[0m
+[0m[[31merror[0m] [0m				                ^[0m
+[0m[[31merror[0m] [0m/home/dkagle/src/scala/release3.1.6/src/main/scala/scalabuild.scala:131: not found: value contents[0m
+[0m[[31merror[0m] [0m				contents ++= mutex.buttons[0m
+[0m[[31merror[0m] [0m				^[0m
+[0m[[31merror[0m] [0m/home/dkagle/src/scala/release3.1.6/src/main/scala/scalabuild.scala:134: not found: type BoxPanel[0m
+[0m[[31merror[0m] [0m			val labelTableBoxPanel = new BoxPanel(Orientation.Vertical) {[0m
+[0m[[31merror[0m] [0m			                             ^[0m
+[0m[[31merror[0m] [0m/home/dkagle/src/scala/release3.1.6/src/main/scala/scalabuild.scala:136: not found: value contents[0m
+[0m[[31merror[0m] [0m				contents += labelPanel[0m
+[0m[[31merror[0m] [0m				^[0m
+[0m[[31merror[0m] [0m/home/dkagle/src/scala/release3.1.6/src/main/scala/scalabuild.scala:137: not found: value contents[0m
+[0m[[31merror[0m] [0m				contents += tableBoxPanel[0m
+[0m[[31merror[0m] [0m				^[0m
+[0m[[31merror[0m] [0m/home/dkagle/src/scala/release3.1.6/src/main/scala/scalabuild.scala:138: not found: value contents[0m
+[0m[[31merror[0m] [0m				contents += buttonPanel[0m
+[0m[[31merror[0m] [0m				^[0m
+[0m[[31merror[0m] [0m/home/dkagle/src/scala/release3.1.6/src/main/scala/scalabuild.scala:141: not found: type Label[0m
+[0m[[31merror[0m] [0m			val allFieldLabel = new Label("All Fields")[0m
+[0m[[31merror[0m] [0m			                        ^[0m
+[0m[[31merror[0m] [0m/home/dkagle/src/scala/release3.1.6/src/main/scala/scalabuild.scala:142: not found: type Label[0m
+[0m[[31merror[0m] [0m			val filterFieldLabel = new Label("Selected Fields")[0m
+[0m[[31merror[0m] [0m			                           ^[0m
+[0m[[31merror[0m] [0m/home/dkagle/src/scala/release3.1.6/src/main/scala/scalabuild.scala:144: not found: type Label[0m
+[0m[[31merror[0m] [0m			val primaryKeyLabel = new Label()[0m
+[0m[[31merror[0m] [0m			                          ^[0m
+[0m[[31merror[0m] [0m/home/dkagle/src/scala/release3.1.6/src/main/scala/scalabuild.scala:145: not found: type CheckBox[0m
+[0m[[31merror[0m] [0m			val authCheckBox = new CheckBox("Authentication")[0m
+[0m[[31merror[0m] [0m			                       ^[0m
+[0m[[31merror[0m] [0m/home/dkagle/src/scala/release3.1.6/src/main/scala/scalabuild.scala:151: not found: type GridPanel[0m
+[0m[[31merror[0m] [0m			val fieldLabelPanel = new GridPanel(2,2) {[0m
+[0m[[31merror[0m] [0m			                          ^[0m
+[0m[[31merror[0m] [0m/home/dkagle/src/scala/release3.1.6/src/main/scala/scalabuild.scala:152: not found: value contents[0m
+[0m[[31merror[0m] [0m				contents += allFieldLabel[0m
+[0m[[31merror[0m] [0m				^[0m
+[0m[[31merror[0m] [0m/home/dkagle/src/scala/release3.1.6/src/main/scala/scalabuild.scala:153: not found: value contents[0m
+[0m[[31merror[0m] [0m				contents += filterFieldLabel[0m
+[0m[[31merror[0m] [0m				^[0m
+[0m[[31merror[0m] [0m/home/dkagle/src/scala/release3.1.6/src/main/scala/scalabuild.scala:154: not found: value contents[0m
+[0m[[31merror[0m] [0m				contents += primaryKeyLabel[0m
+[0m[[31merror[0m] [0m				^[0m
+[0m[[31merror[0m] [0m/home/dkagle/src/scala/release3.1.6/src/main/scala/scalabuild.scala:155: not found: value contents[0m
+[0m[[31merror[0m] [0m				contents += primaryKeyLabel[0m
+[0m[[31merror[0m] [0m				^[0m
+[0m[[31merror[0m] [0m/home/dkagle/src/scala/release3.1.6/src/main/scala/scalabuild.scala:159: not found: type BoxPanel[0m
+[0m[[31merror[0m] [0m			val fieldBoxPanel = new BoxPanel(Orientation.Horizontal) {[0m
+[0m[[31merror[0m] [0m			                        ^[0m
+[0m[[31merror[0m] [0m/home/dkagle/src/scala/release3.1.6/src/main/scala/scalabuild.scala:160: not found: value contents[0m
+[0m[[31merror[0m] [0m				contents += fieldPanel[0m
+[0m[[31merror[0m] [0m				^[0m
+[0m[[31merror[0m] [0m/home/dkagle/src/scala/release3.1.6/src/main/scala/scalabuild.scala:161: not found: value contents[0m
+[0m[[31merror[0m] [0m				contents += selectedFieldPanel[0m
+[0m[[31merror[0m] [0m				^[0m
+[0m[[31merror[0m] [0m/home/dkagle/src/scala/release3.1.6/src/main/scala/scalabuild.scala:164: not found: type BoxPanel[0m
+[0m[[31merror[0m] [0m			val fieldButtonPanel = new BoxPanel(Orientation.Horizontal) {[0m
+[0m[[31merror[0m] [0m			                           ^[0m
+[0m[[31merror[0m] [0m/home/dkagle/src/scala/release3.1.6/src/main/scala/scalabuild.scala:165: not found: type ButtonGroup[0m
+[0m[[31merror[0m] [0m				val mutex = new ButtonGroup(addFieldButton,saveFieldButton,deleteFieldButton)[0m
+[0m[[31merror[0m] [0m				                ^[0m
+[0m[[31merror[0m] [0m/home/dkagle/src/scala/release3.1.6/src/main/scala/scalabuild.scala:166: not found: value contents[0m
+[0m[[31merror[0m] [0m				contents ++= mutex.buttons[0m
+[0m[[31merror[0m] [0m				^[0m
+[0m[[31merror[0m] [0m/home/dkagle/src/scala/release3.1.6/src/main/scala/scalabuild.scala:170: not found: type BoxPanel[0m
+[0m[[31merror[0m] [0m			val labelFieldBoxPanel = new BoxPanel(Orientation.Vertical) {[0m
+[0m[[31merror[0m] [0m			                             ^[0m
+[0m[[31merror[0m] [0m/home/dkagle/src/scala/release3.1.6/src/main/scala/scalabuild.scala:171: not found: value contents[0m
+[0m[[31merror[0m] [0m				contents += fieldLabelPanel[0m
+[0m[[31merror[0m] [0m				^[0m
+[0m[[31merror[0m] [0m/home/dkagle/src/scala/release3.1.6/src/main/scala/scalabuild.scala:172: not found: value contents[0m
+[0m[[31merror[0m] [0m				contents += fieldBoxPanel[0m
+[0m[[31merror[0m] [0m				^[0m
+[0m[[31merror[0m] [0m/home/dkagle/src/scala/release3.1.6/src/main/scala/scalabuild.scala:173: not found: value contents[0m
+[0m[[31merror[0m] [0m				contents += fieldButtonPanel[0m
+[0m[[31merror[0m] [0m				^[0m
+[0m[[31merror[0m] [0m/home/dkagle/src/scala/release3.1.6/src/main/scala/scalabuild.scala:177: not found: value contents[0m
+[0m[[31merror[0m] [0m			contents = new BorderPanel {[0m
+[0m[[31merror[0m] [0m			^[0m
+[0m[[31merror[0m] [0m/home/dkagle/src/scala/release3.1.6/src/main/scala/scalabuild.scala:184: not found: type BoxPanel[0m
+[0m[[31merror[0m] [0m			val doneFieldBoxPanel = new BoxPanel(Orientation.Vertical) {[0m
+[0m[[31merror[0m] [0m			                            ^[0m
+[0m[[31merror[0m] [0m/home/dkagle/src/scala/release3.1.6/src/main/scala/scalabuild.scala:185: not found: value contents[0m
+[0m[[31merror[0m] [0m				contents += authCheckBox[0m
+[0m[[31merror[0m] [0m				^[0m
+[0m[[31merror[0m] [0m/home/dkagle/src/scala/release3.1.6/src/main/scala/scalabuild.scala:186: not found: value contents[0m
+[0m[[31merror[0m] [0m				contents += doneButton[0m
+[0m[[31merror[0m] [0m				^[0m
+[0m[[31merror[0m] [0m/home/dkagle/src/scala/release3.1.6/src/main/scala/scalabuild.scala:191: not found: value contents[0m
+[0m[[31merror[0m] [0m			contents = new BorderPanel {[0m
+[0m[[31merror[0m] [0m			^[0m
+[0m[[31merror[0m] [0m/home/dkagle/src/scala/release3.1.6/src/main/scala/scalabuild.scala:208: not found: value listenTo[0m
+[0m[[31merror[0m] [0m			listenTo(addButton)[0m
+[0m[[31merror[0m] [0m			^[0m
+[0m[[31merror[0m] [0m/home/dkagle/src/scala/release3.1.6/src/main/scala/scalabuild.scala:209: not found: value listenTo[0m
+[0m[[31merror[0m] [0m			listenTo(doneButton)[0m
+[0m[[31merror[0m] [0m			^[0m
+[0m[[31merror[0m] [0m/home/dkagle/src/scala/release3.1.6/src/main/scala/scalabuild.scala:210: not found: value listenTo[0m
+[0m[[31merror[0m] [0m			listenTo(deleteButton)[0m
+[0m[[31merror[0m] [0m			^[0m
+[0m[[31merror[0m] [0m/home/dkagle/src/scala/release3.1.6/src/main/scala/scalabuild.scala:211: not found: value listenTo[0m
+[0m[[31merror[0m] [0m			listenTo(editFieldsButton)[0m
+[0m[[31merror[0m] [0m			^[0m
+[0m[[31merror[0m] [0m/home/dkagle/src/scala/release3.1.6/src/main/scala/scalabuild.scala:212: not found: value listenTo[0m
+[0m[[31merror[0m] [0m			listenTo(tableListView.selection)[0m
+[0m[[31merror[0m] [0m			^[0m
+[0m[[31merror[0m] [0m/home/dkagle/src/scala/release3.1.6/src/main/scala/scalabuild.scala:213: not found: value listenTo[0m
+[0m[[31merror[0m] [0m			listenTo(selectTableListView.selection)[0m
+[0m[[31merror[0m] [0m			^[0m
+[0m[[31merror[0m] [0m/home/dkagle/src/scala/release3.1.6/src/main/scala/scalabuild.scala:214: not found: value listenTo[0m
+[0m[[31merror[0m] [0m			listenTo(addFieldButton)[0m
+[0m[[31merror[0m] [0m			^[0m
+[0m[[31merror[0m] [0m/home/dkagle/src/scala/release3.1.6/src/main/scala/scalabuild.scala:215: not found: value listenTo[0m
+[0m[[31merror[0m] [0m			listenTo(saveButton)[0m
+[0m[[31merror[0m] [0m			^[0m
+[0m[[31merror[0m] [0m/home/dkagle/src/scala/release3.1.6/src/main/scala/scalabuild.scala:216: not found: value listenTo[0m
+[0m[[31merror[0m] [0m			listenTo(saveFieldButton)[0m
+[0m[[31merror[0m] [0m			^[0m
+[0m[[31merror[0m] [0m/home/dkagle/src/scala/release3.1.6/src/main/scala/scalabuild.scala:217: not found: value listenTo[0m
+[0m[[31merror[0m] [0m			listenTo(deleteFieldButton)[0m
+[0m[[31merror[0m] [0m			^[0m
+[0m[[31merror[0m] [0m/home/dkagle/src/scala/release3.1.6/src/main/scala/scalabuild.scala:218: not found: value listenTo[0m
+[0m[[31merror[0m] [0m			listenTo(fieldListView.selection)[0m
+[0m[[31merror[0m] [0m			^[0m
+[0m[[31merror[0m] [0m/home/dkagle/src/scala/release3.1.6/src/main/scala/scalabuild.scala:219: not found: value listenTo[0m
+[0m[[31merror[0m] [0m			listenTo(selectFieldListView.selection)[0m
+[0m[[31merror[0m] [0m			^[0m
+[0m[[31merror[0m] [0m/home/dkagle/src/scala/release3.1.6/src/main/scala/scalabuild.scala:223: not found: value reactions[0m
+[0m[[31merror[0m] [0m		reactions += {[0m
+[0m[[31merror[0m] [0m		^[0m
+[0m[[31merror[0m] [0m99 errors found[0m
+[0m[[0mdebug[0m] [0mCompilation failed (CompilerInterface)[0m
+[0m[[31merror[0m] [0m(compile:[31mcompileIncremental[0m) Compilation failed[0m

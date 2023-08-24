@@ -1,0 +1,75 @@
+#!/bin/bash
+
+echo "Enter base directory"
+read EZBUILD
+echo "Enter database user name"
+read USER
+echo "Enter database user password"
+read PASSWORD
+echo "Enter database name"
+read DBNAME
+echo "Enter 1 for Mysql 2 for PostgreSQL"
+read DB
+
+activator new $EZBUILD/scalaplay play-scala
+EZBUILD_HOME=$EZBUILD/scalaplay
+
+mkdir $EZBUILD_HOME/app/models
+mkdir $EZBUILD_HOME/app/db
+mkdir $EZBUILD_HOME/conf/evolutions
+mkdir $EZBUILD_HOME/conf/evolutions/default
+
+echo "Enter fully qualified path of SQL file to be copied to the play evolutions environment"
+read SQLFILE
+echo 
+
+cp $SQLFILE $EZBUILD_HOME/conf/evolutions/default
+
+
+
+echo "package db" > $EZBUILD_HOME/app/db/Schema.scala
+echo "" >> $EZBUILD_HOME/app/db/Schema.scala
+
+echo "" >> $EZBUILD_HOME/app/db/Schema.scala 
+echo 'object Schema {' >> $EZBUILD_HOME/app/db/Schema.scala
+if  [ $DB -eq 1 ];  then
+	echo '	val queryLanguage = slick.driver.MySQLDriver.api' >> $EZBUILD_HOME/app/db/Schema.scala
+fi
+if [ $DB -eq 2 ]; then
+	echo '	val queryLanguage = slick.driver.PostgresDriver.api' >> $EZBUILD_HOME/app/db/Schema.scala
+fi
+echo '	import queryLanguage._' >> $EZBUILD_HOME/app/db/Schema.scala
+echo '	import slick.lifted.{Tag, TableQuery}' >> $EZBUILD_HOME/app/db/Schema.scala
+echo '	def ds = Database.forDataSource(play.api.db.DB.getDataSource()(play.api.Play.current))' >> $EZBUILD_HOME/app/db/Schema.scala
+echo '}'  >> $EZBUILD_HOME/app/db/Schema.scala
+
+
+if [ $DB -eq 2 ]; then
+	echo 'db.default.driver="org.postgresql.Driver"' >> $EZBUILD_HOME/conf/application.conf
+	echo 'db.default.url="jdbc:postgresql://localhost/$DBNAME"' >> $EZBUILD_HOME/conf/application.conf
+fi
+if [ $DB -eq 1 ]; then
+	echo 'db.default.driver="com.mysql.jdbc.Driver"' >> $EZBUILD_HOME/conf/application.conf
+	echo 'db.default.url="jdbc:mysql://localhost:3306/$DBNAME?characterEncoding=UTF-8"' >> $EZBUILD_HOME/conf/application.conf
+fi
+echo 'db.default.username='$USER >> $EZBUILD_HOME/conf/application.conf
+echo 'db.default.password='$PASSWORD >> $EZBUILD_HOME/conf/application.conf
+
+echo 'libraryDependencies += evolutions' >> $EZBUILD_HOME/build.sbt
+echo ''  >> $EZBUILD_HOME/build.sbt
+echo 'libraryDependencies ++= Seq(' >> $EZBUILD_HOME/build.sbt
+echo '"com.typesafe.slick" %% "slick-hikaricp" % "3.1.1",' >> $EZBUILD_HOME/build.sbt
+echo '"org.slf4j" % "slf4j-nop" % "1.6.4",'  >> $EZBUILD_HOME/build.sbt
+if [ $DB -eq 2 ]; then
+	echo '"org.postgresql" % "postgresql" % "9.3-1100-jdbc4"' >> $EZBUILD_HOME/build.sbt
+fi
+if [ $DB -eq 1 ]; then
+	echo '"mysql" % "mysql-connector-java" % "5.1.22"' >> $EZBUILD_HOME/build.sbt
+fi
+echo ')'  >> $EZBUILD_HOME/build.sbt
+
+echo "Completed"
+
+
+
+

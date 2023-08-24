@@ -1,0 +1,16 @@
+Postgres
+
+Delete returns 0 if row is deleted or not.  
+Update does not work.  Fails with 0. 
+
+
+
+MySQL 
+Update works but returns 0
+Delete returns 0 if row is deleted or not.  
+
+
+
+timestamp 
+
+

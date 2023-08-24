@@ -1,0 +1,6 @@
+DB commands
+
+psql -h localhost -U postgres
+\connect prototype;
+
+

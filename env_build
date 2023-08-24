@@ -1,0 +1,48 @@
+﻿
+
+mkdir $HOME/ezbuild
+export $EZBUILD=$HOME/ezbuild/
+
+cd $HOME
+activator new ezbuild scala-play
+
+add to build.sbt
+libraryDependencies += "mysql" % "mysql-connector-java" % "5.1.22"
+
+libraryDependencies += "com.typesafe.slick" %% "slick" % "3.1.1"
+
+------------------------------------------
+mkdir $EZBUILD/app/models
+mkdir $EZBUILD/app/db
+mkdir $EZBUILD/conf/evolutions
+mkdir $EZBUILD/conf/evolutions/default
+
+---------------------------
+create $EZBUILD/app/db/Schema.scala
+
+package db
+
+import models.Item
+
+object Schema {
+  val queryLanguage = scala.slick.driver.MySQLDriver.simple
+  import queryLanguage._
+  import scala.slick.lifted.{Tag, TableQuery}
+
+
+  def ds = Database.forDataSource(play.api.db.DB.getDataSource()(play.api.Play.current))
+}
+
+
+
+-----------------------------------------
+set db connection 
+---------------------------------------------------
+create $EZBUILD/conf/application.conf
+db.default.driver=com.mysql.jdbc.Driver
+db.default.url="jdbc:mysql://localhost:3306/test?characterEncoding=UTF-8"
+db.default.user=root
+db.default.pass="dk525125"
+
+
+copy sql files to $EZBUILD/scalaplay/conf/evolutions/default

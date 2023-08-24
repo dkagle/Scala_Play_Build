@@ -1,0 +1,16 @@
+Postgres
+
+ 
+Update does not work.  syntax error at end of input 
+
+
+
+MySQL 
+Update works but returns 0
+
+
+
+* parse PRIMARY KEY as seperate statement
+* hostname for JDBC string
+
+
