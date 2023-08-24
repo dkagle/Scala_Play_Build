@@ -12,8 +12,7 @@ curl -H "Content-Type: application/json" -X POST -d '{"name":"Cathy Kagle","emai
 curl -X "DELETE" http://localhost:9000/customer/3
 curl  -X PUT http://localhost:9000/customer/2/Allen%20Kagle/allen@cox.net/password
 
-curl -H "Content-Type: application/json" -X POST -d '{"cust_id":1,"address1":"6524 Barnesdale Path","address2":"suite 201","city":"Centreville","state":"VA","zip":"20120"}' http://localhost:9000/address
-curl -H "Content-Type: application/json" -X POST -d '{"cust_id":1,"address1":"6524 Barnesdale Path","address2":"suite 201","city":"Centreville","zip":"20120"}' http://localhost:9000/address
+curl -H "Content-Type: application/json" -X POST -d '{"cust_id":1,"address1":"99999 Oak Lane","address2":"suite 201","city":"Cedare","state":"WA","zip":"80320"}' http://localhost:9000/address
 curl -X "DELETE" http://localhost:9000/address/3
 curl  -X PUT http://localhost:9000/address/1/111 Herndon Pwy/Suite 105/Herndon/VA/22079
 
