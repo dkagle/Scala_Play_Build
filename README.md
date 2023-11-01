@@ -26,7 +26,10 @@ After filtering is completed select the Done button.
 
 Test classes are created as part of Scalabuild, one test class is created for each table.     Scala Play! Includes two default test classes that call default controllers.     These default test classes use the /messages and /count to call the CountController and AsyncController respectively.   Since Scalabuild builds a navigation web page at the root ( / )   two tests will fail once Scalabuild is run since these tests are looking for the string “Your new application is ready”.    Changing this string in the test classes to one of the table names will enable these tests to pass.   
 
-/home/dkagle/demo/release4.2/bootstrap.bash
+-------------------------------------------------
+To run the generated Play system. 
+
+>  bootstrap.bash
 
 Modify build.sbt name := """name"""
 
