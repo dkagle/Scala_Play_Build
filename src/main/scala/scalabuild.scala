@@ -102,19 +102,14 @@ def top = new MainFrame {
 		if (returnVal == FileChooser.Result.Approve) {
 	    		def file = fc.selectedFile
 			println("FILE "+file.getName)
-			for ( line <- fileLines(file) ) {
-				ezbuild.parseLine(line)
-				println(line)
-			}
+			fileLines(file).foreach((line) => ezbuild.parseLine(line))
 		
 			ezbuild.duplicateSchema
-			for ( table <- ezbuild.getTables )  {
-				println("PRINTGUI TABLE "+table)
+			ezbuild.getTables.foreach((table) => {
 				tables += table
 				selectTables += table 
 				authTables += table
-			}
-
+			})
 
 			val tableListView = new ListView(tables) 
 			val selectTableListView = new ListView(selectTables) 
@@ -232,13 +227,8 @@ def top = new MainFrame {
 			case ButtonClicked(component) if component == addButton =>
 				println("ADDBUTTON")
 				var items = tableListView.selection.items
-				for ( item <- items ) {
-					if ( !selectTables.contains(item) )
-						selectTables += item
-						println("SELECTED "+item)
-					}
-
-					selectTableListView.listData = selectTables
+				items.foreach((item) => if ( !selectTables.contains(item) ) selectTables += item )
+				selectTableListView.listData = selectTables
 			case ButtonClicked(component) if component == doneButton =>
 				println("DONEBUTTON ")
 				var authTables = ""
@@ -276,7 +266,7 @@ def top = new MainFrame {
 				}
 				if ( exec == 0 ) {
 					ezbuild.printSchemas(basedir, authCheckBox.selected, authTables, authUserField, authPassWordField)
-					ezbuild.printJoins(basedir)
+					ezbuild.printJoins(basedir, authCheckBox.selected)
 					sys.exit(0)
 				}
 			case ButtonClicked(component) if component == editFieldsButton =>
@@ -290,18 +280,18 @@ def top = new MainFrame {
 					println("No Table Selected")
 				} else {
 					var fields = ezbuild.getFields(items(0))
-					for ( field <- fields ) {
+					fields.foreach((field) => 
 						if ( field != ezbuild.primaryKey.get) {
 							viewFields += field
 						}
-					}
+					)
 					fields = ezbuild.getFilterFields(items(0))
-					for ( field <- fields ) {
+					fields.foreach((field) => 
 						if ( field != ezbuild.primaryKey.get) {
 							selectFields += field
 							println("SELECTFIELDS "+field)
 						}
-					}
+					)
 					fieldListView.listData = viewFields
 					selectFieldListView.listData = selectFields
 					fieldEditTable=items(0)
@@ -319,18 +309,18 @@ def top = new MainFrame {
 					println("No Table Selected")
 				} else {
 					var fields = ezbuild.getFields(items(0))
-					for ( field <- fields ) {
+					fields.foreach((field) => 
 						if ( field != ezbuild.primaryKey.get) {
 							authUserFields += field
 						}
-					}
+					)
 					fields = ezbuild.getFilterFields(items(0))
-					for ( field <- fields ) {
+					fields.foreach((field) => 
 						if ( field != ezbuild.primaryKey.get) {
 							authPassFields += field
 							println("SELECTFIELDS "+field)
 						}
-					}
+					)
 					authUserFieldsListView.listData = authUserFields
 					authPassFieldsListView.listData = authPassFields
 				//	fieldEditTable=items(0)
@@ -343,39 +333,27 @@ def top = new MainFrame {
 			case ButtonClicked(component) if component == deleteButton =>
 				println("DELETEBUTTON")
 				var items = selectTableListView.selection.items
-				for ( item <- items ) {
-					selectTables -= item
-					println("SELECTED "+item)
-				}
+				items.foreach((item) => selectTables -= item )
 				selectTableListView.listData = selectTables
 
 			case ButtonClicked(component) if component == addFieldButton =>
 				println("ADDFIELDBUTTON")
 				var items = fieldListView.selection.items
-				for ( item <- items ) {
-					selectFields += item
-					println("SELECTED "+item)
-				}
+				items.foreach((item) => selectFields += item )
 				selectFieldListView.listData = selectFields	
 
 			case ButtonClicked(component) if component == deleteFieldButton =>
 				println("DELETEFieldBUTTON")
 				var items = selectFieldListView.selection.items
-				for ( item <- items ) {
-					selectFields -= item
-					println("SELECTED "+item)
-				}
+				items.foreach((item) => selectFields -= item )
 				selectFieldListView.listData = selectFields
-				for ( selectField <- selectFields ) 
-					println("SELECT FLDS "+selectField)
+				selectFields.foreach((selectField) => println("SELECT FLDS "+selectField))
 
 			case ButtonClicked(component) if component == saveFieldButton =>
 				println("SAVE FIELDS")
-				
 				val selectFields = new scala.collection.mutable.ListBuffer[String]
 				val seqSelectFields = selectFieldListView.listData
-				for ( seqSelectFields <- seqSelectFields ) 
-					selectFields += seqSelectFields
+				seqSelectFields.foreach((seqSelectFields) => selectFields += seqSelectFields)
 				ezbuild.rebuildSchema(fieldEditTable, selectFields.toList )
 				selectFields.clear
 				viewFields.clear

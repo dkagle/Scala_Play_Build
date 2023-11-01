@@ -3,9 +3,10 @@ package ezbuilder {
 import java.io._
 import scala.io._
 import scala.collection.immutable.HashMap
+import sys.process._
 
 
-class Joins(joinKey: Map[List[String],List[String]], basedir :String, schema : scala.collection.mutable.HashMap[String, List[String]] ) extends scalaMVC {
+class Joins(joinKey: Map[List[String],List[String]], basedir :String, schema : scala.collection.mutable.HashMap[String, List[String]], table1_fields: List[String], table2_fields: List[String]) extends scalaMVC {
 
 
 
@@ -20,8 +21,8 @@ def print() = {
 	for ( ( tables, keys ) <- joinKey )  {
 		table1 = tables.head
 		table2 = tables.tail.head
-		table1_key = keys.head
-		table2_key = keys.tail.head
+		table2_key = keys.head.toLowerCase
+		table1_key = keys.tail.head.toLowerCase
 
 	}
 
@@ -44,94 +45,55 @@ def print() = {
 		val table1Camelcase = table1lowercase.capitalize
 		val table2Camelcase = table2lowercase.capitalize
 		val camelcase = table1Camelcase+table2Camelcase
-		val controllerDir = "app/controllers/"
-		val modelsDir = "app/models/"
-		val routesFile = "conf/routes"
-		var fileName = camelcase+"Controller.scala"
-		var writer = new PrintWriter(new File(basedir+controllerDir+fileName))
-//		println("FILENAME "+basedir+controllerDir+fileName)
 
-		write(writer,"package controllers")
-		write(writer,"")
-		write(writer,"import com.google.inject.Inject")
-		write(writer,"import play.api.mvc.{Action, AbstractController, ControllerComponents}") 
-		write(writer,"import play.api.mvc.Result")
-		write(writer,"import play.api.libs.json._")
-		write(writer,"import models."+table1Camelcase+"Model")
-		write(writer,"import models."+table2Camelcase+"Model")
-			
-		write(writer,"class "+camelcase+"Controller @Inject()(components: ControllerComponents)("+table1lowercase+table2lowercase+": models."+camelcase+")("+table1lowercase+": models."+table1Camelcase+")("+table2lowercase+": models."+table2Camelcase+") extends AbstractController(components) {")
-		write(writer,tab+"implicit val writes"+table1Camelcase+" = Json.writes["+table1Camelcase+"Model]")
-		write(writer,tab+"implicit val writes"+table2Camelcase+" = Json.writes["+table2Camelcase+"Model]")
-
-
-		write(writer,tab+"def details("+table1_key+": "+PKdatatype+") = Action {")
-		write(writer,tab+tab+lowercase+".get("+table1_key+") match {")
-		write(writer,tab+tab+tab+"case Some(("+table1lowercase+","+table2lowercase+")) => Ok(\"[\"+Json.toJson("+table1lowercase+").toString+Json.toJson("+table2lowercase+").toString+\"]\")")
-		write(writer,tab+tab+tab+"case None => NotFound(\"Record Not Found\")")
-		write(writer,tab+tab+tab+"}")
-		write(writer,tab+"}")
-		write(writer,"}")
-
-		writer.close()
-
-		fileName = camelcase+".scala"
-		writer = new PrintWriter(new File(basedir+modelsDir+fileName))
-		write(writer,"package models")
-		write(writer,"import db.Schema.queryLanguage._")
-		write(writer,"import db.Schema."+table1lowercase)
-		write(writer,"import db.Schema."+table2lowercase)
-		write(writer,"import com.google.inject.Inject")
-		write(writer,"import play.api.db.slick.DatabaseConfigProvider")
-		write(writer,"import slick.jdbc.JdbcProfile")
-		write(writer,"import play.api._")
-		write(writer,"import play.api.inject._")
-		write(writer,"import play.api.libs.concurrent.Execution.Implicits.defaultContext")
-
-		write(writer,"class "+camelcase+" @Inject()(dbConfigProvider: DatabaseConfigProvider)(lifecycle: DefaultApplicationLifecycle) {")
+		var mvcDir = "app/controllers/"
+		var fileName=basedir+mvcDir+"HomeController.scala"
 		
-		write(writer,tab+"import scala.util.{Failure,Success}")
-		write(writer,tab+"import scala.concurrent.ExecutionContext.Implicits.global")
-		write(writer,tab+"import scala.concurrent.{Await,Future}")
-		write(writer,tab+"import scala.concurrent.duration._")
+		"mv "+fileName+" "+fileName+".back" !
 
-		write(writer,tab+"def get("+table1_key+": "+PKdatatype+"): Option[("+table1Camelcase+"Model, "+table2Camelcase+"Model)] = {")	
-		write(writer,tab+"val dbConfig = dbConfigProvider.get[JdbcProfile]")
-		write(writer,tab+"def ds = dbConfig.db")
-		write(writer,tab+tab+"val innerJoin = for {")
-		write(writer,tab+tab+tab+"a <- "+table1lowercase)
-		write(writer,tab+tab+tab+"b <- a."+table2lowercase+"Key")
-		write(writer,tab+tab+"} yield (a, b)")
-		write(writer,tab+tab+"val action = innerJoin.result.headOption")
-		write(writer,tab+tab+"println(\"SQL \"+action.statements.head)")
-		write(writer,tab+tab+"val results = ds.run(action)")
-		write(writer,tab+tab+"Await.result(results, 1.second)")
-		write(writer,tab+tab+"}")
-		write(writer,"}")
-	
-		writer.close()
+		val writer = new PrintWriter(new File(fileName))
+		for ( line <- Source.fromFile(fileName+".back").getLines) {
+			write(writer,line)
+			if ( line.indexOf("val router = JavaScriptReverseRouter(\"routes\")(") > 0 ) {
+				
+				write(writer,tab+tab+tab+"routes.javascript."+table1Camelcase+table2Camelcase+"Controller.delete,")
+			}			
+		}
 
-		val mvcDir = "conf/"
+
+		writer.close
+
+		mvcDir = "conf/"
 		fileName = basedir+mvcDir+"routes"
 
 		val fw = new FileWriter(fileName,true)
 
-		fw.write("GET"+tab+tab+"/"+lowercase+"/$"+table2_key+"<\\d+>"+tab+tab+tab+tab+"controllers."+camelcase+"Controller.details("+table2_key+": "+PKdatatype+")\n")
+		fw.write("GET"+tab+tab+"/"+lowercase+"/$"+table1_key.toLowerCase+"<\\d+>"+tab+tab+tab+"controllers."+camelcase+"Controller.details("+table1_key+": "+PKdatatype+")\n")
+		fw.write("GET"+tab+tab+"/"+lowercase+tab+tab+tab+tab+"controllers."+camelcase+"Controller.list\n")
+		fw.write("+ nocsrf\n")
+		fw.write("DELETE"+tab+tab+"/"+lowercase+"/:"+table1_key.toLowerCase+tab+tab+tab+tab+"controllers."+camelcase+"Controller.delete("+table1_key.toLowerCase+": "+PKdatatype+")\n")
+		fw.write("+ nocsrf\n")
+		fw.write("POST"+tab+tab+"/"+lowercase+tab+tab+tab+tab+tab+"controllers."+camelcase+"Controller.create\n")
+		fw.write("+ nocsrf\n")
+		fw.write("POST"+tab+tab+"/"+lowercase+"/update"+tab+tab+tab+tab+"controllers."+camelcase+"Controller.updatePost\n")
+		fw.write("GET"+tab+tab+"/"+lowercase+"/add"+tab+tab+tab+tab+"controllers."+camelcase+"Controller.createForm\n")
+		fw.write("GET"+tab+tab+"/"+lowercase+"/update/$"+table1_key.toLowerCase+"<\\d+>"+tab+tab+tab+"controllers."+camelcase+"Controller.updateForm("+table1_key.toLowerCase+": "+PKdatatype+")\n")
 		fw.close
 	}
 }
+
 
 def getDataType(tableName: String, key: String):String = {
 	var dataType = ""		
 
 	for ( (table, flds) <- schema )  {
 		if ( table == tableName ) {
-			for ( f <- flds ) {
+			flds.foreach((f) => {
 				val fieldName = getFieldName(f) 
-				if ( fieldName == key ) {
+				if ( fieldName.toLowerCase == key.toLowerCase ) {
 					dataType = getType(f)	
 				}
-			}
+			})
 		}
 	}
 

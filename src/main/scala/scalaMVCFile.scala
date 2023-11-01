@@ -3,19 +3,21 @@ package ezbuilder {
 
 
 
-abstract class scalaMVCFile(objectName: String, fields: List[String], primaryKey: Option[String], basedir: String) extends scalaMVC {
+abstract class scalaMVCFile(objectName: String, fields: List[String], primaryKey: Option[String], basedir: String, primaryKeyIncrement: Option[Boolean]) extends scalaMVC {
 	
 	val tab = "\t"
 	var fieldString = ""
+	var createModelFieldString = ""
+	var createFieldString = ""
 	var controllerFieldString = ""
 	var routesFieldString = ""
 	var delimitedFields = ""
 	var controllerDelimitedFields = ""
-	var createFieldString=""
 	var xFieldString=""
 	var updateFieldString=""
 	var updateFormString = ""
 	var primaryKeyDataType = ""
+	var modelFields = ""
 	var updateControllerFieldString = ""
 	var routesString = ""
 	val capitalizedObjectName=objectName.toLowerCase.capitalize
@@ -27,12 +29,14 @@ abstract class scalaMVCFile(objectName: String, fields: List[String], primaryKey
 	val pluralUpperCaseObjectName=objectName.toUpperCase 
 	var comma = ", "
 	var slash = "/"
+	val PKIncrement=primaryKeyIncrement.get
 
 
 
 	def print()
 
 	def calculate() = {
+	println("scalaMVCFile FIELDS")
 	for ( f <- fields ) {
 			println("FIELDSTRING "+f)
 			val fieldName = getFieldName(f.replaceAll("`","")).toLowerCase
@@ -49,7 +53,8 @@ abstract class scalaMVCFile(objectName: String, fields: List[String], primaryKey
 			}
 
 			updateControllerFieldString = updateControllerFieldString  + fieldName+": "+scalaControllerType+comma
-
+			createModelFieldString = createModelFieldString + fieldName+": "+scalaType+comma
+			modelFields = modelFields + fieldName+comma
 //			println("SCALATYPE "+scalaType)
 			
 			if ( fn.get == primaryKey.get.toLowerCase ) {
@@ -57,9 +62,17 @@ abstract class scalaMVCFile(objectName: String, fields: List[String], primaryKey
 				updateFieldString = updateFieldString+"update"+capitalizedObjectName+"."+fieldName+comma
 				updateFormString = updateFormString+"update"+capitalizedObjectName+"."+fieldName+comma
 				println("PK! "+primaryKey.get)
+				if (PKIncrement)
+					createFieldString = "0, "
+				else
+					createFieldString = createFieldString+"create"+capitalizedObjectName+"."+fieldName+comma
+				if (!PKIncrement)
+					controllerFieldString = controllerFieldString + fieldName+": "+scalaControllerType+comma
 			} else {
-				fieldString = fieldString + fieldName+": "+scalaType+comma
+				// include primary key for autoincriment
 				controllerFieldString = controllerFieldString + fieldName+": "+scalaControllerType+comma
+				fieldString = fieldString + fieldName+": "+scalaType+comma
+				
 				delimitedFields = delimitedFields + fieldName+comma
 				
 				if ( scalaType == "java.sql.Timestamp") {

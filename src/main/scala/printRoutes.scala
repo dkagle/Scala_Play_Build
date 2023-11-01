@@ -6,7 +6,7 @@ import sys.process._
 
 
 
-class Routes(objectName: String, fields: List[String], primaryKey: Option[String], basedir: String) extends scalaMVCFile(objectName, fields, primaryKey, basedir)  {
+class Routes(objectName: String, fields: List[String], primaryKey: Option[String], basedir: String, primaryKeyIncrement: Option[Boolean] ) extends scalaMVCFile(objectName, fields, primaryKey, basedir, primaryKeyIncrement)  {
 	def print() = {
 		val mvcDir = "conf/"
 		val fileName = basedir+mvcDir+"routes"
@@ -29,18 +29,18 @@ class Routes(objectName: String, fields: List[String], primaryKey: Option[String
 
 	def writeObject(writer: PrintWriter) {
 		calculate()
-		write(writer,"GET"+tab+tab+"/"+lowerCaseObjectName+tab+tab+tab+tab+"controllers."+capitalizedObjectName+"Controller.list")
+		write(writer,"GET"+tab+tab+"/"+lowerCaseObjectName+tab+tab+tab+tab+tab+"controllers."+capitalizedObjectName+"Controller.list")
 		write(writer,"+ nocsrf")
-		write(writer,"POST"+tab+tab+"/"+lowerCaseObjectName+tab+tab+tab+tab+"controllers."+capitalizedObjectName+"Controller.create")
+		write(writer,"POST"+tab+tab+"/"+lowerCaseObjectName+tab+tab+tab+tab+tab+"controllers."+capitalizedObjectName+"Controller.create")
 		write(writer,"+ nocsrf")
 		write(writer,"POST"+tab+tab+"/"+lowerCaseObjectName+"/update"+tab+tab+tab+tab+"controllers."+capitalizedObjectName+"Controller.updatePost")
-		write(writer,"GET"+tab+tab+"/"+lowerCaseObjectName+"/update/$"+primaryKey.get.toLowerCase+"<\\d+>"+tab+tab+tab+"controllers."+capitalizedObjectName+"Controller.updateForm("+primaryKey.get.toLowerCase+": Int)")
-		write(writer,"GET"+tab+tab+"/"+lowerCaseObjectName+"/add"+tab+tab+tab+"controllers."+capitalizedObjectName+"Controller.createForm")
+		write(writer,"GET"+tab+tab+"/"+lowerCaseObjectName+"/update/$"+primaryKey.get.toLowerCase+"<\\d+>"+tab+tab+tab+"controllers."+capitalizedObjectName+"Controller.updateForm("+primaryKey.get.toLowerCase+": "+primaryKeyDataType+")")
+		write(writer,"GET"+tab+tab+"/"+lowerCaseObjectName+"/add"+tab+tab+tab+tab+"controllers."+capitalizedObjectName+"Controller.createForm")
 		write(writer,"GET"+tab+tab+"/"+lowerCaseObjectName+"/$"+primaryKey.get.toLowerCase+"<\\d+>"+tab+tab+tab+tab+"controllers."+capitalizedObjectName+"Controller.details("+primaryKey.get.toLowerCase+": "+primaryKeyDataType+")")
 
 		write(writer,"PUT"+tab+tab+"/"+lowerCaseObjectName+"/:"+primaryKey.get.toLowerCase+"/"+routesString+tab+tab+"controllers."+capitalizedObjectName+"Controller.update("+primaryKey.get.toLowerCase+": "+primaryKeyDataType+", "+routesFieldString+")")
 		write(writer,"+ nocsrf")
-		write(writer,"DELETE"+tab+tab+"/"+lowerCaseObjectName+"/:"+primaryKey.get.toLowerCase+tab+tab+tab+"controllers."+capitalizedObjectName+"Controller.delete("+primaryKey.get.toLowerCase+": "+primaryKeyDataType+")")
+		write(writer,"DELETE"+tab+tab+"/"+lowerCaseObjectName+"/:"+primaryKey.get.toLowerCase+tab+tab+tab+tab+tab+"controllers."+capitalizedObjectName+"Controller.delete("+primaryKey.get.toLowerCase+": "+primaryKeyDataType+")")
 		
 	}
 

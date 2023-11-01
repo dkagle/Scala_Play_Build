@@ -3,7 +3,7 @@ package ezbuilder {
 import java.io._
 
 
-class Test(objectName: String, fields: List[String], primaryKey: Option[String], basedir: String) extends scalaMVCFile(objectName, fields, primaryKey, basedir)  {
+class Test(objectName: String, fields: List[String], primaryKey: Option[String], basedir: String, primaryKeyIncrement: Option[Boolean] ) extends scalaMVCFile(objectName, fields, primaryKey, basedir, primaryKeyIncrement)  {
 def print() = {
 		calculate()
 		val mvcDir = "test/"
@@ -48,7 +48,7 @@ def print() = {
 		
 		write(writer,tab+tab+tab+"data = Json.obj(")
 
-		for ( f <- fields ) {
+		fields.foreach((f) => {
 			val fieldName = getFieldName(f)
 			val dataType = getType(f)
 			var length = dataType.length
@@ -57,8 +57,7 @@ def print() = {
 				comma = ")"
 			
 			write(writer,tab+tab+tab+tab+"\""+fieldName+"\" ->  \""+TestString(scalaType, fieldName)+"\""+comma)
-
-		}
+		})
 
 		write(writer,tab+tab+tab+"URL = s\"http://$myPublicAddress/"+objectName+"/update\"")
 		write(writer,tab+tab+tab+"post"+capitalizedObjectName+" = await(wsClient.url(baseURL).post(data))")

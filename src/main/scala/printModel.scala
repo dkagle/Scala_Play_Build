@@ -6,7 +6,7 @@ import java.io._
 //	def print
 //}
 
-class Model(objectName: String, fields: List[String], primaryKey: Option[String], basedir: String, authTable: String, authUserField: String, authPWField: String) extends scalaMVCFile(objectName, fields, primaryKey, basedir)  {
+class Model(objectName: String, fields: List[String], primaryKey: Option[String], basedir: String, authTable: String, authUserField: String, authPWField: String, primaryKeyIncrement: Option[Boolean] ) extends scalaMVCFile(objectName, fields, primaryKey, basedir, primaryKeyIncrement)  {
 
 	def print() = {
 		calculate()
@@ -34,7 +34,7 @@ class Model(objectName: String, fields: List[String], primaryKey: Option[String]
 		write(writer,"case class "+itemModel+"("+primaryKey.get.toLowerCase+": "+primaryKeyDataType+", "+fieldString+")")
 		write(writer,"trait "+capitalizedObjectName+"Trait {")
 		write(writer,tab+"def list: Seq["+itemModel+"]")
-		write(writer,tab+"def create("+fieldString+"): "+primaryKeyDataType)
+		write(writer,tab+"def create("+createModelFieldString+"): Int")
 		write(writer,tab+"def get("+primaryKey.get.toLowerCase+": "+primaryKeyDataType+"): Option["+itemModel+"]")
 		write(writer,tab+"def update("+primaryKey.get.toLowerCase+": "+primaryKeyDataType+", "+fieldString+"): Int")
 		write(writer,tab+"def delete("+primaryKey.get.toLowerCase+": "+primaryKeyDataType+"): Int")
@@ -62,11 +62,14 @@ class Model(objectName: String, fields: List[String], primaryKey: Option[String]
 		write(writer,tab+tab+"Await.result(returns, 1.second )")
 		write(writer,tab+"}")
 		write(writer,"")
-		write(writer,tab+"def create("+fieldString+"): "+primaryKeyDataType+" = {")
-		write(writer,tab+tab+"val insertActions = (("+lowerCaseObjectName+" returning "+lowerCaseObjectName+".map(_."+primaryKey.get.toLowerCase+")) += "+itemModel+"(0, "+fieldString+"))")
+		write(writer,tab+"def create("+createModelFieldString+"): Int = {")
+		if ( primaryKeyIncrement.get ) 
+			write(writer,tab+tab+"val insertActions = (("+lowerCaseObjectName+" returning "+lowerCaseObjectName+".map(_."+primaryKey.get.toLowerCase+")) += "+itemModel+"("+createModelFieldString+"))")
+		else
+			write(writer,tab+tab+"val insertActions = ("+lowerCaseObjectName+" += "+itemModel+"("+modelFields+"))")
 		write(writer,tab+tab+"println(\"SQL \"+"+lowerCaseObjectName+".insertStatement)")
 		write(writer,tab+tab+"val results = ds.run(insertActions)")
-		write(writer,tab+tab+"Await.result(results, 1.second).asInstanceOf["+primaryKeyDataType+"]")
+		write(writer,tab+tab+"Await.result(results, 1.second).asInstanceOf[Int]")
 		write(writer,tab+"}")
 		write(writer,"")
 		write(writer,tab+"def get("+primaryKey.get.toLowerCase+": "+primaryKeyDataType+"): Option["+itemModel+"] =  { ")

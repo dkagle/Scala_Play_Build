@@ -6,7 +6,7 @@ import sys.process._
 
 
 
-class Schema(objectName: String, fields: List[String], primaryKey: Option[String], basedir: String, joinKeys: List[Map[List[String], List[String]]]) extends scalaMVCFile(objectName, fields, primaryKey, basedir) {
+class Schema(objectName: String, fields: List[String], primaryKey: Option[String], basedir: String, joinKeys: List[Map[List[String], List[String]]], primaryKeyIncrement: Option[Boolean] ) extends scalaMVCFile(objectName, fields, primaryKey, basedir, primaryKeyIncrement) {
 
 	def print() = {
 		val mvcDir = "app/db/"
@@ -36,7 +36,8 @@ class Schema(objectName: String, fields: List[String], primaryKey: Option[String
 
 		write(writer,tab+"import models."+itemModel)
 		write(writer,tab+"class "+capitalizedObjectName+"(tag: Tag) extends Table["+itemModel+"](tag, \""+objectName+"\") {")
-		for ( f <- fields ) {
+
+		fields.foreach((f) => {
 			val fieldName = getFieldName(f)
 			println("FIELDNAME "+fieldName)
 			val dataType = getType(f)
@@ -49,34 +50,27 @@ class Schema(objectName: String, fields: List[String], primaryKey: Option[String
 			var autotag = ""
 			if ( f == fields.last ) 
 				andKeyWord = ""
-			if ( fn == primaryKey ) 
+			if ( fn == primaryKey && primaryKeyIncrement.get ) {
 				autotag=", O.AutoInc"
-			else
+			} else
 				autotag=""
-			write(writer, tab+tab+"val "+fieldName.toLowerCase+" = column["+scalaType+"](\""+fieldName+"\""+autotag+")")	
-	//		write(writer, tab+tab+"val "+fieldName+" = column["+scalaType+"](\""+fieldName.toUpperCase+"\""+autotag+")")	
-			
-		}
-
-
+			write(writer, tab+tab+"val "+fieldName.toLowerCase+" = column["+scalaType+"](\""+fieldName+"\""+autotag+")")		
+		})
 
 		write(writer,tab+tab+"override def * = ("+primaryKey.get.toLowerCase+", "+delimitedFields+") <> ("+itemModel+".tupled, "+itemModel+".unapply)")
 
-		for ( joinKey <- joinKeys ) {
-			
-		for ( ( tables, keys ) <- joinKey )  {
-			val table1 = tables.head
-			val table2 = tables.tail.head
-			val table1_key = keys.head
-			val table2_key = keys.tail.head
+		joinKeys.foreach((joinKey) => {
+			for ( ( tables, keys ) <- joinKey )  {
+				val table1 = tables.head
+				val table2 = tables.tail.head
+				val table1_key = keys.head
+				val table2_key = keys.tail.head
 
-			if ( table1 == objectName ) {
-				write(writer,tab+tab+"val "+table2.toLowerCase+"Key = foreignKey(\"SUP_FK\", "+table1_key.toLowerCase+", "+table2.toLowerCase+")(_."+table2_key+")")
+				if ( table1 == objectName ) write(writer,tab+tab+"val "+table2.toLowerCase+"Key = foreignKey(\"SUP_FK\", "+table1_key.toLowerCase+", "+table2.toLowerCase+")(_."+table2_key.toLowerCase+")")
+				
+
 			}
-
-		}
-
-		}		
+		})		
 
 		write(writer,tab+"}")
 		write(writer, tab+"val "+lowerCaseObjectName+" = TableQuery["+capitalizedObjectName+"]")

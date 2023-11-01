@@ -3,7 +3,7 @@ package ezbuilder {
 import java.io._
 
 
-class Coffee(objectName: String, fields: List[String], primaryKey: Option[String], basedir: String ) extends scalaMVCFile(objectName, fields, primaryKey, basedir)   {
+class Coffee(objectName: String, fields: List[String], primaryKey: Option[String], basedir: String, primaryKeyIncrement: Option[Boolean]  ) extends scalaMVCFile(objectName, fields, primaryKey, basedir, primaryKeyIncrement)   {
 
 
 	def print() = {

@@ -3,7 +3,7 @@ package ezbuilder {
 import java.io._
 
 
-class HTML(objectName: String, fields: List[String], primaryKey: Option[String], basedir: String ) extends scalaMVCFile(objectName, fields, primaryKey, basedir)   {
+class HTML(objectName: String, fields: List[String], primaryKey: Option[String], basedir: String, primaryKeyIncrement: Option[Boolean]  ) extends scalaMVCFile(objectName, fields, primaryKey, basedir, primaryKeyIncrement)   {
 	def print() = {
 		calculate
 		val mvcDir = "app/views/"
@@ -13,15 +13,20 @@ class HTML(objectName: String, fields: List[String], primaryKey: Option[String],
 
 
 		write(writer, "@("+lowerCaseObjectName+": models."+capitalizedObjectName+"Model)")
+		write(writer, "<a href=\"@routes.HomeController.index()\">Index</a>")
 		write(writer, "@layout {")
-		
-		for ( f <- fields ) {			
+		write(writer, tab+"<ul>")
+		write(writer, tab+tab+"<li>")
+
+		fields.foreach((f) => {		
 			val fieldName = getFieldName(f).toLowerCase
 			val fn = Some(fieldName)
 			if ( fn != primaryKey ) {
-				write(writer, tab+fieldName.capitalize+": @"+lowerCaseObjectName+"."+fieldName+"<br>")
+				write(writer, tab+tab+fieldName.capitalize+": @"+lowerCaseObjectName+"."+fieldName+"<br>")
 			}
-		}
+		})
+		write(writer, tab+tab+"</li>")
+		write(writer, tab+"</ul>")
 		
 		write(writer, "<a href=\"@routes."+capitalizedObjectName+"Controller.list()\">Return</a>")
 		write(writer, "}")
@@ -29,20 +34,22 @@ class HTML(objectName: String, fields: List[String], primaryKey: Option[String],
 
 		fileName=capitalizedObjectName+"CreateForm.scala.html"
 		writer = new PrintWriter(new File(basedir+mvcDir+fileName))
+		
 		write(writer, "@(form2: Form[Create"+capitalizedObjectName+"])(implicit messages: Messages)")
+		write(writer, "<a href=\"@routes.HomeController.index()\">Index</a>")
 		write(writer, "")
 		write(writer, "@import helper._")
 		write(writer, "")
 		write(writer, "@layout {")
 		write(writer, tab+"<h2>Add "+capitalizedObjectName+"</h2>")
 		write(writer, tab+"@helper.form(routes."+capitalizedObjectName+"Controller.create()) {")
-		for ( f <- fields ) {
+		fields.foreach((f) => {	
 			val fieldName = getFieldName(f).toLowerCase
 			val fn = Some(getFieldName(f))
-			if ( fn != primaryKey ) {
+			if ( fn != primaryKey || !primaryKeyIncrement.get) {
 				write(writer, tab+tab+"@helper.inputText(form2(\""+fieldName+"\"), '_label -> \""+fieldName.capitalize+"\")")
 			}
-		}
+		})
 		write(writer, tab+tab+"<button>Save</button>")	
 		write(writer, tab+"}")
 		write(writer, "}")
@@ -52,6 +59,7 @@ class HTML(objectName: String, fields: List[String], primaryKey: Option[String],
 		writer = new PrintWriter(new File(basedir+mvcDir+fileName))	
 		write(writer, "@("+lowerCaseObjectName+"s: Seq[models."+capitalizedObjectName+"Model])")
 		write(writer, "")
+		write(writer, "<a href=\"@routes.HomeController.index()\">Index</a>")
 		write(writer, tab+"@layout {")
 		write(writer, tab+tab+"<h2>"+capitalizedObjectName+"s list</h2>")
 		write(writer, tab+tab+"<ul>")
@@ -60,12 +68,12 @@ class HTML(objectName: String, fields: List[String], primaryKey: Option[String],
 		for ( f <- fields ) {
 			val fieldName = getFieldName(f).toLowerCase
 			val fn = Some(fieldName)
-			if ( fn != primaryKey ) {
+			if ( fn != primaryKey || !primaryKeyIncrement.get) {
 				write(writer, tab+tab+tab+tab+fieldName+": @"+lowerCaseObjectName+"."+fieldName+"<br>")
 			}
 		}
-		write(writer, tab+tab+tab+tab+"<button class=\"delete-"+lowerCaseObjectName+"\" data-id=\"@"+lowerCaseObjectName+".id\">Delete</button>")
-		write(writer, tab+tab+tab+tab+"<a href=\"/"+lowerCaseObjectName+"/update/@"+lowerCaseObjectName+".id\" class=\"update-"+lowerCaseObjectName+"\" role=\"Button\">Update</a><br>")
+		write(writer, tab+tab+tab+tab+"<button class=\"delete-"+lowerCaseObjectName+"\" data-id=\"@"+lowerCaseObjectName+"."+primaryKey.get.toLowerCase+"\">Delete</button>")
+		write(writer, tab+tab+tab+tab+"<a href=\"/"+lowerCaseObjectName+"/update/@"+lowerCaseObjectName+"."+primaryKey.get.toLowerCase+"\" class=\"update-"+lowerCaseObjectName+"\" role=\"Button\">Update</a><br>")
 		write(writer, tab+tab+tab+"</li>")
 		write(writer, tab+tab+"}")
 		write(writer, tab+"</ul>")
@@ -76,14 +84,16 @@ class HTML(objectName: String, fields: List[String], primaryKey: Option[String],
 
 		fileName=capitalizedObjectName+"UpdateForm.scala.html"
 		writer = new PrintWriter(new File(basedir+mvcDir+fileName))
+		
 		write(writer, "@(form2: Form[Update"+capitalizedObjectName+"])(implicit messages: Messages)")	
+		write(writer, "<a href=\"@routes.HomeController.index()\">Index</a>")
 		write(writer, "")
 		write(writer, "@import helper._")
 		write(writer, "")
 		write(writer, "@layout {")
-		write(writer, tab+"<h2>Update "+lowerCaseObjectName+"</h2>")
+		write(writer, tab+"<h2>Update "+capitalizedObjectName+"</h2>")
 		write(writer, tab+"@helper.form(routes."+capitalizedObjectName+"Controller.updatePost( )) {")
-		for ( f <- fields ) {
+		fields.foreach((f) => {	
 			val fieldName = getFieldName(f).toLowerCase
 			val fn = Some(fieldName)
 			val dataType = getType(f.replaceAll("`",""))
@@ -97,7 +107,7 @@ class HTML(objectName: String, fields: List[String], primaryKey: Option[String],
 					write(writer, tab+tab+"@helper.inputText(form2(\""+fieldName+"\"), '_label -> \""+fieldName.capitalize+"\")")
 				}
 			}
-		}
+		})
 
 		write(writer, tab+tab+"<button>Update</button>")
 		write(writer, tab+"}")

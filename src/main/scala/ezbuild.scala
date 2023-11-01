@@ -9,6 +9,7 @@ var filterSchema = new scala.collection.mutable.HashMap[String, List[String]]
 var schemas = new scala.collection.mutable.ListBuffer[Map[String, List[String]]]
 var tableKey = new scala.collection.mutable.HashMap[String, String]
 var tableKeys = new scala.collection.mutable.ListBuffer[Map[String, String]]
+var tableIncriment = new scala.collection.mutable.HashMap[String, Boolean]
 var joinKeys = new scala.collection.mutable.ListBuffer[Map[List[String], List[String]]]
 var fields = new scala.collection.mutable.ListBuffer[String]
 
@@ -16,9 +17,14 @@ var fields = new scala.collection.mutable.ListBuffer[String]
 var flds = new scala.collection.mutable.ListBuffer[String]
 var table = ""
 
+var PKIncrement = false
+var primaryKeyIncrement = Option(false)
 val evolutionDir = "conf/evolutions/default"
 val createTableTag = "CREATE TABLE"
 val primaryKeyTag = "PRIMARY KEY"
+val autoIncrementTag = "AUTO_INCREMENT"
+val serialTag = "SERIAL"
+val identityTag = "IDENTITY"
 val space = ' '
 val spaceLength = 1
 var tableName = ""
@@ -27,13 +33,14 @@ var primaryKey = Option("")
 var start = 0
 var end = 0
 
-
 // main
 def getTables(): List[String] = {
 	var tempTables = new scala.collection.mutable.ListBuffer[String]
+		
+
 	for ( (table, flds) <- schema )  {
 		tempTables += table
-	}
+	} 
 
 	tempTables.toList
 } 
@@ -97,16 +104,17 @@ def rebuildSchema(filterTable: String, filterFields: List[String]) {
 	var tempFields = new scala.collection.mutable.ListBuffer[String]
 	println("REBUILDSCHEMA "+filterTable)
 	tempFields += getPrimaryKeyField(filterTable)
-	for ( filterField <- filterFields ) {
+
+	filterFields.foreach((filterField) => 
 		for ( (table,fields) <- filterSchema )  {
 			if ( table == filterTable ) {
-				for ( f <- fields ) {
+				fields.foreach((f) =>
 					if ( getFieldName(f) == filterField ) 
 						tempFields += f
-				}
+				)
 			}
 		}
-	}
+	)
 	for ( (table,fields) <- filterSchema )  {
 		println("table "+table)
 		if ( table == filterTable ) {
@@ -123,18 +131,19 @@ def rebuildSchema(filterTable: String, filterFields: List[String]) {
 def updateSchema(selectTables: List[String]) = {
 	filterSchema.clear					
 	println("UPDATE SCHEMA")
-	for ( selectTable <- selectTables ) {
-		println("SELECT TABLE "+selectTable)
+	selectTables.foreach((selectTable) => 
+
 		for ( (table, flds) <- schema )  {
 			if ( selectTable == table )
 				filterSchema += ( table -> flds )
 		}
-	}				 
+	)				 
 }
 
 
-def printFields(fields: List[String], tableName: String) = for ( field <- fields)
-				println("TABLENAME "+ tableName +" FIELD "+field)
+def printFields(fields: List[String], tableName: String) = fields.foreach((field) =>
+				println("TABLENAME "+ tableName +" FIELD "+field) )
+
 def duplicateSchema() = {
 
 	for ( (table, flds) <- schema )  {
@@ -146,13 +155,7 @@ def dummyPrintSchemas( ) = {
 		println("DP PRINT SCHEMAS")
 		for ( (table, flds) <- filterSchema )  {
 			println("DP TABLE "+ table)
-			for ( f <- flds ) {
-				println("DP TABLE "+table+" FIELD "+f)	
-				primaryKey = tableKey get table
-			}
-			
-
-
+			flds.foreach((f) => primaryKey = tableKey get table )
 		}
 			
 }
@@ -161,20 +164,14 @@ def dummyPrintSchemas2( ) = {
 		println("DP2 PRINT SCHEMAS")
 		for ( (table, flds) <- schema )  {
 			println("DP2 TABLE "+ table)
-			for ( f <- flds ) {
-				println("DP2 TABLE "+table+" FIELD "+f)	
-				primaryKey = tableKey get table
-			}
-			
-
-
+			flds.foreach((f) => primaryKey = tableKey get table )
 		}
 			
 }
 
 def printSchemas(basedir: String, auth: Boolean, authTable: String, authUserField: String, authPWField: String ) = {
 		println("PRINT SCHEMAS")
-		val statics = new Statics(basedir,filterSchema,auth, authTable)
+		val statics = new Statics(basedir,filterSchema,auth, authTable, joinKeys)
 		statics.print
 		if ( auth ) {
 			val authentication = new Auth( basedir, filterSchema, authTable, authUserField, authPWField )
@@ -184,46 +181,43 @@ def printSchemas(basedir: String, auth: Boolean, authTable: String, authUserFiel
 		}
 		for ( (table, flds) <- filterSchema )  {
 			println("TABLE "+ table)
-			for ( f <- flds ) {
-				println("TABLE "+table+" FIELD "+f)	
-				primaryKey = tableKey get table
-			}
+			flds.foreach((f) => primaryKey = tableKey get table )
+			primaryKeyIncrement = tableIncriment get table
+			println("TI "+primaryKeyIncrement)
+			
 			if ( table.toLowerCase != authTable.toLowerCase ) {
-				if (auth) {
-					val controller = new ControllerAuth(table, flds, primaryKey, basedir)
-					controller.print
-				} else {
-					val controller = new Controller(table, flds, primaryKey, basedir)
-					controller.print
-				}
-				val routes = new Routes(table, flds, primaryKey, basedir)
+				val controller = new Controller(table, flds, primaryKey, basedir, auth, primaryKeyIncrement)
+				controller.print
+				val routes = new Routes(table, flds, primaryKey, basedir, primaryKeyIncrement)
 				routes.print
-				val html = new HTML(table, flds, primaryKey, basedir)
+				val html = new HTML(table, flds, primaryKey, basedir, primaryKeyIncrement)
 					html.print
-				val test = new Test(table, flds, primaryKey, basedir)
+				val test = new Test(table, flds, primaryKey, basedir, primaryKeyIncrement)
 					test.print
-				val coffee = new Coffee(table, flds, primaryKey, basedir)
+				val coffee = new Coffee(table, flds, primaryKey, basedir, primaryKeyIncrement)
 					coffee.print
 			}
 			
-			val model = new Model(table, flds, primaryKey, basedir, authTable, authUserField, authPWField)
+			val model = new Model(table, flds, primaryKey, basedir, authTable, authUserField, authPWField, primaryKeyIncrement)
 			model.print 
 
-			val schema = new Schema(table, flds, primaryKey, basedir, joinKeys.toList)
+			val schema = new Schema(table, flds, primaryKey, basedir, joinKeys.toList, primaryKeyIncrement)
 			schema.print
-
-
 		} 
-			
 }
 
-def printJoins(basedir: String) = {
-
+def printJoins(basedir: String, auth: Boolean) = {
 	var table1Exists: Boolean = false
 	var table2Exists: Boolean = false
 	var table1 = ""
 	var table2 = ""
-	for ( joinKey <- joinKeys ) {
+	var table1_fields: List[String] = List()
+	var table2_fields: List[String] = List()
+	var table2PrimaryKey = Option("")
+
+	var objectName = ""
+
+	joinKeys.foreach((joinKey) => {
 		for ( ( tables, keys ) <- joinKey )  {
 			table1 = tables.head
 			table2 = tables.tail.head
@@ -232,29 +226,48 @@ def printJoins(basedir: String) = {
 			val table1_key = keys.head
 			val table2_key = keys.tail.head
 			for ( (table, flds) <- filterSchema ) {
-				println("printJOins filter "+table)
-				if ( table1 == table ) {
+				println("printJoins filter "+table)
+				
+				
+				if ( table1.toLowerCase == table.toLowerCase ) {
 					table1Exists = true
+					table1_fields = flds		
+					primaryKeyIncrement = tableIncriment get table			
 				}
-				if ( table2 == table ) {
+				if ( table2.toLowerCase == table.toLowerCase ) {
 					table2Exists = true
+					table2_fields = flds
+					flds.foreach((f) => table2PrimaryKey = tableKey get table )
 				}
 			}	
 		}
+		for ( ( tables, keys ) <- joinKey )  {
+
+			primaryKey = Option(keys.head.toLowerCase)
+			objectName = tables.head+tables.tail.head
+			
+
+		}
 		if ( table1Exists && table2Exists ) {
-			println("Calling joins "+table1+" "+table2)
-			val joins = new Joins(joinKey, basedir, schema)
+			val joinController = new JoinController(joinKey, basedir, schema, auth, table1_fields, table2_fields, table2PrimaryKey.get)
+			joinController.print()
+			val joinModel = new JoinModel(joinKey, basedir, schema)
+			joinModel.print()
+			val joinCoffee = new JoinCoffee(joinKey, basedir, schema)
+			joinCoffee.print()
+			val joinHTML = new JoinHTML(joinKey, basedir, schema, tableIncriment)
+			joinHTML.print()  
+			val joins = new Joins(joinKey, basedir, schema, table1_fields, table2_fields)
 			joins.print()
+
 		}
 		table1Exists = false
 		table2Exists = false
-		
-	}	
-
+	})	
 }
 
 def foundCreateTable(line: String) = {
-	val objectStart = line.indexOf(createTableTag)+createTableTag.length()+spaceLength
+	val objectStart = line.toUpperCase.indexOf(createTableTag)+createTableTag.length()+spaceLength
 	val objectEnd = line.indexOf(space,objectStart)
 	val objectName = line.substring(objectStart,objectEnd)
 	fields = new scala.collection.mutable.ListBuffer[String]
@@ -268,11 +281,26 @@ def foundPrimaryKey(line: String) = {
 	end = line.indexOf(' ', start)
 	primaryKey = Option(line.substring(start,end).trim)
 	println("PARSER PRIMARY KEY "+primaryKey)
-
+	if ( findAutoIncriment(line) ) {
+		println("FOUND AUTO INCRIMENT")
+		tableIncriment += ( tableName -> true )
+	} else {
+		tableIncriment += ( tableName -> false )
+	}
 }
 
+def findAutoIncriment(line: String): Boolean = {
+	var found = false;
 
-
+	if (line.toUpperCase.indexOf(autoIncrementTag) > 0) 
+		found = true;
+	if (line.toUpperCase.indexOf(serialTag) > 0) 
+		found = true;
+	if (line.toUpperCase.indexOf(identityTag) > 0) 
+		found = true;
+	
+	found
+}
 
 def foundForiegnKey(line: String) = {
 	var tables = new scala.collection.mutable.ListBuffer[String]
@@ -284,7 +312,7 @@ def foundForiegnKey(line: String) = {
 	tables += tableName
 	keys += foreignKey
 	println("PARSER FORIEGN KEY "+tableName+"|"+foreignKey)
-	start = line.indexOf("REFERENCES")+11
+	start = line.toUpperCase.indexOf("REFERENCES")+11
 	end = line.indexOf('(', start)
 	val foreignTable = line.substring(start,end).trim
 
@@ -298,9 +326,6 @@ def foundForiegnKey(line: String) = {
 
 	joinKey += ( tables.toList -> keys.toList )
 	joinKeys += joinKey.toMap
-
-
-
 }
 
 
@@ -321,25 +346,27 @@ def foundEndTable() = {
 
 var parseTable=false
 def parseLine(line: String) = {
-		if (line.trim.startsWith(createTableTag)) {
+		if (line.toUpperCase.trim.startsWith(createTableTag)) {
 			foundCreateTable(line)
 			parseTable = true
 		} else if (line.trim.startsWith(")")) {
 			foundEndTable()
 			parseTable=false
-		} else if (line.trim.startsWith("PRIMARY KEY")) {
+		} else if (line.toUpperCase.trim.startsWith("PRIMARY KEY")) {
 			foundPrimaryKey(line)
-		} else if (line.trim.startsWith("FOREIGN KEY")) {
-			
+
+		} else if (line.toUpperCase.trim.startsWith("FOREIGN KEY")) {
 			foundForiegnKey(line)
 		} else {
 			if ( parseTable ) {
 				foundFieldName(line)
-				if (line.indexOf(primaryKeyTag) > 0 ) 
+				if (line.toUpperCase.indexOf(primaryKeyTag) > 0 ) {
 					foundPrimaryKey(line)
 
+				}
 			}
-}		}
+		}		
+}
 
 
 	def getFieldName(line: String):String = {

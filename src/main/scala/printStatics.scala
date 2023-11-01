@@ -4,7 +4,7 @@ import java.io._
 
 
 
-class Statics(basedir: String,schema: scala.collection.mutable.HashMap[String, List[String]], auth: Boolean, authTable: String) {
+class Statics(basedir: String,schema: scala.collection.mutable.HashMap[String, List[String]], auth: Boolean, authTable: String, joinKeys: scala.collection.mutable.ListBuffer[Map[List[String], List[String]]]) {
 
 	
 	def write(writer: PrintWriter, line: String) =
@@ -16,10 +16,11 @@ class Statics(basedir: String,schema: scala.collection.mutable.HashMap[String, L
 		var fileName="layout.scala.html"
 		var writer = new PrintWriter(new File(basedir+mvcDir+fileName))
 		
+
 		write(writer, "@(content: Html)")
 		write(writer, "<!DOCTYPE html>")
 		write(writer, "<html>")
-		write(writer, "<link rel=\"stylesheet\" href=\"@routes.Assets.versioned(\"stylesheets/application.css\")\"/>")
+		write(writer, "<link rel=\"stylesheet\" href=\"@routes.Assets.versioned(\"stylesheets/main.css\")\"/>")
 		write(writer, tab+"<body>")
 		write(writer, tab+tab+"@content")
 		write(writer, tab+"</body>")
@@ -27,6 +28,14 @@ class Statics(basedir: String,schema: scala.collection.mutable.HashMap[String, L
 		writer.close
 
 		fileName="index.scala.html"
+		var table1 = ""
+		var table2 = ""
+		
+		var table1_key = ""
+		var table2_key = ""
+
+
+
 		writer = new PrintWriter(new File(basedir+mvcDir+fileName))
 		write(writer, "<!DOCTYPE html>")
 		write(writer, "@layout {")		
@@ -36,6 +45,15 @@ class Statics(basedir: String,schema: scala.collection.mutable.HashMap[String, L
 			if ( lowercaseObject != authTable.toLowerCase )
 				write(writer, tab+"<a href=\"/"+lowercaseObject+"\" class=\""+lowercaseObject+"\" >"+lowercaseObject.capitalize+"</a><br>")
 		}
+		joinKeys.foreach((joinKey) => {
+			for ( ( tables, keys ) <- joinKey )  {
+				table1 = tables.head.toLowerCase
+				table2 = tables.tail.head.toLowerCase
+				write(writer, tab+"<a href=\"/"+table1+table2+"\" class=\""+table1+table2+"\" >"+table1.capitalize+" "+table2.capitalize+"</a><br>")
+
+			}
+		})
+
 		write(writer,"}")
 		writer.close		
 
@@ -53,7 +71,7 @@ class Statics(basedir: String,schema: scala.collection.mutable.HashMap[String, L
 		if ( auth ) 
 			write(writer, "class HomeController @Inject()(components: ControllerComponents)(authentication: AuthController) extends AbstractController(components) {")
 		else
-			write(writer, "class HomeController extends Controller {")
+			write(writer, "class HomeController @Inject()(components: ControllerComponents) extends AbstractController(components) {")
 		write(writer, "")
 		write(writer, tab+"def index = Action { implicit request =>")
 		if ( auth ) {
@@ -92,7 +110,7 @@ class Statics(basedir: String,schema: scala.collection.mutable.HashMap[String, L
 		fileName = basedir+mvcDir+"routes"
 
 		writer = new PrintWriter(new File(fileName))
-		write(writer,"GET"+tab+tab+"/"+tab+tab+tab+tab+"controllers.HomeController.index")
+		write(writer,"GET"+tab+tab+"/"+tab+tab+tab+tab+tab+"controllers.HomeController.index")
 		if ( auth ) {
 			write(writer,"GET"+tab+tab+"/login"+tab+tab+tab+tab+"controllers.AuthController.login(returnTo)")
 			write(writer,"+ nocsrf")
@@ -105,7 +123,13 @@ class Statics(basedir: String,schema: scala.collection.mutable.HashMap[String, L
 		writer.close
 
 
-
+		mvcDir = "public/stylesheets/"
+		fileName = basedir+mvcDir+"main.css"
+		writer = new PrintWriter(new File(fileName))
+		write(writer,"body {")
+		write(writer,tab+"background-color: lightcyan;")
+		write(writer,"}")
+		writer.close
 	}
 }
 }
