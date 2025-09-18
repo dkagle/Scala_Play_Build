@@ -1,0 +1,158 @@
+
+import ezbuilder._
+
+object ezbuild extends App {
+var schema = new scala.collection.mutable.HashMap[String, List[String]]
+var schemas = new scala.collection.mutable.ListBuffer[Map[String, List[String]]]
+var tableKey = new scala.collection.mutable.HashMap[String, String]
+var tableKeys = new scala.collection.mutable.ListBuffer[Map[String, String]]
+var joinKey = new scala.collection.mutable.HashMap[String, String]
+var joinKeys = new scala.collection.mutable.ListBuffer[Map[String, String]]
+var fields = new scala.collection.mutable.ListBuffer[String]
+val basedir = sys.env("EZBUILD")+"scalaplay/"
+val evolutionDir = "conf/evolutions/default"
+val filesHere = ( new java.io.File(basedir+evolutionDir)).listFiles
+val createTableTag = "CREATE TABLE"
+val primaryKeyTag = "PRIMARY KEY"
+val space = ' '
+val spaceLength = 1
+var tableName = ""
+var key = ""
+var primaryKey = Option("")
+var start = 0
+var end = 0
+
+
+
+
+// main  
+
+for ( file <- filesHere; if file.getName.endsWith(".sql") )
+	for ( line <- fileLines(file) ) 
+		parseLine(line)
+	printSchemas()
+	printJoins()
+
+
+
+
+def fileLines(file: java.io.File) = scala.io.Source.fromFile(file).getLines().toList
+def printFields(fields: List[String], tableName: String) = for ( field <- fields)
+				println("TABLENAME "+ tableName +" FIELD "+field)
+def printSchemas() = {
+	for ( schema <- schemas ) {
+		for ( (table, flds) <- schema )  {
+			for ( f <- flds ) {
+//				println("TABLE "+table+" FIELD "+f)	
+				primaryKey = tableKey get table
+			}
+			
+			val controller = new Controller(table.toLowerCase, flds, primaryKey, basedir)
+			controller.print()
+			val model = new Model(table.toLowerCase, flds, primaryKey, basedir)
+			model.print() 
+			val schema = new Schema(table.toLowerCase, flds, primaryKey, basedir)
+			schema.print()
+			val routes = new Routes(table.toLowerCase, flds, primaryKey, basedir)
+			routes.print()
+
+		}
+	}
+			
+}
+
+
+def printJoins() = {
+	
+	for ( joinKey <- joinKeys ) {
+		val joins = new Joins(joinKey, basedir, schemas)
+		joins.print()
+	}	
+
+}
+
+def foundCreateTable(line: String) = {
+	val objectStart = line.indexOf(createTableTag)+createTableTag.length()+spaceLength
+	val objectEnd = line.indexOf(space,objectStart)
+	val objectName = line.substring(objectStart,objectEnd)
+	fields = new scala.collection.mutable.ListBuffer[String]
+	schema = new scala.collection.mutable.HashMap[String, List[String]]
+	tableName = objectName
+    println("PARSER CREATE TABLE "+objectName) 
+}
+
+def foundPrimaryKey(line: String) = {
+	start = 0
+	end = line.indexOf(' ', start)
+	primaryKey = Option(line.substring(start,end).trim)
+	println("PARSER PRIMARY KEY "+primaryKey)
+
+}
+
+def foundForiegnKey(line: String) = {
+	start = line.indexOf('(')+1
+	end = line.indexOf(')')
+	val foreignKey = line.substring(start,end).trim
+	joinKey += ( tableName -> foreignKey )
+	println("PARSER FORIEGN KEY "+tableName+"|"+foreignKey)
+	start = line.indexOf("REFERENCES")+11
+	end = line.indexOf('(', start)
+	val foreignTable = line.substring(start,end).trim
+
+	start = end + 1
+	end = line.indexOf(')',start)
+	val foreignTableKey = line.substring(start,end).trim
+
+	println("PARSER FORIEGN KEY "+foreignTable+"|"+foreignTableKey)
+
+	joinKey += ( foreignTable -> foreignTableKey )
+	joinKeys += joinKey.toMap
+
+}
+
+
+def foundFieldName(line: String) = {
+	println("PARSER FIELD "+line)
+	fields += line
+	
+}
+
+def foundEndTable() = {
+	println("PARSER End Table "+tableName)
+	schema += ( tableName -> fields.toList )
+	schemas += schema.toMap
+	tableKey += ( tableName -> primaryKey.get )
+	tableKeys += tableKey.toMap
+}
+
+
+
+var parseTable=false
+def parseLine(line: String) = {
+		if (line.trim.startsWith(createTableTag)) {
+			foundCreateTable(line)
+			parseTable = true
+		} else if (line.trim.startsWith(")")) {
+			foundEndTable()
+			parseTable=false
+		} else if (line.trim.startsWith("PRIMARY KEY")) {
+			foundPrimaryKey(line)
+		} else if (line.trim.startsWith("FOREIGN KEY")) {
+			
+			foundForiegnKey(line)
+		} else {
+			if ( parseTable ) {
+				foundFieldName(line)
+				if (line.indexOf(primaryKeyTag) > 0 ) 
+					foundPrimaryKey(line)
+
+			}
+}		}
+
+
+
+
+}	
+
+
+

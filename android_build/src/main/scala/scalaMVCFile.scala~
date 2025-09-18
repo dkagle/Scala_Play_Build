@@ -1,0 +1,160 @@
+package ezbuilder {
+
+
+import java.io._
+
+abstract class scalaMVCFile(objectName: String, fields: List[String], primaryKey: Option[String], basedir: String)  {
+	
+	val tab = "\t"
+
+	var fieldString = ""
+	var controllerFieldString = ""
+	var delimitedFields = ""
+	var createFieldString=""
+	var updateFieldString=""
+	var primaryKeyDataType = ""
+	var routesString = ""
+	val capitalizedObjectName=objectName.toLowerCase.capitalize
+	val createCapitalizedObjectName="create"+capitalizedObjectName
+	val uppercaseCreateCapitalizedObjectName="Create"+capitalizedObjectName
+	val updateCapitalizedObjectName="update"+capitalizedObjectName
+	val lowerCaseObjectName=objectName.toLowerCase
+	val upperCaseObjectName=objectName.toUpperCase 
+	val pluralUpperCaseObjectName=objectName.toUpperCase 
+	var comma = ", "
+	var slash = "/"
+
+
+
+	def print()
+
+	def calculate() = {
+	for ( f <- fields ) {
+//			println("FIELDSTRING "+f)
+			val fieldName = getFieldName(f)
+			val dataType = getType(f)
+			val fn = Some(fieldName)
+//			println("FIELD |"+fieldName+"|")
+//	  		println("TYPE "+dataType)
+			var length = dataType.length
+			var scalaType = lookupType(dataType.substring(0,3))
+			var scalaControllerType = lookupControllerType(dataType.substring(0,3))
+			if ( f == fields.last ) {
+				comma = ""
+				slash = ""
+			}
+
+			
+
+//			println("SCALATYPE "+scalaType)
+			if ( fn.get == primaryKey.get ) {
+				primaryKeyDataType = scalaType
+//				println("PK! "+primaryKey.get)
+			} else {
+				fieldString = fieldString + fieldName+": "+scalaType+comma
+				controllerFieldString = fieldString + fieldName+": "+scalaControllerType+comma
+				delimitedFields = delimitedFields + fieldName+comma
+				createFieldString = createFieldString+"create"+capitalizedObjectName+"."+fieldName+comma
+				updateFieldString = updateFieldString+"update"+capitalizedObjectName+"."+fieldName+comma
+				routesString = routesString+":"+fieldName+slash
+			}
+				
+	}
+}
+
+
+
+
+
+
+	def write(writer: PrintWriter, line: String) =
+		writer.write(line+"\n")
+
+	def lookupType(dataType: String):String = dataType.toLowerCase match {
+		case "var" => "String"
+		case "dou" => "Double"
+		case "rea" => "Double"
+		case "med" => "Long"
+		case "int" => "Long"
+		case "sma" => "Long"
+		case "ser" => "Long"
+		case "big" => "Long"
+		case "dec" => "Long"
+		case "tim" => "java.sql.Timestamp"
+		case "dat" => "java.sql.Timestamp"
+		case _ => dataType
+	}
+
+	
+	def lookupControllerType(dataType: String):String = dataType.toLowerCase match {
+		case "var" => "String"
+		case "dou" => "Double"
+		case "rea" => "Double"
+		case "med" => "Long"
+		case "int" => "Long"
+		case "sma" => "Long"
+		case "ser" => "Long"
+		case "big" => "Long"
+		case "dec" => "Long"
+		case "tim" => "String"
+		case "dat" => "String"
+		case _ => dataType
+	}
+	
+	def lookupMinKeyWord(dataType: String):String = dataType.toLowerCase match {
+		case "var" => "minLength"
+		case "dou" => "min"
+		case "rea" => "min"
+		case "med" => "min"
+		case "int" => "min"
+		case "sma" => "min"
+		case "ser" => "min"
+		case "big" => "min"
+		case "dec" => "min"
+		case "tim" => "minLength"
+		case "dat" => "minLength"
+		case _ => dataType
+	}
+
+	def lookupMinKeyValue(dataType: String):String = dataType.toLowerCase match {
+		case "var" => "1"
+		case "dou" => "0"
+		case "rea" => "0"
+		case "med" => "0"
+		case "int" => "0"
+		case "sma" => "0"
+		case "ser" => "0"
+		case "big" => "0"
+		case "dec" => "0"
+		case "tim" => "19"
+		case "dat" => "10"
+		case _ => dataType
+	}
+
+
+	def getFieldName(line: String):String = {
+		var start = 0
+		var end = line.indexOf(' ', start) 
+		val fieldName = line.substring(start,end).trim
+		fieldName
+	}
+
+	def getType(line: String):String = {
+		var start = 1
+		var end = line.indexOf(' ', start) 
+		val typeStart = line.indexOf(' ',end)+1
+		var typeEnd =  line.indexOf(' ', typeStart)
+		if (typeEnd < 0 ) {
+//			typeEnd = line.indexOf(',', typeStart)
+			typeEnd = line.length
+		}
+//		println("START "+typeStart+" END "+typeEnd)
+		val fieldType = line.substring(typeStart,typeEnd)
+		fieldType
+	}
+
+
+
+
+}
+}
