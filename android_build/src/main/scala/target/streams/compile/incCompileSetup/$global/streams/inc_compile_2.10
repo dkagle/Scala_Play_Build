@@ -1,0 +1,1100 @@
+format version: 5
+output mode:
+1 items
+0 -> single
+output directories:
+1 items
+output dir -> /home/dkagle/src/scala/android/src/main/scala/target/scala-2.10/classes
+compile options:
+0 items
+javac options:
+0 items
+compiler version:
+1 items
+0 -> 2.10.5
+compile order:
+1 items
+0 -> Mixed
+name hashing:
+1 items
+0 -> true
+products:
+55 items
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> /home/dkagle/src/scala/android/src/main/scala/target/scala-2.10/classes/androidbuild$$anonfun$1.class
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> /home/dkagle/src/scala/android/src/main/scala/target/scala-2.10/classes/androidbuild$$anonfun$2$$anonfun$apply$1.class
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> /home/dkagle/src/scala/android/src/main/scala/target/scala-2.10/classes/androidbuild$$anonfun$2.class
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> /home/dkagle/src/scala/android/src/main/scala/target/scala-2.10/classes/androidbuild$$anonfun$printFields$1.class
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> /home/dkagle/src/scala/android/src/main/scala/target/scala-2.10/classes/androidbuild$$anonfun$printSchemas$1$$anonfun$apply$2.class
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> /home/dkagle/src/scala/android/src/main/scala/target/scala-2.10/classes/androidbuild$$anonfun$printSchemas$1$$anonfun$apply$3$$anonfun$apply$4.class
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> /home/dkagle/src/scala/android/src/main/scala/target/scala-2.10/classes/androidbuild$$anonfun$printSchemas$1$$anonfun$apply$3.class
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> /home/dkagle/src/scala/android/src/main/scala/target/scala-2.10/classes/androidbuild$$anonfun$printSchemas$1.class
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> /home/dkagle/src/scala/android/src/main/scala/target/scala-2.10/classes/androidbuild$.class
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> /home/dkagle/src/scala/android/src/main/scala/target/scala-2.10/classes/androidbuild$delayedInit$body.class
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> /home/dkagle/src/scala/android/src/main/scala/target/scala-2.10/classes/androidbuild.class
+/home/dkagle/src/scala/android/src/main/scala/printAddActivity.scala -> /home/dkagle/src/scala/android/src/main/scala/target/scala-2.10/classes/ezbuilder/AddActivity$$anonfun$print$1.class
+/home/dkagle/src/scala/android/src/main/scala/printAddActivity.scala -> /home/dkagle/src/scala/android/src/main/scala/target/scala-2.10/classes/ezbuilder/AddActivity$$anonfun$print$2.class
+/home/dkagle/src/scala/android/src/main/scala/printAddActivity.scala -> /home/dkagle/src/scala/android/src/main/scala/target/scala-2.10/classes/ezbuilder/AddActivity$$anonfun$print$3.class
+/home/dkagle/src/scala/android/src/main/scala/printAddActivity.scala -> /home/dkagle/src/scala/android/src/main/scala/target/scala-2.10/classes/ezbuilder/AddActivity.class
+/home/dkagle/src/scala/android/src/main/scala/printAndroidManifest.scala -> /home/dkagle/src/scala/android/src/main/scala/target/scala-2.10/classes/ezbuilder/AndroidManifest$$anonfun$print$1.class
+/home/dkagle/src/scala/android/src/main/scala/printAndroidManifest.scala -> /home/dkagle/src/scala/android/src/main/scala/target/scala-2.10/classes/ezbuilder/AndroidManifest.class
+/home/dkagle/src/scala/android/src/main/scala/printDeleteFormActivity.scala -> /home/dkagle/src/scala/android/src/main/scala/target/scala-2.10/classes/ezbuilder/DeleteFormActivity$$anonfun$print$1.class
+/home/dkagle/src/scala/android/src/main/scala/printDeleteFormActivity.scala -> /home/dkagle/src/scala/android/src/main/scala/target/scala-2.10/classes/ezbuilder/DeleteFormActivity.class
+/home/dkagle/src/scala/android/src/main/scala/printDeleteListActivity.scala -> /home/dkagle/src/scala/android/src/main/scala/target/scala-2.10/classes/ezbuilder/DeleteListActivity$$anonfun$print$1.class
+/home/dkagle/src/scala/android/src/main/scala/printDeleteListActivity.scala -> /home/dkagle/src/scala/android/src/main/scala/target/scala-2.10/classes/ezbuilder/DeleteListActivity$$anonfun$print$2.class
+/home/dkagle/src/scala/android/src/main/scala/printDeleteListActivity.scala -> /home/dkagle/src/scala/android/src/main/scala/target/scala-2.10/classes/ezbuilder/DeleteListActivity$$anonfun$print$3.class
+/home/dkagle/src/scala/android/src/main/scala/printDeleteListActivity.scala -> /home/dkagle/src/scala/android/src/main/scala/target/scala-2.10/classes/ezbuilder/DeleteListActivity$$anonfun$print$4.class
+/home/dkagle/src/scala/android/src/main/scala/printDeleteListActivity.scala -> /home/dkagle/src/scala/android/src/main/scala/target/scala-2.10/classes/ezbuilder/DeleteListActivity.class
+/home/dkagle/src/scala/android/src/main/scala/printFormActivity.scala -> /home/dkagle/src/scala/android/src/main/scala/target/scala-2.10/classes/ezbuilder/FormActivity$$anonfun$print$1.class
+/home/dkagle/src/scala/android/src/main/scala/printFormActivity.scala -> /home/dkagle/src/scala/android/src/main/scala/target/scala-2.10/classes/ezbuilder/FormActivity$$anonfun$print$2.class
+/home/dkagle/src/scala/android/src/main/scala/printFormActivity.scala -> /home/dkagle/src/scala/android/src/main/scala/target/scala-2.10/classes/ezbuilder/FormActivity.class
+/home/dkagle/src/scala/android/src/main/scala/printListActivity.scala -> /home/dkagle/src/scala/android/src/main/scala/target/scala-2.10/classes/ezbuilder/ListActivity$$anonfun$print$1.class
+/home/dkagle/src/scala/android/src/main/scala/printListActivity.scala -> /home/dkagle/src/scala/android/src/main/scala/target/scala-2.10/classes/ezbuilder/ListActivity$$anonfun$print$2.class
+/home/dkagle/src/scala/android/src/main/scala/printListActivity.scala -> /home/dkagle/src/scala/android/src/main/scala/target/scala-2.10/classes/ezbuilder/ListActivity$$anonfun$print$3.class
+/home/dkagle/src/scala/android/src/main/scala/printListActivity.scala -> /home/dkagle/src/scala/android/src/main/scala/target/scala-2.10/classes/ezbuilder/ListActivity$$anonfun$print$4.class
+/home/dkagle/src/scala/android/src/main/scala/printListActivity.scala -> /home/dkagle/src/scala/android/src/main/scala/target/scala-2.10/classes/ezbuilder/ListActivity.class
+/home/dkagle/src/scala/android/src/main/scala/printMain.scala -> /home/dkagle/src/scala/android/src/main/scala/target/scala-2.10/classes/ezbuilder/MainActivity.class
+/home/dkagle/src/scala/android/src/main/scala/printStaticLayout.scala -> /home/dkagle/src/scala/android/src/main/scala/target/scala-2.10/classes/ezbuilder/StaticLayout.class
+/home/dkagle/src/scala/android/src/main/scala/printStaticMain.scala -> /home/dkagle/src/scala/android/src/main/scala/target/scala-2.10/classes/ezbuilder/StaticMainActivity$$anonfun$print$1$$anonfun$apply$1.class
+/home/dkagle/src/scala/android/src/main/scala/printStaticMain.scala -> /home/dkagle/src/scala/android/src/main/scala/target/scala-2.10/classes/ezbuilder/StaticMainActivity$$anonfun$print$1$$anonfun$apply$2.class
+/home/dkagle/src/scala/android/src/main/scala/printStaticMain.scala -> /home/dkagle/src/scala/android/src/main/scala/target/scala-2.10/classes/ezbuilder/StaticMainActivity$$anonfun$print$1.class
+/home/dkagle/src/scala/android/src/main/scala/printStaticMain.scala -> /home/dkagle/src/scala/android/src/main/scala/target/scala-2.10/classes/ezbuilder/StaticMainActivity.class
+/home/dkagle/src/scala/android/src/main/scala/printStaticValues.scala -> /home/dkagle/src/scala/android/src/main/scala/target/scala-2.10/classes/ezbuilder/StaticValues$$anonfun$print$1.class
+/home/dkagle/src/scala/android/src/main/scala/printStaticValues.scala -> /home/dkagle/src/scala/android/src/main/scala/target/scala-2.10/classes/ezbuilder/StaticValues.class
+/home/dkagle/src/scala/android/src/main/scala/printValues.scala -> /home/dkagle/src/scala/android/src/main/scala/target/scala-2.10/classes/ezbuilder/Values$$anonfun$print$1.class
+/home/dkagle/src/scala/android/src/main/scala/printValues.scala -> /home/dkagle/src/scala/android/src/main/scala/target/scala-2.10/classes/ezbuilder/Values$$anonfun$printFields$1.class
+/home/dkagle/src/scala/android/src/main/scala/printValues.scala -> /home/dkagle/src/scala/android/src/main/scala/target/scala-2.10/classes/ezbuilder/Values.class
+/home/dkagle/src/scala/android/src/main/scala/printlayout.scala -> /home/dkagle/src/scala/android/src/main/scala/target/scala-2.10/classes/ezbuilder/Layout$$anonfun$print$1.class
+/home/dkagle/src/scala/android/src/main/scala/printlayout.scala -> /home/dkagle/src/scala/android/src/main/scala/target/scala-2.10/classes/ezbuilder/Layout$$anonfun$print$2.class
+/home/dkagle/src/scala/android/src/main/scala/printlayout.scala -> /home/dkagle/src/scala/android/src/main/scala/target/scala-2.10/classes/ezbuilder/Layout$$anonfun$print$3.class
+/home/dkagle/src/scala/android/src/main/scala/printlayout.scala -> /home/dkagle/src/scala/android/src/main/scala/target/scala-2.10/classes/ezbuilder/Layout$$anonfun$print$4.class
+/home/dkagle/src/scala/android/src/main/scala/printlayout.scala -> /home/dkagle/src/scala/android/src/main/scala/target/scala-2.10/classes/ezbuilder/Layout$$anonfun$print$5.class
+/home/dkagle/src/scala/android/src/main/scala/printlayout.scala -> /home/dkagle/src/scala/android/src/main/scala/target/scala-2.10/classes/ezbuilder/Layout$$anonfun$print$6.class
+/home/dkagle/src/scala/android/src/main/scala/printlayout.scala -> /home/dkagle/src/scala/android/src/main/scala/target/scala-2.10/classes/ezbuilder/Layout.class
+/home/dkagle/src/scala/android/src/main/scala/printmenu.scala -> /home/dkagle/src/scala/android/src/main/scala/target/scala-2.10/classes/ezbuilder/Menu$$anonfun$print$1.class
+/home/dkagle/src/scala/android/src/main/scala/printmenu.scala -> /home/dkagle/src/scala/android/src/main/scala/target/scala-2.10/classes/ezbuilder/Menu.class
+/home/dkagle/src/scala/android/src/main/scala/scalaMVC.scala -> /home/dkagle/src/scala/android/src/main/scala/target/scala-2.10/classes/ezbuilder/scalaMVC.class
+/home/dkagle/src/scala/android/src/main/scala/scalaMVCFile.scala -> /home/dkagle/src/scala/android/src/main/scala/target/scala-2.10/classes/ezbuilder/scalaMVCFile$$anonfun$calculate$1.class
+/home/dkagle/src/scala/android/src/main/scala/scalaMVCFile.scala -> /home/dkagle/src/scala/android/src/main/scala/target/scala-2.10/classes/ezbuilder/scalaMVCFile.class
+binary dependencies:
+32 items
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> /home/dkagle/.sbt/boot/scala-2.10.5/lib/scala-library.jar
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar
+/home/dkagle/src/scala/android/src/main/scala/printAddActivity.scala -> /home/dkagle/.sbt/boot/scala-2.10.5/lib/scala-library.jar
+/home/dkagle/src/scala/android/src/main/scala/printAddActivity.scala -> /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar
+/home/dkagle/src/scala/android/src/main/scala/printAndroidManifest.scala -> /home/dkagle/.sbt/boot/scala-2.10.5/lib/scala-library.jar
+/home/dkagle/src/scala/android/src/main/scala/printAndroidManifest.scala -> /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar
+/home/dkagle/src/scala/android/src/main/scala/printDeleteFormActivity.scala -> /home/dkagle/.sbt/boot/scala-2.10.5/lib/scala-library.jar
+/home/dkagle/src/scala/android/src/main/scala/printDeleteFormActivity.scala -> /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar
+/home/dkagle/src/scala/android/src/main/scala/printDeleteListActivity.scala -> /home/dkagle/.sbt/boot/scala-2.10.5/lib/scala-library.jar
+/home/dkagle/src/scala/android/src/main/scala/printDeleteListActivity.scala -> /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar
+/home/dkagle/src/scala/android/src/main/scala/printFormActivity.scala -> /home/dkagle/.sbt/boot/scala-2.10.5/lib/scala-library.jar
+/home/dkagle/src/scala/android/src/main/scala/printFormActivity.scala -> /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar
+/home/dkagle/src/scala/android/src/main/scala/printListActivity.scala -> /home/dkagle/.sbt/boot/scala-2.10.5/lib/scala-library.jar
+/home/dkagle/src/scala/android/src/main/scala/printListActivity.scala -> /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar
+/home/dkagle/src/scala/android/src/main/scala/printMain.scala -> /home/dkagle/.sbt/boot/scala-2.10.5/lib/scala-library.jar
+/home/dkagle/src/scala/android/src/main/scala/printMain.scala -> /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar
+/home/dkagle/src/scala/android/src/main/scala/printStaticLayout.scala -> /home/dkagle/.sbt/boot/scala-2.10.5/lib/scala-library.jar
+/home/dkagle/src/scala/android/src/main/scala/printStaticLayout.scala -> /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar
+/home/dkagle/src/scala/android/src/main/scala/printStaticMain.scala -> /home/dkagle/.sbt/boot/scala-2.10.5/lib/scala-library.jar
+/home/dkagle/src/scala/android/src/main/scala/printStaticMain.scala -> /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar
+/home/dkagle/src/scala/android/src/main/scala/printStaticValues.scala -> /home/dkagle/.sbt/boot/scala-2.10.5/lib/scala-library.jar
+/home/dkagle/src/scala/android/src/main/scala/printStaticValues.scala -> /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar
+/home/dkagle/src/scala/android/src/main/scala/printValues.scala -> /home/dkagle/.sbt/boot/scala-2.10.5/lib/scala-library.jar
+/home/dkagle/src/scala/android/src/main/scala/printValues.scala -> /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar
+/home/dkagle/src/scala/android/src/main/scala/printlayout.scala -> /home/dkagle/.sbt/boot/scala-2.10.5/lib/scala-library.jar
+/home/dkagle/src/scala/android/src/main/scala/printlayout.scala -> /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar
+/home/dkagle/src/scala/android/src/main/scala/printmenu.scala -> /home/dkagle/.sbt/boot/scala-2.10.5/lib/scala-library.jar
+/home/dkagle/src/scala/android/src/main/scala/printmenu.scala -> /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar
+/home/dkagle/src/scala/android/src/main/scala/scalaMVC.scala -> /home/dkagle/.sbt/boot/scala-2.10.5/lib/scala-library.jar
+/home/dkagle/src/scala/android/src/main/scala/scalaMVC.scala -> /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar
+/home/dkagle/src/scala/android/src/main/scala/scalaMVCFile.scala -> /home/dkagle/.sbt/boot/scala-2.10.5/lib/scala-library.jar
+/home/dkagle/src/scala/android/src/main/scala/scalaMVCFile.scala -> /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar
+direct source dependencies:
+0 items
+direct external dependencies:
+0 items
+public inherited source dependencies:
+0 items
+public inherited external dependencies:
+0 items
+member reference internal dependencies:
+33 items
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> /home/dkagle/src/scala/android/src/main/scala/printAddActivity.scala
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> /home/dkagle/src/scala/android/src/main/scala/printAndroidManifest.scala
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> /home/dkagle/src/scala/android/src/main/scala/printDeleteFormActivity.scala
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> /home/dkagle/src/scala/android/src/main/scala/printDeleteListActivity.scala
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> /home/dkagle/src/scala/android/src/main/scala/printFormActivity.scala
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> /home/dkagle/src/scala/android/src/main/scala/printListActivity.scala
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> /home/dkagle/src/scala/android/src/main/scala/printMain.scala
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> /home/dkagle/src/scala/android/src/main/scala/printlayout.scala
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> /home/dkagle/src/scala/android/src/main/scala/printmenu.scala
+/home/dkagle/src/scala/android/src/main/scala/printAddActivity.scala -> /home/dkagle/src/scala/android/src/main/scala/scalaMVC.scala
+/home/dkagle/src/scala/android/src/main/scala/printAddActivity.scala -> /home/dkagle/src/scala/android/src/main/scala/scalaMVCFile.scala
+/home/dkagle/src/scala/android/src/main/scala/printAndroidManifest.scala -> /home/dkagle/src/scala/android/src/main/scala/scalaMVC.scala
+/home/dkagle/src/scala/android/src/main/scala/printAndroidManifest.scala -> /home/dkagle/src/scala/android/src/main/scala/scalaMVCFile.scala
+/home/dkagle/src/scala/android/src/main/scala/printDeleteFormActivity.scala -> /home/dkagle/src/scala/android/src/main/scala/scalaMVC.scala
+/home/dkagle/src/scala/android/src/main/scala/printDeleteFormActivity.scala -> /home/dkagle/src/scala/android/src/main/scala/scalaMVCFile.scala
+/home/dkagle/src/scala/android/src/main/scala/printDeleteListActivity.scala -> /home/dkagle/src/scala/android/src/main/scala/scalaMVC.scala
+/home/dkagle/src/scala/android/src/main/scala/printDeleteListActivity.scala -> /home/dkagle/src/scala/android/src/main/scala/scalaMVCFile.scala
+/home/dkagle/src/scala/android/src/main/scala/printFormActivity.scala -> /home/dkagle/src/scala/android/src/main/scala/scalaMVC.scala
+/home/dkagle/src/scala/android/src/main/scala/printFormActivity.scala -> /home/dkagle/src/scala/android/src/main/scala/scalaMVCFile.scala
+/home/dkagle/src/scala/android/src/main/scala/printListActivity.scala -> /home/dkagle/src/scala/android/src/main/scala/scalaMVC.scala
+/home/dkagle/src/scala/android/src/main/scala/printListActivity.scala -> /home/dkagle/src/scala/android/src/main/scala/scalaMVCFile.scala
+/home/dkagle/src/scala/android/src/main/scala/printMain.scala -> /home/dkagle/src/scala/android/src/main/scala/scalaMVC.scala
+/home/dkagle/src/scala/android/src/main/scala/printMain.scala -> /home/dkagle/src/scala/android/src/main/scala/scalaMVCFile.scala
+/home/dkagle/src/scala/android/src/main/scala/printStaticLayout.scala -> /home/dkagle/src/scala/android/src/main/scala/scalaMVC.scala
+/home/dkagle/src/scala/android/src/main/scala/printStaticMain.scala -> /home/dkagle/src/scala/android/src/main/scala/scalaMVC.scala
+/home/dkagle/src/scala/android/src/main/scala/printStaticValues.scala -> /home/dkagle/src/scala/android/src/main/scala/scalaMVC.scala
+/home/dkagle/src/scala/android/src/main/scala/printValues.scala -> /home/dkagle/src/scala/android/src/main/scala/scalaMVC.scala
+/home/dkagle/src/scala/android/src/main/scala/printValues.scala -> /home/dkagle/src/scala/android/src/main/scala/scalaMVCFile.scala
+/home/dkagle/src/scala/android/src/main/scala/printlayout.scala -> /home/dkagle/src/scala/android/src/main/scala/scalaMVC.scala
+/home/dkagle/src/scala/android/src/main/scala/printlayout.scala -> /home/dkagle/src/scala/android/src/main/scala/scalaMVCFile.scala
+/home/dkagle/src/scala/android/src/main/scala/printmenu.scala -> /home/dkagle/src/scala/android/src/main/scala/scalaMVC.scala
+/home/dkagle/src/scala/android/src/main/scala/printmenu.scala -> /home/dkagle/src/scala/android/src/main/scala/scalaMVCFile.scala
+/home/dkagle/src/scala/android/src/main/scala/scalaMVCFile.scala -> /home/dkagle/src/scala/android/src/main/scala/scalaMVC.scala
+member reference external dependencies:
+0 items
+inheritance internal dependencies:
+14 items
+/home/dkagle/src/scala/android/src/main/scala/printAddActivity.scala -> /home/dkagle/src/scala/android/src/main/scala/scalaMVCFile.scala
+/home/dkagle/src/scala/android/src/main/scala/printAndroidManifest.scala -> /home/dkagle/src/scala/android/src/main/scala/scalaMVCFile.scala
+/home/dkagle/src/scala/android/src/main/scala/printDeleteFormActivity.scala -> /home/dkagle/src/scala/android/src/main/scala/scalaMVCFile.scala
+/home/dkagle/src/scala/android/src/main/scala/printDeleteListActivity.scala -> /home/dkagle/src/scala/android/src/main/scala/scalaMVCFile.scala
+/home/dkagle/src/scala/android/src/main/scala/printFormActivity.scala -> /home/dkagle/src/scala/android/src/main/scala/scalaMVCFile.scala
+/home/dkagle/src/scala/android/src/main/scala/printListActivity.scala -> /home/dkagle/src/scala/android/src/main/scala/scalaMVCFile.scala
+/home/dkagle/src/scala/android/src/main/scala/printMain.scala -> /home/dkagle/src/scala/android/src/main/scala/scalaMVCFile.scala
+/home/dkagle/src/scala/android/src/main/scala/printStaticLayout.scala -> /home/dkagle/src/scala/android/src/main/scala/scalaMVC.scala
+/home/dkagle/src/scala/android/src/main/scala/printStaticMain.scala -> /home/dkagle/src/scala/android/src/main/scala/scalaMVC.scala
+/home/dkagle/src/scala/android/src/main/scala/printStaticValues.scala -> /home/dkagle/src/scala/android/src/main/scala/scalaMVC.scala
+/home/dkagle/src/scala/android/src/main/scala/printValues.scala -> /home/dkagle/src/scala/android/src/main/scala/scalaMVCFile.scala
+/home/dkagle/src/scala/android/src/main/scala/printlayout.scala -> /home/dkagle/src/scala/android/src/main/scala/scalaMVCFile.scala
+/home/dkagle/src/scala/android/src/main/scala/printmenu.scala -> /home/dkagle/src/scala/android/src/main/scala/scalaMVCFile.scala
+/home/dkagle/src/scala/android/src/main/scala/scalaMVCFile.scala -> /home/dkagle/src/scala/android/src/main/scala/scalaMVC.scala
+inheritance external dependencies:
+0 items
+class names:
+55 items
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> androidbuild
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> androidbuild$
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> androidbuild$$anonfun$1
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> androidbuild$$anonfun$2
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> androidbuild$$anonfun$2$$anonfun$apply$1
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> androidbuild$$anonfun$printFields$1
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> androidbuild$$anonfun$printSchemas$1
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> androidbuild$$anonfun$printSchemas$1$$anonfun$apply$2
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> androidbuild$$anonfun$printSchemas$1$$anonfun$apply$3
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> androidbuild$$anonfun$printSchemas$1$$anonfun$apply$3$$anonfun$apply$4
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> androidbuild$delayedInit$body
+/home/dkagle/src/scala/android/src/main/scala/printAddActivity.scala -> ezbuilder.AddActivity
+/home/dkagle/src/scala/android/src/main/scala/printAddActivity.scala -> ezbuilder.AddActivity$$anonfun$print$1
+/home/dkagle/src/scala/android/src/main/scala/printAddActivity.scala -> ezbuilder.AddActivity$$anonfun$print$2
+/home/dkagle/src/scala/android/src/main/scala/printAddActivity.scala -> ezbuilder.AddActivity$$anonfun$print$3
+/home/dkagle/src/scala/android/src/main/scala/printAndroidManifest.scala -> ezbuilder.AndroidManifest
+/home/dkagle/src/scala/android/src/main/scala/printAndroidManifest.scala -> ezbuilder.AndroidManifest$$anonfun$print$1
+/home/dkagle/src/scala/android/src/main/scala/printDeleteFormActivity.scala -> ezbuilder.DeleteFormActivity
+/home/dkagle/src/scala/android/src/main/scala/printDeleteFormActivity.scala -> ezbuilder.DeleteFormActivity$$anonfun$print$1
+/home/dkagle/src/scala/android/src/main/scala/printDeleteListActivity.scala -> ezbuilder.DeleteListActivity
+/home/dkagle/src/scala/android/src/main/scala/printDeleteListActivity.scala -> ezbuilder.DeleteListActivity$$anonfun$print$1
+/home/dkagle/src/scala/android/src/main/scala/printDeleteListActivity.scala -> ezbuilder.DeleteListActivity$$anonfun$print$2
+/home/dkagle/src/scala/android/src/main/scala/printDeleteListActivity.scala -> ezbuilder.DeleteListActivity$$anonfun$print$3
+/home/dkagle/src/scala/android/src/main/scala/printDeleteListActivity.scala -> ezbuilder.DeleteListActivity$$anonfun$print$4
+/home/dkagle/src/scala/android/src/main/scala/printFormActivity.scala -> ezbuilder.FormActivity
+/home/dkagle/src/scala/android/src/main/scala/printFormActivity.scala -> ezbuilder.FormActivity$$anonfun$print$1
+/home/dkagle/src/scala/android/src/main/scala/printFormActivity.scala -> ezbuilder.FormActivity$$anonfun$print$2
+/home/dkagle/src/scala/android/src/main/scala/printListActivity.scala -> ezbuilder.ListActivity
+/home/dkagle/src/scala/android/src/main/scala/printListActivity.scala -> ezbuilder.ListActivity$$anonfun$print$1
+/home/dkagle/src/scala/android/src/main/scala/printListActivity.scala -> ezbuilder.ListActivity$$anonfun$print$2
+/home/dkagle/src/scala/android/src/main/scala/printListActivity.scala -> ezbuilder.ListActivity$$anonfun$print$3
+/home/dkagle/src/scala/android/src/main/scala/printListActivity.scala -> ezbuilder.ListActivity$$anonfun$print$4
+/home/dkagle/src/scala/android/src/main/scala/printMain.scala -> ezbuilder.MainActivity
+/home/dkagle/src/scala/android/src/main/scala/printStaticLayout.scala -> ezbuilder.StaticLayout
+/home/dkagle/src/scala/android/src/main/scala/printStaticMain.scala -> ezbuilder.StaticMainActivity
+/home/dkagle/src/scala/android/src/main/scala/printStaticMain.scala -> ezbuilder.StaticMainActivity$$anonfun$print$1
+/home/dkagle/src/scala/android/src/main/scala/printStaticMain.scala -> ezbuilder.StaticMainActivity$$anonfun$print$1$$anonfun$apply$1
+/home/dkagle/src/scala/android/src/main/scala/printStaticMain.scala -> ezbuilder.StaticMainActivity$$anonfun$print$1$$anonfun$apply$2
+/home/dkagle/src/scala/android/src/main/scala/printStaticValues.scala -> ezbuilder.StaticValues
+/home/dkagle/src/scala/android/src/main/scala/printStaticValues.scala -> ezbuilder.StaticValues$$anonfun$print$1
+/home/dkagle/src/scala/android/src/main/scala/printValues.scala -> ezbuilder.Values
+/home/dkagle/src/scala/android/src/main/scala/printValues.scala -> ezbuilder.Values$$anonfun$print$1
+/home/dkagle/src/scala/android/src/main/scala/printValues.scala -> ezbuilder.Values$$anonfun$printFields$1
+/home/dkagle/src/scala/android/src/main/scala/printlayout.scala -> ezbuilder.Layout
+/home/dkagle/src/scala/android/src/main/scala/printlayout.scala -> ezbuilder.Layout$$anonfun$print$1
+/home/dkagle/src/scala/android/src/main/scala/printlayout.scala -> ezbuilder.Layout$$anonfun$print$2
+/home/dkagle/src/scala/android/src/main/scala/printlayout.scala -> ezbuilder.Layout$$anonfun$print$3
+/home/dkagle/src/scala/android/src/main/scala/printlayout.scala -> ezbuilder.Layout$$anonfun$print$4
+/home/dkagle/src/scala/android/src/main/scala/printlayout.scala -> ezbuilder.Layout$$anonfun$print$5
+/home/dkagle/src/scala/android/src/main/scala/printlayout.scala -> ezbuilder.Layout$$anonfun$print$6
+/home/dkagle/src/scala/android/src/main/scala/printmenu.scala -> ezbuilder.Menu
+/home/dkagle/src/scala/android/src/main/scala/printmenu.scala -> ezbuilder.Menu$$anonfun$print$1
+/home/dkagle/src/scala/android/src/main/scala/scalaMVC.scala -> ezbuilder.scalaMVC
+/home/dkagle/src/scala/android/src/main/scala/scalaMVCFile.scala -> ezbuilder.scalaMVCFile
+/home/dkagle/src/scala/android/src/main/scala/scalaMVCFile.scala -> ezbuilder.scalaMVCFile$$anonfun$calculate$1
+used names:
+702 items
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> !
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> +
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> +=
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> ->
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> <init>
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> >
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> AddActivity
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> AndroidManifest
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> App
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> Codec
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> DeleteFormActivity
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> DeleteListActivity
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> File
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> FormActivity
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> HashMap
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> Layout
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> List
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> ListActivity
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> ListBuffer
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> MainActivity
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> Map
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> Menu
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> Option
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> Predef
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> Source
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> String
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> _1
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> _2
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> add
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> androidManifest
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> androidbuild
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> any2ArrowAssoc
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> apply
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> basedir
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> collection
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> conforms
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> createTableTag
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> deleteForm
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> deleteListActivity
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> end
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> end_=
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> endsWith
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> env
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> ezbuilder
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> f
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> fallbackSystemCodec
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> field
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> fields
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> fields_=
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> file
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> fileLines
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> fileName
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> filesHere
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> flds
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> foreach
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> foreignKey
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> foreignTable
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> foreignTableKey
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> form
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> foundCreateTable
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> foundEndTable
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> foundFieldName
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> foundForiegnKey
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> foundPrimaryKey
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> fromFile
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> get
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> getLines
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> getName
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> indexOf
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> io
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> java
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> javadir
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> joinKey
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> joinKeys
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> key
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> keys
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> layout
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> length
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> line
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> listActivity
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> listFiles
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> mainForm
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> menu
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> mutable
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> ne
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> objectEnd
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> objectName
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> objectStart
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> package
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> parseLine
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> parseTable
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> parseTable_=
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> primaryKey
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> primaryKeyTag
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> primaryKey_=
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> print
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> printSchemas
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> println
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> process
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> refArrayOps
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> resdir
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> scala
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> schema
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> schema_=
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> schemas
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> space
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> spaceLength
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> start
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> start_=
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> startsWith
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> stringToProcess
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> substring
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> sys
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> table
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> tableKey
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> tableKeys
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> tableName
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> tableName_=
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> tables
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> toInt
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> toList
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> toLowerCase
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> toMap
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> trim
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> unchecked
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> url
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> withFilter
+/home/dkagle/src/scala/android/src/main/scala/printAddActivity.scala -> +
+/home/dkagle/src/scala/android/src/main/scala/printAddActivity.scala -> <init>
+/home/dkagle/src/scala/android/src/main/scala/printAddActivity.scala -> ==
+/home/dkagle/src/scala/android/src/main/scala/printAddActivity.scala -> AddActivity
+/home/dkagle/src/scala/android/src/main/scala/printAddActivity.scala -> File
+/home/dkagle/src/scala/android/src/main/scala/printAddActivity.scala -> List
+/home/dkagle/src/scala/android/src/main/scala/printAddActivity.scala -> Option
+/home/dkagle/src/scala/android/src/main/scala/printAddActivity.scala -> Predef
+/home/dkagle/src/scala/android/src/main/scala/printAddActivity.scala -> PrintWriter
+/home/dkagle/src/scala/android/src/main/scala/printAddActivity.scala -> String
+/home/dkagle/src/scala/android/src/main/scala/printAddActivity.scala -> augmentString
+/home/dkagle/src/scala/android/src/main/scala/printAddActivity.scala -> basedir
+/home/dkagle/src/scala/android/src/main/scala/printAddActivity.scala -> calculate
+/home/dkagle/src/scala/android/src/main/scala/printAddActivity.scala -> capitalize
+/home/dkagle/src/scala/android/src/main/scala/printAddActivity.scala -> capitalizedObjectName
+/home/dkagle/src/scala/android/src/main/scala/printAddActivity.scala -> close
+/home/dkagle/src/scala/android/src/main/scala/printAddActivity.scala -> ezbuilder
+/home/dkagle/src/scala/android/src/main/scala/printAddActivity.scala -> f
+/home/dkagle/src/scala/android/src/main/scala/printAddActivity.scala -> fieldName
+/home/dkagle/src/scala/android/src/main/scala/printAddActivity.scala -> fields
+/home/dkagle/src/scala/android/src/main/scala/printAddActivity.scala -> fileName
+/home/dkagle/src/scala/android/src/main/scala/printAddActivity.scala -> fn
+/home/dkagle/src/scala/android/src/main/scala/printAddActivity.scala -> foreach
+/home/dkagle/src/scala/android/src/main/scala/printAddActivity.scala -> get
+/home/dkagle/src/scala/android/src/main/scala/printAddActivity.scala -> getFieldName
+/home/dkagle/src/scala/android/src/main/scala/printAddActivity.scala -> io
+/home/dkagle/src/scala/android/src/main/scala/printAddActivity.scala -> java
+/home/dkagle/src/scala/android/src/main/scala/printAddActivity.scala -> jsonAdd
+/home/dkagle/src/scala/android/src/main/scala/printAddActivity.scala -> objectName
+/home/dkagle/src/scala/android/src/main/scala/printAddActivity.scala -> package
+/home/dkagle/src/scala/android/src/main/scala/printAddActivity.scala -> primaryKey
+/home/dkagle/src/scala/android/src/main/scala/printAddActivity.scala -> scala
+/home/dkagle/src/scala/android/src/main/scala/printAddActivity.scala -> scalaMVCFile
+/home/dkagle/src/scala/android/src/main/scala/printAddActivity.scala -> tab
+/home/dkagle/src/scala/android/src/main/scala/printAddActivity.scala -> url
+/home/dkagle/src/scala/android/src/main/scala/printAddActivity.scala -> view
+/home/dkagle/src/scala/android/src/main/scala/printAddActivity.scala -> write
+/home/dkagle/src/scala/android/src/main/scala/printAddActivity.scala -> writer
+/home/dkagle/src/scala/android/src/main/scala/printAndroidManifest.scala -> !
+/home/dkagle/src/scala/android/src/main/scala/printAndroidManifest.scala -> +
+/home/dkagle/src/scala/android/src/main/scala/printAndroidManifest.scala -> <init>
+/home/dkagle/src/scala/android/src/main/scala/printAndroidManifest.scala -> ==
+/home/dkagle/src/scala/android/src/main/scala/printAndroidManifest.scala -> AndroidManifest
+/home/dkagle/src/scala/android/src/main/scala/printAndroidManifest.scala -> Codec
+/home/dkagle/src/scala/android/src/main/scala/printAndroidManifest.scala -> File
+/home/dkagle/src/scala/android/src/main/scala/printAndroidManifest.scala -> List
+/home/dkagle/src/scala/android/src/main/scala/printAndroidManifest.scala -> Option
+/home/dkagle/src/scala/android/src/main/scala/printAndroidManifest.scala -> Predef
+/home/dkagle/src/scala/android/src/main/scala/printAndroidManifest.scala -> PrintWriter
+/home/dkagle/src/scala/android/src/main/scala/printAndroidManifest.scala -> Source
+/home/dkagle/src/scala/android/src/main/scala/printAndroidManifest.scala -> String
+/home/dkagle/src/scala/android/src/main/scala/printAndroidManifest.scala -> basedir
+/home/dkagle/src/scala/android/src/main/scala/printAndroidManifest.scala -> calculate
+/home/dkagle/src/scala/android/src/main/scala/printAndroidManifest.scala -> capitalizedObjectName
+/home/dkagle/src/scala/android/src/main/scala/printAndroidManifest.scala -> close
+/home/dkagle/src/scala/android/src/main/scala/printAndroidManifest.scala -> ezbuilder
+/home/dkagle/src/scala/android/src/main/scala/printAndroidManifest.scala -> fallbackSystemCodec
+/home/dkagle/src/scala/android/src/main/scala/printAndroidManifest.scala -> fields
+/home/dkagle/src/scala/android/src/main/scala/printAndroidManifest.scala -> fileName
+/home/dkagle/src/scala/android/src/main/scala/printAndroidManifest.scala -> foreach
+/home/dkagle/src/scala/android/src/main/scala/printAndroidManifest.scala -> fromFile
+/home/dkagle/src/scala/android/src/main/scala/printAndroidManifest.scala -> getLines
+/home/dkagle/src/scala/android/src/main/scala/printAndroidManifest.scala -> indexOf
+/home/dkagle/src/scala/android/src/main/scala/printAndroidManifest.scala -> io
+/home/dkagle/src/scala/android/src/main/scala/printAndroidManifest.scala -> java
+/home/dkagle/src/scala/android/src/main/scala/printAndroidManifest.scala -> line
+/home/dkagle/src/scala/android/src/main/scala/printAndroidManifest.scala -> objectName
+/home/dkagle/src/scala/android/src/main/scala/printAndroidManifest.scala -> package
+/home/dkagle/src/scala/android/src/main/scala/printAndroidManifest.scala -> primaryKey
+/home/dkagle/src/scala/android/src/main/scala/printAndroidManifest.scala -> printFields
+/home/dkagle/src/scala/android/src/main/scala/printAndroidManifest.scala -> process
+/home/dkagle/src/scala/android/src/main/scala/printAndroidManifest.scala -> qualifiedFileName
+/home/dkagle/src/scala/android/src/main/scala/printAndroidManifest.scala -> scala
+/home/dkagle/src/scala/android/src/main/scala/printAndroidManifest.scala -> scalaMVCFile
+/home/dkagle/src/scala/android/src/main/scala/printAndroidManifest.scala -> stringToProcess
+/home/dkagle/src/scala/android/src/main/scala/printAndroidManifest.scala -> sys
+/home/dkagle/src/scala/android/src/main/scala/printAndroidManifest.scala -> tab
+/home/dkagle/src/scala/android/src/main/scala/printAndroidManifest.scala -> url
+/home/dkagle/src/scala/android/src/main/scala/printAndroidManifest.scala -> write
+/home/dkagle/src/scala/android/src/main/scala/printAndroidManifest.scala -> writer
+/home/dkagle/src/scala/android/src/main/scala/printDeleteFormActivity.scala -> +
+/home/dkagle/src/scala/android/src/main/scala/printDeleteFormActivity.scala -> <init>
+/home/dkagle/src/scala/android/src/main/scala/printDeleteFormActivity.scala -> DeleteFormActivity
+/home/dkagle/src/scala/android/src/main/scala/printDeleteFormActivity.scala -> File
+/home/dkagle/src/scala/android/src/main/scala/printDeleteFormActivity.scala -> List
+/home/dkagle/src/scala/android/src/main/scala/printDeleteFormActivity.scala -> Option
+/home/dkagle/src/scala/android/src/main/scala/printDeleteFormActivity.scala -> Predef
+/home/dkagle/src/scala/android/src/main/scala/printDeleteFormActivity.scala -> PrintWriter
+/home/dkagle/src/scala/android/src/main/scala/printDeleteFormActivity.scala -> String
+/home/dkagle/src/scala/android/src/main/scala/printDeleteFormActivity.scala -> augmentString
+/home/dkagle/src/scala/android/src/main/scala/printDeleteFormActivity.scala -> basedir
+/home/dkagle/src/scala/android/src/main/scala/printDeleteFormActivity.scala -> calculate
+/home/dkagle/src/scala/android/src/main/scala/printDeleteFormActivity.scala -> capitalize
+/home/dkagle/src/scala/android/src/main/scala/printDeleteFormActivity.scala -> capitalizedObjectName
+/home/dkagle/src/scala/android/src/main/scala/printDeleteFormActivity.scala -> close
+/home/dkagle/src/scala/android/src/main/scala/printDeleteFormActivity.scala -> ezbuilder
+/home/dkagle/src/scala/android/src/main/scala/printDeleteFormActivity.scala -> f
+/home/dkagle/src/scala/android/src/main/scala/printDeleteFormActivity.scala -> fieldName
+/home/dkagle/src/scala/android/src/main/scala/printDeleteFormActivity.scala -> fields
+/home/dkagle/src/scala/android/src/main/scala/printDeleteFormActivity.scala -> fileName
+/home/dkagle/src/scala/android/src/main/scala/printDeleteFormActivity.scala -> fn
+/home/dkagle/src/scala/android/src/main/scala/printDeleteFormActivity.scala -> foreach
+/home/dkagle/src/scala/android/src/main/scala/printDeleteFormActivity.scala -> get
+/home/dkagle/src/scala/android/src/main/scala/printDeleteFormActivity.scala -> getFieldName
+/home/dkagle/src/scala/android/src/main/scala/printDeleteFormActivity.scala -> io
+/home/dkagle/src/scala/android/src/main/scala/printDeleteFormActivity.scala -> java
+/home/dkagle/src/scala/android/src/main/scala/printDeleteFormActivity.scala -> objectName
+/home/dkagle/src/scala/android/src/main/scala/printDeleteFormActivity.scala -> package
+/home/dkagle/src/scala/android/src/main/scala/printDeleteFormActivity.scala -> primaryKey
+/home/dkagle/src/scala/android/src/main/scala/printDeleteFormActivity.scala -> scala
+/home/dkagle/src/scala/android/src/main/scala/printDeleteFormActivity.scala -> scalaMVCFile
+/home/dkagle/src/scala/android/src/main/scala/printDeleteFormActivity.scala -> tab
+/home/dkagle/src/scala/android/src/main/scala/printDeleteFormActivity.scala -> toUpperCase
+/home/dkagle/src/scala/android/src/main/scala/printDeleteFormActivity.scala -> url
+/home/dkagle/src/scala/android/src/main/scala/printDeleteFormActivity.scala -> write
+/home/dkagle/src/scala/android/src/main/scala/printDeleteFormActivity.scala -> writer
+/home/dkagle/src/scala/android/src/main/scala/printDeleteListActivity.scala -> +
+/home/dkagle/src/scala/android/src/main/scala/printDeleteListActivity.scala -> <init>
+/home/dkagle/src/scala/android/src/main/scala/printDeleteListActivity.scala -> ==
+/home/dkagle/src/scala/android/src/main/scala/printDeleteListActivity.scala -> DeleteListActivity
+/home/dkagle/src/scala/android/src/main/scala/printDeleteListActivity.scala -> File
+/home/dkagle/src/scala/android/src/main/scala/printDeleteListActivity.scala -> List
+/home/dkagle/src/scala/android/src/main/scala/printDeleteListActivity.scala -> Option
+/home/dkagle/src/scala/android/src/main/scala/printDeleteListActivity.scala -> Predef
+/home/dkagle/src/scala/android/src/main/scala/printDeleteListActivity.scala -> PrintWriter
+/home/dkagle/src/scala/android/src/main/scala/printDeleteListActivity.scala -> String
+/home/dkagle/src/scala/android/src/main/scala/printDeleteListActivity.scala -> augmentString
+/home/dkagle/src/scala/android/src/main/scala/printDeleteListActivity.scala -> basedir
+/home/dkagle/src/scala/android/src/main/scala/printDeleteListActivity.scala -> calculate
+/home/dkagle/src/scala/android/src/main/scala/printDeleteListActivity.scala -> capitalize
+/home/dkagle/src/scala/android/src/main/scala/printDeleteListActivity.scala -> capitalizedObjectName
+/home/dkagle/src/scala/android/src/main/scala/printDeleteListActivity.scala -> close
+/home/dkagle/src/scala/android/src/main/scala/printDeleteListActivity.scala -> ezbuilder
+/home/dkagle/src/scala/android/src/main/scala/printDeleteListActivity.scala -> f
+/home/dkagle/src/scala/android/src/main/scala/printDeleteListActivity.scala -> fieldName
+/home/dkagle/src/scala/android/src/main/scala/printDeleteListActivity.scala -> fields
+/home/dkagle/src/scala/android/src/main/scala/printDeleteListActivity.scala -> fileName
+/home/dkagle/src/scala/android/src/main/scala/printDeleteListActivity.scala -> fn
+/home/dkagle/src/scala/android/src/main/scala/printDeleteListActivity.scala -> foreach
+/home/dkagle/src/scala/android/src/main/scala/printDeleteListActivity.scala -> get
+/home/dkagle/src/scala/android/src/main/scala/printDeleteListActivity.scala -> getFieldName
+/home/dkagle/src/scala/android/src/main/scala/printDeleteListActivity.scala -> idString
+/home/dkagle/src/scala/android/src/main/scala/printDeleteListActivity.scala -> io
+/home/dkagle/src/scala/android/src/main/scala/printDeleteListActivity.scala -> java
+/home/dkagle/src/scala/android/src/main/scala/printDeleteListActivity.scala -> objectName
+/home/dkagle/src/scala/android/src/main/scala/printDeleteListActivity.scala -> package
+/home/dkagle/src/scala/android/src/main/scala/printDeleteListActivity.scala -> primaryKey
+/home/dkagle/src/scala/android/src/main/scala/printDeleteListActivity.scala -> scala
+/home/dkagle/src/scala/android/src/main/scala/printDeleteListActivity.scala -> scalaMVCFile
+/home/dkagle/src/scala/android/src/main/scala/printDeleteListActivity.scala -> tab
+/home/dkagle/src/scala/android/src/main/scala/printDeleteListActivity.scala -> tagString
+/home/dkagle/src/scala/android/src/main/scala/printDeleteListActivity.scala -> toUpperCase
+/home/dkagle/src/scala/android/src/main/scala/printDeleteListActivity.scala -> url
+/home/dkagle/src/scala/android/src/main/scala/printDeleteListActivity.scala -> write
+/home/dkagle/src/scala/android/src/main/scala/printDeleteListActivity.scala -> writer
+/home/dkagle/src/scala/android/src/main/scala/printFormActivity.scala -> +
+/home/dkagle/src/scala/android/src/main/scala/printFormActivity.scala -> <init>
+/home/dkagle/src/scala/android/src/main/scala/printFormActivity.scala -> ==
+/home/dkagle/src/scala/android/src/main/scala/printFormActivity.scala -> File
+/home/dkagle/src/scala/android/src/main/scala/printFormActivity.scala -> FormActivity
+/home/dkagle/src/scala/android/src/main/scala/printFormActivity.scala -> List
+/home/dkagle/src/scala/android/src/main/scala/printFormActivity.scala -> Option
+/home/dkagle/src/scala/android/src/main/scala/printFormActivity.scala -> Predef
+/home/dkagle/src/scala/android/src/main/scala/printFormActivity.scala -> PrintWriter
+/home/dkagle/src/scala/android/src/main/scala/printFormActivity.scala -> String
+/home/dkagle/src/scala/android/src/main/scala/printFormActivity.scala -> augmentString
+/home/dkagle/src/scala/android/src/main/scala/printFormActivity.scala -> basedir
+/home/dkagle/src/scala/android/src/main/scala/printFormActivity.scala -> calculate
+/home/dkagle/src/scala/android/src/main/scala/printFormActivity.scala -> capitalize
+/home/dkagle/src/scala/android/src/main/scala/printFormActivity.scala -> capitalizedObjectName
+/home/dkagle/src/scala/android/src/main/scala/printFormActivity.scala -> close
+/home/dkagle/src/scala/android/src/main/scala/printFormActivity.scala -> ezbuilder
+/home/dkagle/src/scala/android/src/main/scala/printFormActivity.scala -> f
+/home/dkagle/src/scala/android/src/main/scala/printFormActivity.scala -> fieldName
+/home/dkagle/src/scala/android/src/main/scala/printFormActivity.scala -> fields
+/home/dkagle/src/scala/android/src/main/scala/printFormActivity.scala -> fileName
+/home/dkagle/src/scala/android/src/main/scala/printFormActivity.scala -> fn
+/home/dkagle/src/scala/android/src/main/scala/printFormActivity.scala -> foreach
+/home/dkagle/src/scala/android/src/main/scala/printFormActivity.scala -> get
+/home/dkagle/src/scala/android/src/main/scala/printFormActivity.scala -> getFieldName
+/home/dkagle/src/scala/android/src/main/scala/printFormActivity.scala -> io
+/home/dkagle/src/scala/android/src/main/scala/printFormActivity.scala -> java
+/home/dkagle/src/scala/android/src/main/scala/printFormActivity.scala -> objectName
+/home/dkagle/src/scala/android/src/main/scala/printFormActivity.scala -> package
+/home/dkagle/src/scala/android/src/main/scala/printFormActivity.scala -> primaryKey
+/home/dkagle/src/scala/android/src/main/scala/printFormActivity.scala -> scala
+/home/dkagle/src/scala/android/src/main/scala/printFormActivity.scala -> scalaMVCFile
+/home/dkagle/src/scala/android/src/main/scala/printFormActivity.scala -> tab
+/home/dkagle/src/scala/android/src/main/scala/printFormActivity.scala -> toUpperCase
+/home/dkagle/src/scala/android/src/main/scala/printFormActivity.scala -> updateURL
+/home/dkagle/src/scala/android/src/main/scala/printFormActivity.scala -> url
+/home/dkagle/src/scala/android/src/main/scala/printFormActivity.scala -> write
+/home/dkagle/src/scala/android/src/main/scala/printFormActivity.scala -> writer
+/home/dkagle/src/scala/android/src/main/scala/printListActivity.scala -> +
+/home/dkagle/src/scala/android/src/main/scala/printListActivity.scala -> <init>
+/home/dkagle/src/scala/android/src/main/scala/printListActivity.scala -> ==
+/home/dkagle/src/scala/android/src/main/scala/printListActivity.scala -> File
+/home/dkagle/src/scala/android/src/main/scala/printListActivity.scala -> List
+/home/dkagle/src/scala/android/src/main/scala/printListActivity.scala -> ListActivity
+/home/dkagle/src/scala/android/src/main/scala/printListActivity.scala -> Option
+/home/dkagle/src/scala/android/src/main/scala/printListActivity.scala -> Predef
+/home/dkagle/src/scala/android/src/main/scala/printListActivity.scala -> PrintWriter
+/home/dkagle/src/scala/android/src/main/scala/printListActivity.scala -> String
+/home/dkagle/src/scala/android/src/main/scala/printListActivity.scala -> augmentString
+/home/dkagle/src/scala/android/src/main/scala/printListActivity.scala -> basedir
+/home/dkagle/src/scala/android/src/main/scala/printListActivity.scala -> calculate
+/home/dkagle/src/scala/android/src/main/scala/printListActivity.scala -> capitalize
+/home/dkagle/src/scala/android/src/main/scala/printListActivity.scala -> capitalizedObjectName
+/home/dkagle/src/scala/android/src/main/scala/printListActivity.scala -> close
+/home/dkagle/src/scala/android/src/main/scala/printListActivity.scala -> ezbuilder
+/home/dkagle/src/scala/android/src/main/scala/printListActivity.scala -> f
+/home/dkagle/src/scala/android/src/main/scala/printListActivity.scala -> fieldName
+/home/dkagle/src/scala/android/src/main/scala/printListActivity.scala -> fields
+/home/dkagle/src/scala/android/src/main/scala/printListActivity.scala -> fileName
+/home/dkagle/src/scala/android/src/main/scala/printListActivity.scala -> fn
+/home/dkagle/src/scala/android/src/main/scala/printListActivity.scala -> foreach
+/home/dkagle/src/scala/android/src/main/scala/printListActivity.scala -> get
+/home/dkagle/src/scala/android/src/main/scala/printListActivity.scala -> getFieldName
+/home/dkagle/src/scala/android/src/main/scala/printListActivity.scala -> idString
+/home/dkagle/src/scala/android/src/main/scala/printListActivity.scala -> io
+/home/dkagle/src/scala/android/src/main/scala/printListActivity.scala -> java
+/home/dkagle/src/scala/android/src/main/scala/printListActivity.scala -> objectName
+/home/dkagle/src/scala/android/src/main/scala/printListActivity.scala -> package
+/home/dkagle/src/scala/android/src/main/scala/printListActivity.scala -> primaryKey
+/home/dkagle/src/scala/android/src/main/scala/printListActivity.scala -> scala
+/home/dkagle/src/scala/android/src/main/scala/printListActivity.scala -> scalaMVCFile
+/home/dkagle/src/scala/android/src/main/scala/printListActivity.scala -> tab
+/home/dkagle/src/scala/android/src/main/scala/printListActivity.scala -> tagString
+/home/dkagle/src/scala/android/src/main/scala/printListActivity.scala -> toUpperCase
+/home/dkagle/src/scala/android/src/main/scala/printListActivity.scala -> url
+/home/dkagle/src/scala/android/src/main/scala/printListActivity.scala -> write
+/home/dkagle/src/scala/android/src/main/scala/printListActivity.scala -> writer
+/home/dkagle/src/scala/android/src/main/scala/printMain.scala -> +
+/home/dkagle/src/scala/android/src/main/scala/printMain.scala -> <init>
+/home/dkagle/src/scala/android/src/main/scala/printMain.scala -> File
+/home/dkagle/src/scala/android/src/main/scala/printMain.scala -> List
+/home/dkagle/src/scala/android/src/main/scala/printMain.scala -> MainActivity
+/home/dkagle/src/scala/android/src/main/scala/printMain.scala -> Option
+/home/dkagle/src/scala/android/src/main/scala/printMain.scala -> Predef
+/home/dkagle/src/scala/android/src/main/scala/printMain.scala -> PrintWriter
+/home/dkagle/src/scala/android/src/main/scala/printMain.scala -> String
+/home/dkagle/src/scala/android/src/main/scala/printMain.scala -> augmentString
+/home/dkagle/src/scala/android/src/main/scala/printMain.scala -> basedir
+/home/dkagle/src/scala/android/src/main/scala/printMain.scala -> calculate
+/home/dkagle/src/scala/android/src/main/scala/printMain.scala -> capitalize
+/home/dkagle/src/scala/android/src/main/scala/printMain.scala -> capitalizedObjectName
+/home/dkagle/src/scala/android/src/main/scala/printMain.scala -> close
+/home/dkagle/src/scala/android/src/main/scala/printMain.scala -> ezbuilder
+/home/dkagle/src/scala/android/src/main/scala/printMain.scala -> fields
+/home/dkagle/src/scala/android/src/main/scala/printMain.scala -> fileName
+/home/dkagle/src/scala/android/src/main/scala/printMain.scala -> io
+/home/dkagle/src/scala/android/src/main/scala/printMain.scala -> java
+/home/dkagle/src/scala/android/src/main/scala/printMain.scala -> objectName
+/home/dkagle/src/scala/android/src/main/scala/printMain.scala -> package
+/home/dkagle/src/scala/android/src/main/scala/printMain.scala -> primaryKey
+/home/dkagle/src/scala/android/src/main/scala/printMain.scala -> scala
+/home/dkagle/src/scala/android/src/main/scala/printMain.scala -> scalaMVCFile
+/home/dkagle/src/scala/android/src/main/scala/printMain.scala -> tab
+/home/dkagle/src/scala/android/src/main/scala/printMain.scala -> url
+/home/dkagle/src/scala/android/src/main/scala/printMain.scala -> write
+/home/dkagle/src/scala/android/src/main/scala/printMain.scala -> writer
+/home/dkagle/src/scala/android/src/main/scala/printStaticLayout.scala -> !
+/home/dkagle/src/scala/android/src/main/scala/printStaticLayout.scala -> +
+/home/dkagle/src/scala/android/src/main/scala/printStaticLayout.scala -> <init>
+/home/dkagle/src/scala/android/src/main/scala/printStaticLayout.scala -> File
+/home/dkagle/src/scala/android/src/main/scala/printStaticLayout.scala -> List
+/home/dkagle/src/scala/android/src/main/scala/printStaticLayout.scala -> ListBuffer
+/home/dkagle/src/scala/android/src/main/scala/printStaticLayout.scala -> Map
+/home/dkagle/src/scala/android/src/main/scala/printStaticLayout.scala -> Predef
+/home/dkagle/src/scala/android/src/main/scala/printStaticLayout.scala -> PrintWriter
+/home/dkagle/src/scala/android/src/main/scala/printStaticLayout.scala -> StaticLayout
+/home/dkagle/src/scala/android/src/main/scala/printStaticLayout.scala -> String
+/home/dkagle/src/scala/android/src/main/scala/printStaticLayout.scala -> basedir
+/home/dkagle/src/scala/android/src/main/scala/printStaticLayout.scala -> close
+/home/dkagle/src/scala/android/src/main/scala/printStaticLayout.scala -> collection
+/home/dkagle/src/scala/android/src/main/scala/printStaticLayout.scala -> ezbuilder
+/home/dkagle/src/scala/android/src/main/scala/printStaticLayout.scala -> fileName
+/home/dkagle/src/scala/android/src/main/scala/printStaticLayout.scala -> io
+/home/dkagle/src/scala/android/src/main/scala/printStaticLayout.scala -> java
+/home/dkagle/src/scala/android/src/main/scala/printStaticLayout.scala -> mutable
+/home/dkagle/src/scala/android/src/main/scala/printStaticLayout.scala -> mvcDir
+/home/dkagle/src/scala/android/src/main/scala/printStaticLayout.scala -> package
+/home/dkagle/src/scala/android/src/main/scala/printStaticLayout.scala -> println
+/home/dkagle/src/scala/android/src/main/scala/printStaticLayout.scala -> process
+/home/dkagle/src/scala/android/src/main/scala/printStaticLayout.scala -> qualifiedFileName
+/home/dkagle/src/scala/android/src/main/scala/printStaticLayout.scala -> scala
+/home/dkagle/src/scala/android/src/main/scala/printStaticLayout.scala -> scalaMVC
+/home/dkagle/src/scala/android/src/main/scala/printStaticLayout.scala -> stringToProcess
+/home/dkagle/src/scala/android/src/main/scala/printStaticLayout.scala -> sys
+/home/dkagle/src/scala/android/src/main/scala/printStaticLayout.scala -> tab
+/home/dkagle/src/scala/android/src/main/scala/printStaticLayout.scala -> write
+/home/dkagle/src/scala/android/src/main/scala/printStaticLayout.scala -> writer
+/home/dkagle/src/scala/android/src/main/scala/printStaticMain.scala -> +
+/home/dkagle/src/scala/android/src/main/scala/printStaticMain.scala -> <init>
+/home/dkagle/src/scala/android/src/main/scala/printStaticMain.scala -> File
+/home/dkagle/src/scala/android/src/main/scala/printStaticMain.scala -> List
+/home/dkagle/src/scala/android/src/main/scala/printStaticMain.scala -> ListBuffer
+/home/dkagle/src/scala/android/src/main/scala/printStaticMain.scala -> Map
+/home/dkagle/src/scala/android/src/main/scala/printStaticMain.scala -> Predef
+/home/dkagle/src/scala/android/src/main/scala/printStaticMain.scala -> PrintWriter
+/home/dkagle/src/scala/android/src/main/scala/printStaticMain.scala -> StaticMainActivity
+/home/dkagle/src/scala/android/src/main/scala/printStaticMain.scala -> String
+/home/dkagle/src/scala/android/src/main/scala/printStaticMain.scala -> Table
+/home/dkagle/src/scala/android/src/main/scala/printStaticMain.scala -> _1
+/home/dkagle/src/scala/android/src/main/scala/printStaticMain.scala -> augmentString
+/home/dkagle/src/scala/android/src/main/scala/printStaticMain.scala -> basedir
+/home/dkagle/src/scala/android/src/main/scala/printStaticMain.scala -> capitalize
+/home/dkagle/src/scala/android/src/main/scala/printStaticMain.scala -> close
+/home/dkagle/src/scala/android/src/main/scala/printStaticMain.scala -> collection
+/home/dkagle/src/scala/android/src/main/scala/printStaticMain.scala -> ezbuilder
+/home/dkagle/src/scala/android/src/main/scala/printStaticMain.scala -> fileName
+/home/dkagle/src/scala/android/src/main/scala/printStaticMain.scala -> foreach
+/home/dkagle/src/scala/android/src/main/scala/printStaticMain.scala -> io
+/home/dkagle/src/scala/android/src/main/scala/printStaticMain.scala -> java
+/home/dkagle/src/scala/android/src/main/scala/printStaticMain.scala -> mutable
+/home/dkagle/src/scala/android/src/main/scala/printStaticMain.scala -> ne
+/home/dkagle/src/scala/android/src/main/scala/printStaticMain.scala -> package
+/home/dkagle/src/scala/android/src/main/scala/printStaticMain.scala -> scala
+/home/dkagle/src/scala/android/src/main/scala/printStaticMain.scala -> scalaMVC
+/home/dkagle/src/scala/android/src/main/scala/printStaticMain.scala -> schema
+/home/dkagle/src/scala/android/src/main/scala/printStaticMain.scala -> schemas
+/home/dkagle/src/scala/android/src/main/scala/printStaticMain.scala -> tab
+/home/dkagle/src/scala/android/src/main/scala/printStaticMain.scala -> table
+/home/dkagle/src/scala/android/src/main/scala/printStaticMain.scala -> toLowerCase
+/home/dkagle/src/scala/android/src/main/scala/printStaticMain.scala -> unchecked
+/home/dkagle/src/scala/android/src/main/scala/printStaticMain.scala -> withFilter
+/home/dkagle/src/scala/android/src/main/scala/printStaticMain.scala -> write
+/home/dkagle/src/scala/android/src/main/scala/printStaticMain.scala -> writer
+/home/dkagle/src/scala/android/src/main/scala/printStaticValues.scala -> !
+/home/dkagle/src/scala/android/src/main/scala/printStaticValues.scala -> +
+/home/dkagle/src/scala/android/src/main/scala/printStaticValues.scala -> <init>
+/home/dkagle/src/scala/android/src/main/scala/printStaticValues.scala -> ==
+/home/dkagle/src/scala/android/src/main/scala/printStaticValues.scala -> Codec
+/home/dkagle/src/scala/android/src/main/scala/printStaticValues.scala -> File
+/home/dkagle/src/scala/android/src/main/scala/printStaticValues.scala -> Predef
+/home/dkagle/src/scala/android/src/main/scala/printStaticValues.scala -> PrintWriter
+/home/dkagle/src/scala/android/src/main/scala/printStaticValues.scala -> Source
+/home/dkagle/src/scala/android/src/main/scala/printStaticValues.scala -> StaticValues
+/home/dkagle/src/scala/android/src/main/scala/printStaticValues.scala -> String
+/home/dkagle/src/scala/android/src/main/scala/printStaticValues.scala -> basedir
+/home/dkagle/src/scala/android/src/main/scala/printStaticValues.scala -> close
+/home/dkagle/src/scala/android/src/main/scala/printStaticValues.scala -> ezbuilder
+/home/dkagle/src/scala/android/src/main/scala/printStaticValues.scala -> fallbackSystemCodec
+/home/dkagle/src/scala/android/src/main/scala/printStaticValues.scala -> fileName
+/home/dkagle/src/scala/android/src/main/scala/printStaticValues.scala -> foreach
+/home/dkagle/src/scala/android/src/main/scala/printStaticValues.scala -> fromFile
+/home/dkagle/src/scala/android/src/main/scala/printStaticValues.scala -> getLines
+/home/dkagle/src/scala/android/src/main/scala/printStaticValues.scala -> indexOf
+/home/dkagle/src/scala/android/src/main/scala/printStaticValues.scala -> io
+/home/dkagle/src/scala/android/src/main/scala/printStaticValues.scala -> java
+/home/dkagle/src/scala/android/src/main/scala/printStaticValues.scala -> line
+/home/dkagle/src/scala/android/src/main/scala/printStaticValues.scala -> mvcDir
+/home/dkagle/src/scala/android/src/main/scala/printStaticValues.scala -> package
+/home/dkagle/src/scala/android/src/main/scala/printStaticValues.scala -> printObjectStrings
+/home/dkagle/src/scala/android/src/main/scala/printStaticValues.scala -> process
+/home/dkagle/src/scala/android/src/main/scala/printStaticValues.scala -> qualifiedFileName
+/home/dkagle/src/scala/android/src/main/scala/printStaticValues.scala -> scala
+/home/dkagle/src/scala/android/src/main/scala/printStaticValues.scala -> scalaMVC
+/home/dkagle/src/scala/android/src/main/scala/printStaticValues.scala -> stringToProcess
+/home/dkagle/src/scala/android/src/main/scala/printStaticValues.scala -> sys
+/home/dkagle/src/scala/android/src/main/scala/printStaticValues.scala -> tab
+/home/dkagle/src/scala/android/src/main/scala/printStaticValues.scala -> write
+/home/dkagle/src/scala/android/src/main/scala/printStaticValues.scala -> writer
+/home/dkagle/src/scala/android/src/main/scala/printValues.scala -> !
+/home/dkagle/src/scala/android/src/main/scala/printValues.scala -> +
+/home/dkagle/src/scala/android/src/main/scala/printValues.scala -> <init>
+/home/dkagle/src/scala/android/src/main/scala/printValues.scala -> ==
+/home/dkagle/src/scala/android/src/main/scala/printValues.scala -> Codec
+/home/dkagle/src/scala/android/src/main/scala/printValues.scala -> File
+/home/dkagle/src/scala/android/src/main/scala/printValues.scala -> List
+/home/dkagle/src/scala/android/src/main/scala/printValues.scala -> Option
+/home/dkagle/src/scala/android/src/main/scala/printValues.scala -> Predef
+/home/dkagle/src/scala/android/src/main/scala/printValues.scala -> PrintWriter
+/home/dkagle/src/scala/android/src/main/scala/printValues.scala -> Source
+/home/dkagle/src/scala/android/src/main/scala/printValues.scala -> String
+/home/dkagle/src/scala/android/src/main/scala/printValues.scala -> Values
+/home/dkagle/src/scala/android/src/main/scala/printValues.scala -> augmentString
+/home/dkagle/src/scala/android/src/main/scala/printValues.scala -> basedir
+/home/dkagle/src/scala/android/src/main/scala/printValues.scala -> calculate
+/home/dkagle/src/scala/android/src/main/scala/printValues.scala -> capitalize
+/home/dkagle/src/scala/android/src/main/scala/printValues.scala -> capitalizedObjectName
+/home/dkagle/src/scala/android/src/main/scala/printValues.scala -> close
+/home/dkagle/src/scala/android/src/main/scala/printValues.scala -> ezbuilder
+/home/dkagle/src/scala/android/src/main/scala/printValues.scala -> f
+/home/dkagle/src/scala/android/src/main/scala/printValues.scala -> fallbackSystemCodec
+/home/dkagle/src/scala/android/src/main/scala/printValues.scala -> fieldName
+/home/dkagle/src/scala/android/src/main/scala/printValues.scala -> fields
+/home/dkagle/src/scala/android/src/main/scala/printValues.scala -> fileName
+/home/dkagle/src/scala/android/src/main/scala/printValues.scala -> fn
+/home/dkagle/src/scala/android/src/main/scala/printValues.scala -> foreach
+/home/dkagle/src/scala/android/src/main/scala/printValues.scala -> fromFile
+/home/dkagle/src/scala/android/src/main/scala/printValues.scala -> get
+/home/dkagle/src/scala/android/src/main/scala/printValues.scala -> getFieldName
+/home/dkagle/src/scala/android/src/main/scala/printValues.scala -> getLines
+/home/dkagle/src/scala/android/src/main/scala/printValues.scala -> indexOf
+/home/dkagle/src/scala/android/src/main/scala/printValues.scala -> io
+/home/dkagle/src/scala/android/src/main/scala/printValues.scala -> java
+/home/dkagle/src/scala/android/src/main/scala/printValues.scala -> line
+/home/dkagle/src/scala/android/src/main/scala/printValues.scala -> mvcDir
+/home/dkagle/src/scala/android/src/main/scala/printValues.scala -> objectName
+/home/dkagle/src/scala/android/src/main/scala/printValues.scala -> package
+/home/dkagle/src/scala/android/src/main/scala/printValues.scala -> primaryKey
+/home/dkagle/src/scala/android/src/main/scala/printValues.scala -> printFields
+/home/dkagle/src/scala/android/src/main/scala/printValues.scala -> process
+/home/dkagle/src/scala/android/src/main/scala/printValues.scala -> qualifiedFileName
+/home/dkagle/src/scala/android/src/main/scala/printValues.scala -> scala
+/home/dkagle/src/scala/android/src/main/scala/printValues.scala -> scalaMVCFile
+/home/dkagle/src/scala/android/src/main/scala/printValues.scala -> stringToProcess
+/home/dkagle/src/scala/android/src/main/scala/printValues.scala -> sys
+/home/dkagle/src/scala/android/src/main/scala/printValues.scala -> tab
+/home/dkagle/src/scala/android/src/main/scala/printValues.scala -> url
+/home/dkagle/src/scala/android/src/main/scala/printValues.scala -> write
+/home/dkagle/src/scala/android/src/main/scala/printValues.scala -> writer
+/home/dkagle/src/scala/android/src/main/scala/printlayout.scala -> !=
+/home/dkagle/src/scala/android/src/main/scala/printlayout.scala -> +
+/home/dkagle/src/scala/android/src/main/scala/printlayout.scala -> <init>
+/home/dkagle/src/scala/android/src/main/scala/printlayout.scala -> ==
+/home/dkagle/src/scala/android/src/main/scala/printlayout.scala -> File
+/home/dkagle/src/scala/android/src/main/scala/printlayout.scala -> Layout
+/home/dkagle/src/scala/android/src/main/scala/printlayout.scala -> List
+/home/dkagle/src/scala/android/src/main/scala/printlayout.scala -> Option
+/home/dkagle/src/scala/android/src/main/scala/printlayout.scala -> Predef
+/home/dkagle/src/scala/android/src/main/scala/printlayout.scala -> PrintWriter
+/home/dkagle/src/scala/android/src/main/scala/printlayout.scala -> String
+/home/dkagle/src/scala/android/src/main/scala/printlayout.scala -> augmentString
+/home/dkagle/src/scala/android/src/main/scala/printlayout.scala -> basedir
+/home/dkagle/src/scala/android/src/main/scala/printlayout.scala -> capitalize
+/home/dkagle/src/scala/android/src/main/scala/printlayout.scala -> close
+/home/dkagle/src/scala/android/src/main/scala/printlayout.scala -> ezbuilder
+/home/dkagle/src/scala/android/src/main/scala/printlayout.scala -> f
+/home/dkagle/src/scala/android/src/main/scala/printlayout.scala -> fieldName
+/home/dkagle/src/scala/android/src/main/scala/printlayout.scala -> fields
+/home/dkagle/src/scala/android/src/main/scala/printlayout.scala -> fileName
+/home/dkagle/src/scala/android/src/main/scala/printlayout.scala -> fn
+/home/dkagle/src/scala/android/src/main/scala/printlayout.scala -> foreach
+/home/dkagle/src/scala/android/src/main/scala/printlayout.scala -> get
+/home/dkagle/src/scala/android/src/main/scala/printlayout.scala -> getFieldName
+/home/dkagle/src/scala/android/src/main/scala/printlayout.scala -> head
+/home/dkagle/src/scala/android/src/main/scala/printlayout.scala -> io
+/home/dkagle/src/scala/android/src/main/scala/printlayout.scala -> java
+/home/dkagle/src/scala/android/src/main/scala/printlayout.scala -> mvcDir
+/home/dkagle/src/scala/android/src/main/scala/printlayout.scala -> objectName
+/home/dkagle/src/scala/android/src/main/scala/printlayout.scala -> package
+/home/dkagle/src/scala/android/src/main/scala/printlayout.scala -> previousField
+/home/dkagle/src/scala/android/src/main/scala/printlayout.scala -> primaryKey
+/home/dkagle/src/scala/android/src/main/scala/printlayout.scala -> scala
+/home/dkagle/src/scala/android/src/main/scala/printlayout.scala -> scalaMVCFile
+/home/dkagle/src/scala/android/src/main/scala/printlayout.scala -> tab
+/home/dkagle/src/scala/android/src/main/scala/printlayout.scala -> url
+/home/dkagle/src/scala/android/src/main/scala/printlayout.scala -> write
+/home/dkagle/src/scala/android/src/main/scala/printlayout.scala -> writer
+/home/dkagle/src/scala/android/src/main/scala/printmenu.scala -> !
+/home/dkagle/src/scala/android/src/main/scala/printmenu.scala -> +
+/home/dkagle/src/scala/android/src/main/scala/printmenu.scala -> <init>
+/home/dkagle/src/scala/android/src/main/scala/printmenu.scala -> ==
+/home/dkagle/src/scala/android/src/main/scala/printmenu.scala -> Codec
+/home/dkagle/src/scala/android/src/main/scala/printmenu.scala -> File
+/home/dkagle/src/scala/android/src/main/scala/printmenu.scala -> List
+/home/dkagle/src/scala/android/src/main/scala/printmenu.scala -> Menu
+/home/dkagle/src/scala/android/src/main/scala/printmenu.scala -> Option
+/home/dkagle/src/scala/android/src/main/scala/printmenu.scala -> Predef
+/home/dkagle/src/scala/android/src/main/scala/printmenu.scala -> PrintWriter
+/home/dkagle/src/scala/android/src/main/scala/printmenu.scala -> Source
+/home/dkagle/src/scala/android/src/main/scala/printmenu.scala -> String
+/home/dkagle/src/scala/android/src/main/scala/printmenu.scala -> basedir
+/home/dkagle/src/scala/android/src/main/scala/printmenu.scala -> capitalizedObjectName
+/home/dkagle/src/scala/android/src/main/scala/printmenu.scala -> close
+/home/dkagle/src/scala/android/src/main/scala/printmenu.scala -> ezbuilder
+/home/dkagle/src/scala/android/src/main/scala/printmenu.scala -> fallbackSystemCodec
+/home/dkagle/src/scala/android/src/main/scala/printmenu.scala -> fields
+/home/dkagle/src/scala/android/src/main/scala/printmenu.scala -> fileName
+/home/dkagle/src/scala/android/src/main/scala/printmenu.scala -> foreach
+/home/dkagle/src/scala/android/src/main/scala/printmenu.scala -> fromFile
+/home/dkagle/src/scala/android/src/main/scala/printmenu.scala -> getLines
+/home/dkagle/src/scala/android/src/main/scala/printmenu.scala -> indexOf
+/home/dkagle/src/scala/android/src/main/scala/printmenu.scala -> io
+/home/dkagle/src/scala/android/src/main/scala/printmenu.scala -> java
+/home/dkagle/src/scala/android/src/main/scala/printmenu.scala -> line
+/home/dkagle/src/scala/android/src/main/scala/printmenu.scala -> mvcDir
+/home/dkagle/src/scala/android/src/main/scala/printmenu.scala -> objectName
+/home/dkagle/src/scala/android/src/main/scala/printmenu.scala -> package
+/home/dkagle/src/scala/android/src/main/scala/printmenu.scala -> primaryKey
+/home/dkagle/src/scala/android/src/main/scala/printmenu.scala -> println
+/home/dkagle/src/scala/android/src/main/scala/printmenu.scala -> process
+/home/dkagle/src/scala/android/src/main/scala/printmenu.scala -> qualifiedFileName
+/home/dkagle/src/scala/android/src/main/scala/printmenu.scala -> scala
+/home/dkagle/src/scala/android/src/main/scala/printmenu.scala -> scalaMVCFile
+/home/dkagle/src/scala/android/src/main/scala/printmenu.scala -> stringToProcess
+/home/dkagle/src/scala/android/src/main/scala/printmenu.scala -> sys
+/home/dkagle/src/scala/android/src/main/scala/printmenu.scala -> tab
+/home/dkagle/src/scala/android/src/main/scala/printmenu.scala -> url
+/home/dkagle/src/scala/android/src/main/scala/printmenu.scala -> write
+/home/dkagle/src/scala/android/src/main/scala/printmenu.scala -> writer
+/home/dkagle/src/scala/android/src/main/scala/scalaMVC.scala -> +
+/home/dkagle/src/scala/android/src/main/scala/scalaMVC.scala -> <
+/home/dkagle/src/scala/android/src/main/scala/scalaMVC.scala -> <init>
+/home/dkagle/src/scala/android/src/main/scala/scalaMVC.scala -> ==
+/home/dkagle/src/scala/android/src/main/scala/scalaMVC.scala -> AnyRef
+/home/dkagle/src/scala/android/src/main/scala/scalaMVC.scala -> Predef
+/home/dkagle/src/scala/android/src/main/scala/scalaMVC.scala -> PrintWriter
+/home/dkagle/src/scala/android/src/main/scala/scalaMVC.scala -> String
+/home/dkagle/src/scala/android/src/main/scala/scalaMVC.scala -> dataType
+/home/dkagle/src/scala/android/src/main/scala/scalaMVC.scala -> end
+/home/dkagle/src/scala/android/src/main/scala/scalaMVC.scala -> ezbuilder
+/home/dkagle/src/scala/android/src/main/scala/scalaMVC.scala -> fieldName
+/home/dkagle/src/scala/android/src/main/scala/scalaMVC.scala -> fieldType
+/home/dkagle/src/scala/android/src/main/scala/scalaMVC.scala -> indexOf
+/home/dkagle/src/scala/android/src/main/scala/scalaMVC.scala -> io
+/home/dkagle/src/scala/android/src/main/scala/scalaMVC.scala -> java
+/home/dkagle/src/scala/android/src/main/scala/scalaMVC.scala -> length
+/home/dkagle/src/scala/android/src/main/scala/scalaMVC.scala -> line
+/home/dkagle/src/scala/android/src/main/scala/scalaMVC.scala -> scala
+/home/dkagle/src/scala/android/src/main/scala/scalaMVC.scala -> scalaMVC
+/home/dkagle/src/scala/android/src/main/scala/scalaMVC.scala -> start
+/home/dkagle/src/scala/android/src/main/scala/scalaMVC.scala -> substring
+/home/dkagle/src/scala/android/src/main/scala/scalaMVC.scala -> toLowerCase
+/home/dkagle/src/scala/android/src/main/scala/scalaMVC.scala -> trim
+/home/dkagle/src/scala/android/src/main/scala/scalaMVC.scala -> typeEnd
+/home/dkagle/src/scala/android/src/main/scala/scalaMVC.scala -> typeStart
+/home/dkagle/src/scala/android/src/main/scala/scalaMVC.scala -> write
+/home/dkagle/src/scala/android/src/main/scala/scalaMVC.scala -> writer
+/home/dkagle/src/scala/android/src/main/scala/scalaMVCFile.scala -> +
+/home/dkagle/src/scala/android/src/main/scala/scalaMVCFile.scala -> <init>
+/home/dkagle/src/scala/android/src/main/scala/scalaMVCFile.scala -> ==
+/home/dkagle/src/scala/android/src/main/scala/scalaMVCFile.scala -> List
+/home/dkagle/src/scala/android/src/main/scala/scalaMVCFile.scala -> Option
+/home/dkagle/src/scala/android/src/main/scala/scalaMVCFile.scala -> Predef
+/home/dkagle/src/scala/android/src/main/scala/scalaMVCFile.scala -> String
+/home/dkagle/src/scala/android/src/main/scala/scalaMVCFile.scala -> Unit
+/home/dkagle/src/scala/android/src/main/scala/scalaMVCFile.scala -> augmentString
+/home/dkagle/src/scala/android/src/main/scala/scalaMVCFile.scala -> capitalize
+/home/dkagle/src/scala/android/src/main/scala/scalaMVCFile.scala -> capitalizedObjectName
+/home/dkagle/src/scala/android/src/main/scala/scalaMVCFile.scala -> comma
+/home/dkagle/src/scala/android/src/main/scala/scalaMVCFile.scala -> comma_=
+/home/dkagle/src/scala/android/src/main/scala/scalaMVCFile.scala -> dataType
+/home/dkagle/src/scala/android/src/main/scala/scalaMVCFile.scala -> ezbuilder
+/home/dkagle/src/scala/android/src/main/scala/scalaMVCFile.scala -> f
+/home/dkagle/src/scala/android/src/main/scala/scalaMVCFile.scala -> fieldName
+/home/dkagle/src/scala/android/src/main/scala/scalaMVCFile.scala -> fields
+/home/dkagle/src/scala/android/src/main/scala/scalaMVCFile.scala -> fn
+/home/dkagle/src/scala/android/src/main/scala/scalaMVCFile.scala -> foreach
+/home/dkagle/src/scala/android/src/main/scala/scalaMVCFile.scala -> get
+/home/dkagle/src/scala/android/src/main/scala/scalaMVCFile.scala -> getFieldName
+/home/dkagle/src/scala/android/src/main/scala/scalaMVCFile.scala -> getType
+/home/dkagle/src/scala/android/src/main/scala/scalaMVCFile.scala -> idString
+/home/dkagle/src/scala/android/src/main/scala/scalaMVCFile.scala -> idString_=
+/home/dkagle/src/scala/android/src/main/scala/scalaMVCFile.scala -> jsonAdd
+/home/dkagle/src/scala/android/src/main/scala/scalaMVCFile.scala -> jsonAdd_=
+/home/dkagle/src/scala/android/src/main/scala/scalaMVCFile.scala -> last
+/home/dkagle/src/scala/android/src/main/scala/scalaMVCFile.scala -> lookupType
+/home/dkagle/src/scala/android/src/main/scala/scalaMVCFile.scala -> lowerCaseObjectName
+/home/dkagle/src/scala/android/src/main/scala/scalaMVCFile.scala -> objectName
+/home/dkagle/src/scala/android/src/main/scala/scalaMVCFile.scala -> package
+/home/dkagle/src/scala/android/src/main/scala/scalaMVCFile.scala -> pluralUpperCaseObjectName
+/home/dkagle/src/scala/android/src/main/scala/scalaMVCFile.scala -> plusquote
+/home/dkagle/src/scala/android/src/main/scala/scalaMVCFile.scala -> plusquote_=
+/home/dkagle/src/scala/android/src/main/scala/scalaMVCFile.scala -> primaryKey
+/home/dkagle/src/scala/android/src/main/scala/scalaMVCFile.scala -> quote
+/home/dkagle/src/scala/android/src/main/scala/scalaMVCFile.scala -> quote_=
+/home/dkagle/src/scala/android/src/main/scala/scalaMVCFile.scala -> replaceAll
+/home/dkagle/src/scala/android/src/main/scala/scalaMVCFile.scala -> scala
+/home/dkagle/src/scala/android/src/main/scala/scalaMVCFile.scala -> scalaMVC
+/home/dkagle/src/scala/android/src/main/scala/scalaMVCFile.scala -> scalaMVCFile
+/home/dkagle/src/scala/android/src/main/scala/scalaMVCFile.scala -> scalaType
+/home/dkagle/src/scala/android/src/main/scala/scalaMVCFile.scala -> slash
+/home/dkagle/src/scala/android/src/main/scala/scalaMVCFile.scala -> slash_=
+/home/dkagle/src/scala/android/src/main/scala/scalaMVCFile.scala -> substring
+/home/dkagle/src/scala/android/src/main/scala/scalaMVCFile.scala -> tab
+/home/dkagle/src/scala/android/src/main/scala/scalaMVCFile.scala -> tagString
+/home/dkagle/src/scala/android/src/main/scala/scalaMVCFile.scala -> tagString_=
+/home/dkagle/src/scala/android/src/main/scala/scalaMVCFile.scala -> toLowerCase
+/home/dkagle/src/scala/android/src/main/scala/scalaMVCFile.scala -> toUpperCase
+/home/dkagle/src/scala/android/src/main/scala/scalaMVCFile.scala -> updateURL
+/home/dkagle/src/scala/android/src/main/scala/scalaMVCFile.scala -> updateURL_=
+/home/dkagle/src/scala/android/src/main/scala/scalaMVCFile.scala -> upperCaseObjectName
+product stamps:
+55 items
+/home/dkagle/src/scala/android/src/main/scala/target/scala-2.10/classes/androidbuild$$anonfun$1.class -> lastModified(1467229590000)
+/home/dkagle/src/scala/android/src/main/scala/target/scala-2.10/classes/androidbuild$$anonfun$2$$anonfun$apply$1.class -> lastModified(1467229590000)
+/home/dkagle/src/scala/android/src/main/scala/target/scala-2.10/classes/androidbuild$$anonfun$2.class -> lastModified(1467229590000)
+/home/dkagle/src/scala/android/src/main/scala/target/scala-2.10/classes/androidbuild$$anonfun$printFields$1.class -> lastModified(1467229590000)
+/home/dkagle/src/scala/android/src/main/scala/target/scala-2.10/classes/androidbuild$$anonfun$printSchemas$1$$anonfun$apply$2.class -> lastModified(1467229590000)
+/home/dkagle/src/scala/android/src/main/scala/target/scala-2.10/classes/androidbuild$$anonfun$printSchemas$1$$anonfun$apply$3$$anonfun$apply$4.class -> lastModified(1467229590000)
+/home/dkagle/src/scala/android/src/main/scala/target/scala-2.10/classes/androidbuild$$anonfun$printSchemas$1$$anonfun$apply$3.class -> lastModified(1467229590000)
+/home/dkagle/src/scala/android/src/main/scala/target/scala-2.10/classes/androidbuild$$anonfun$printSchemas$1.class -> lastModified(1467229590000)
+/home/dkagle/src/scala/android/src/main/scala/target/scala-2.10/classes/androidbuild$.class -> lastModified(1467229590000)
+/home/dkagle/src/scala/android/src/main/scala/target/scala-2.10/classes/androidbuild$delayedInit$body.class -> lastModified(1467229590000)
+/home/dkagle/src/scala/android/src/main/scala/target/scala-2.10/classes/androidbuild.class -> lastModified(1467229590000)
+/home/dkagle/src/scala/android/src/main/scala/target/scala-2.10/classes/ezbuilder/AddActivity$$anonfun$print$1.class -> lastModified(1467221856000)
+/home/dkagle/src/scala/android/src/main/scala/target/scala-2.10/classes/ezbuilder/AddActivity$$anonfun$print$2.class -> lastModified(1467221856000)
+/home/dkagle/src/scala/android/src/main/scala/target/scala-2.10/classes/ezbuilder/AddActivity$$anonfun$print$3.class -> lastModified(1467221856000)
+/home/dkagle/src/scala/android/src/main/scala/target/scala-2.10/classes/ezbuilder/AddActivity.class -> lastModified(1467221856000)
+/home/dkagle/src/scala/android/src/main/scala/target/scala-2.10/classes/ezbuilder/AndroidManifest$$anonfun$print$1.class -> lastModified(1467221856000)
+/home/dkagle/src/scala/android/src/main/scala/target/scala-2.10/classes/ezbuilder/AndroidManifest.class -> lastModified(1467221856000)
+/home/dkagle/src/scala/android/src/main/scala/target/scala-2.10/classes/ezbuilder/DeleteFormActivity$$anonfun$print$1.class -> lastModified(1467221856000)
+/home/dkagle/src/scala/android/src/main/scala/target/scala-2.10/classes/ezbuilder/DeleteFormActivity.class -> lastModified(1467221856000)
+/home/dkagle/src/scala/android/src/main/scala/target/scala-2.10/classes/ezbuilder/DeleteListActivity$$anonfun$print$1.class -> lastModified(1467221856000)
+/home/dkagle/src/scala/android/src/main/scala/target/scala-2.10/classes/ezbuilder/DeleteListActivity$$anonfun$print$2.class -> lastModified(1467221856000)
+/home/dkagle/src/scala/android/src/main/scala/target/scala-2.10/classes/ezbuilder/DeleteListActivity$$anonfun$print$3.class -> lastModified(1467221856000)
+/home/dkagle/src/scala/android/src/main/scala/target/scala-2.10/classes/ezbuilder/DeleteListActivity$$anonfun$print$4.class -> lastModified(1467221856000)
+/home/dkagle/src/scala/android/src/main/scala/target/scala-2.10/classes/ezbuilder/DeleteListActivity.class -> lastModified(1467221856000)
+/home/dkagle/src/scala/android/src/main/scala/target/scala-2.10/classes/ezbuilder/FormActivity$$anonfun$print$1.class -> lastModified(1467221856000)
+/home/dkagle/src/scala/android/src/main/scala/target/scala-2.10/classes/ezbuilder/FormActivity$$anonfun$print$2.class -> lastModified(1467221856000)
+/home/dkagle/src/scala/android/src/main/scala/target/scala-2.10/classes/ezbuilder/FormActivity.class -> lastModified(1467221856000)
+/home/dkagle/src/scala/android/src/main/scala/target/scala-2.10/classes/ezbuilder/Layout$$anonfun$print$1.class -> lastModified(1467221856000)
+/home/dkagle/src/scala/android/src/main/scala/target/scala-2.10/classes/ezbuilder/Layout$$anonfun$print$2.class -> lastModified(1467221856000)
+/home/dkagle/src/scala/android/src/main/scala/target/scala-2.10/classes/ezbuilder/Layout$$anonfun$print$3.class -> lastModified(1467221856000)
+/home/dkagle/src/scala/android/src/main/scala/target/scala-2.10/classes/ezbuilder/Layout$$anonfun$print$4.class -> lastModified(1467221856000)
+/home/dkagle/src/scala/android/src/main/scala/target/scala-2.10/classes/ezbuilder/Layout$$anonfun$print$5.class -> lastModified(1467221856000)
+/home/dkagle/src/scala/android/src/main/scala/target/scala-2.10/classes/ezbuilder/Layout$$anonfun$print$6.class -> lastModified(1467221856000)
+/home/dkagle/src/scala/android/src/main/scala/target/scala-2.10/classes/ezbuilder/Layout.class -> lastModified(1467221856000)
+/home/dkagle/src/scala/android/src/main/scala/target/scala-2.10/classes/ezbuilder/ListActivity$$anonfun$print$1.class -> lastModified(1467221856000)
+/home/dkagle/src/scala/android/src/main/scala/target/scala-2.10/classes/ezbuilder/ListActivity$$anonfun$print$2.class -> lastModified(1467221856000)
+/home/dkagle/src/scala/android/src/main/scala/target/scala-2.10/classes/ezbuilder/ListActivity$$anonfun$print$3.class -> lastModified(1467221856000)
+/home/dkagle/src/scala/android/src/main/scala/target/scala-2.10/classes/ezbuilder/ListActivity$$anonfun$print$4.class -> lastModified(1467221856000)
+/home/dkagle/src/scala/android/src/main/scala/target/scala-2.10/classes/ezbuilder/ListActivity.class -> lastModified(1467221856000)
+/home/dkagle/src/scala/android/src/main/scala/target/scala-2.10/classes/ezbuilder/MainActivity.class -> lastModified(1467221856000)
+/home/dkagle/src/scala/android/src/main/scala/target/scala-2.10/classes/ezbuilder/Menu$$anonfun$print$1.class -> lastModified(1467226411000)
+/home/dkagle/src/scala/android/src/main/scala/target/scala-2.10/classes/ezbuilder/Menu.class -> lastModified(1467226411000)
+/home/dkagle/src/scala/android/src/main/scala/target/scala-2.10/classes/ezbuilder/StaticLayout.class -> lastModified(1467225524000)
+/home/dkagle/src/scala/android/src/main/scala/target/scala-2.10/classes/ezbuilder/StaticMainActivity$$anonfun$print$1$$anonfun$apply$1.class -> lastModified(1467221857000)
+/home/dkagle/src/scala/android/src/main/scala/target/scala-2.10/classes/ezbuilder/StaticMainActivity$$anonfun$print$1$$anonfun$apply$2.class -> lastModified(1467221857000)
+/home/dkagle/src/scala/android/src/main/scala/target/scala-2.10/classes/ezbuilder/StaticMainActivity$$anonfun$print$1.class -> lastModified(1467221857000)
+/home/dkagle/src/scala/android/src/main/scala/target/scala-2.10/classes/ezbuilder/StaticMainActivity.class -> lastModified(1467221857000)
+/home/dkagle/src/scala/android/src/main/scala/target/scala-2.10/classes/ezbuilder/StaticValues$$anonfun$print$1.class -> lastModified(1467221857000)
+/home/dkagle/src/scala/android/src/main/scala/target/scala-2.10/classes/ezbuilder/StaticValues.class -> lastModified(1467221857000)
+/home/dkagle/src/scala/android/src/main/scala/target/scala-2.10/classes/ezbuilder/Values$$anonfun$print$1.class -> lastModified(1467221857000)
+/home/dkagle/src/scala/android/src/main/scala/target/scala-2.10/classes/ezbuilder/Values$$anonfun$printFields$1.class -> lastModified(1467221857000)
+/home/dkagle/src/scala/android/src/main/scala/target/scala-2.10/classes/ezbuilder/Values.class -> lastModified(1467221857000)
+/home/dkagle/src/scala/android/src/main/scala/target/scala-2.10/classes/ezbuilder/scalaMVC.class -> lastModified(1467221857000)
+/home/dkagle/src/scala/android/src/main/scala/target/scala-2.10/classes/ezbuilder/scalaMVCFile$$anonfun$calculate$1.class -> lastModified(1467221857000)
+/home/dkagle/src/scala/android/src/main/scala/target/scala-2.10/classes/ezbuilder/scalaMVCFile.class -> lastModified(1467221857000)
+source stamps:
+16 items
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> hash(ae39beaa945cac1f74142e3c68de09dc29898894)
+/home/dkagle/src/scala/android/src/main/scala/printAddActivity.scala -> hash(869b451195a7c8b3101daff9bdb60a4f7506a5eb)
+/home/dkagle/src/scala/android/src/main/scala/printAndroidManifest.scala -> hash(db606c39e4605c35b62054947809352b95df7a9f)
+/home/dkagle/src/scala/android/src/main/scala/printDeleteFormActivity.scala -> hash(e17a0c3afb89e3c6ede121fef6a851b24e4ea10a)
+/home/dkagle/src/scala/android/src/main/scala/printDeleteListActivity.scala -> hash(04944fce677b7408a05ef003b0cba0fae2750782)
+/home/dkagle/src/scala/android/src/main/scala/printFormActivity.scala -> hash(35cba6911b632cd9db8e82308da592b617b7359a)
+/home/dkagle/src/scala/android/src/main/scala/printListActivity.scala -> hash(4fb2ceb8f193420ae2962992ab7fa14dcb770931)
+/home/dkagle/src/scala/android/src/main/scala/printMain.scala -> hash(02920a18410314582620eb572dd8a01f713c0f4a)
+/home/dkagle/src/scala/android/src/main/scala/printStaticLayout.scala -> hash(20284c499bac8ad3af5f0c362fc5e5b5ff61de27)
+/home/dkagle/src/scala/android/src/main/scala/printStaticMain.scala -> hash(ca929377b776a54ac4548616f472dc8b679448b6)
+/home/dkagle/src/scala/android/src/main/scala/printStaticValues.scala -> hash(9b705996e88668d73fbd59dcf9e0a913500e148b)
+/home/dkagle/src/scala/android/src/main/scala/printValues.scala -> hash(6dce8cfb3568647093ca16c6a3ce1df40b751224)
+/home/dkagle/src/scala/android/src/main/scala/printlayout.scala -> hash(f0151b162c7f3dcaccf8187b44ec9e1502ee0c47)
+/home/dkagle/src/scala/android/src/main/scala/printmenu.scala -> hash(9f51106bd3c0ee4e76f09cce42b8750484a18f7d)
+/home/dkagle/src/scala/android/src/main/scala/scalaMVC.scala -> hash(c7a7ec4bca68f648fc4b9d312c8aec163d80b2c6)
+/home/dkagle/src/scala/android/src/main/scala/scalaMVCFile.scala -> hash(a2406e7c3dd1dcd6a2d9a77a8195bdcd61a19e4a)
+binary stamps:
+2 items
+/home/dkagle/.sbt/boot/scala-2.10.5/lib/scala-library.jar -> lastModified(1425520576000)
+/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar -> lastModified(1461395349000)
+class names:
+2 items
+/home/dkagle/.sbt/boot/scala-2.10.5/lib/scala-library.jar -> scala.App
+/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar -> java.lang.Object
+internal apis:
+16 items
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHBftFjpAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAOHNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cIeRssx0AAZub3RpZnlzcQB+AAyvoaXOdAAJZmlsZUxpbmVzc3EAfgAMLHI3zHQAB2Jhc2VkaXJzcQB+AAxGFGv5dAAEd2FpdHNxAH4ADGpDxqZ0AA9mb3VuZEZvcmllZ25LZXlzcQB+AAyBaXDhdAANJGFzSW5zdGFuY2VPZnNxAH4ADME8Nkd0AAN1cmxzcQB+AAzagxjidAAGZXF1YWxzc3EAfgAMMrtMz3QAEGZvdW5kQ3JlYXRlVGFibGVzcQB+AAypbBLqdAAMYXNJbnN0YW5jZU9mc3EAfgAMNz9HQ3QADmV4ZWN1dGlvblN0YXJ0c3EAfgAM69YSfHQADHN5bmNocm9uaXplZHNxAH4ADC1iLTt0AA0kaXNJbnN0YW5jZU9mc3EAfgAMTN3z5XQACXRhYmxlS2V5c3NxAH4ADEiNf7l0AAVfYXJnc3NxAH4ADJGvFk10AARtYWluc3EAfgAMy3gLSXQACGluaXRDb2Rlc3EAfgAMFu12xHQACW5vdGlmeUFsbHNxAH4ADExrVUJ0AApwcmltYXJ5S2V5c3EAfgAMKKaq4HQAA2tleXNxAH4ADA05pj50AAxpc0luc3RhbmNlT2ZzcQB+AAwGZhEYdAAGcmVzZGlyc3EAfgAMkTGePnQADmZvdW5kRmllbGROYW1lc3EAfgAM/HU4L3QADGFuZHJvaWRidWlsZHNxAH4ADBHPSbp0AAZzY2hlbWFzcQB+AAwk5eprdAAFc3BhY2VzcQB+AAy7mJ5cdAAJdGFibGVOYW1lc3EAfgAMGW7mG3QAAj09c3EAfgAMW3uvoHQAC3NwYWNlTGVuZ3Roc3EAfgAMVqJlnXQABWNsb25lc3EAfgAMrZWFZnQABmZpZWxkc3NxAH4ADJGzzAN0AAdqYXZhZGlyc3EAfgAMsiAVo3QAD2ZvdW5kUHJpbWFyeUtleXNxAH4ADGav2SJ0AANlbmRzcQB+AAwuAf3jdAAIdG9TdHJpbmdzcQB+AAyEaSqMdAAIam9pbktleXNzcQB+AAwHJr7BdAAEYXJnc3NxAH4ADNfTP7h0AAh0YWJsZUtleXNxAH4ADHOYGWp0AA5jcmVhdGVUYWJsZVRhZ3NxAH4ADFce61t0AAIhPXNxAH4ADCo1uPl0AAhnZXRDbGFzc3NxAH4ADDiVpQh0AAlmaWxlc0hlcmVzcQB+AAwEPBWydAANcHJpbWFyeUtleVRhZ3NxAH4ADNztH0d0AAlwYXJzZUxpbmVzcQB+AAwJDpTydAAFc3RhcnRzcQB+AAzYJXQidAACbmVzcQB+AAx24HJIdAAMcHJpbnRTY2hlbWFzc3EAfgAMeglgfXQAAmVxc3EAfgAMkslaGnQADWZvdW5kRW5kVGFibGVzcQB+AAzNQn3NdAALZGVsYXllZEluaXRzcQB+AAw4FPqsdAACIyNzcQB+AAxHB0s/dAAHc2NoZW1hc3NxAH4ADB5en3R0AAhmaW5hbGl6ZXNxAH4ADCIfyzZ0AAtwcmludEZpZWxkc3NxAH4ADCNRQK90AAhoYXNoQ29kZXNxAH4ADEibIWl0AApwYXJzZVRhYmxlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4Ah3hyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzxxETIWmc3CQCAAFCAAVmbGFnc3hwAHEAfgA9dXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAGTW9kdWxldXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyABN4c2J0aS5TYWZlTGF6eSRJbXBsUAIuk5eXQD8CAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAXNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBwc3EAfgCeAXNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgCHTAAJaW5oZXJpdGVkcQB+AIdMAAdwYXJlbnRzcQB+AId4cQB+AKVzcQB+AJ4BdXEAfgCCAAAAAHBzcQB+AJ4BdXEAfgCCAAAAAXNyAA14c2J0aS5hcGkuRGVmUr6f4ny0NmkCAAJMAApyZXR1cm5UeXBldAAQTHhzYnRpL2FwaS9UeXBlO1sAD3ZhbHVlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1BhcmFtZXRlckxpc3Q7eHEAfgCIcQB+AJF1cQB+AJIAAAAAc3EAfgCUAHEAfgAtdXEAfgCWAAAAAHNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AKR0AARVbml0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgCkc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAACc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AAVzY2FsYXNyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgDCdXIAGltMeHNidGkuYXBpLlBhcmFtZXRlckxpc3Q79dM6HfKzcO4CAAB4cAAAAAFzcgAXeHNidGkuYXBpLlBhcmFtZXRlckxpc3TWxbwcZEl04wIAAloACmlzSW1wbGljaXRbAApwYXJhbWV0ZXJzdAAcW0x4c2J0aS9hcGkvTWV0aG9kUGFyYW1ldGVyO3hwAHVyABxbTHhzYnRpLmFwaS5NZXRob2RQYXJhbWV0ZXI7z7jFXaXdtW0CAAB4cAAAAAFzcgAZeHNidGkuYXBpLk1ldGhvZFBhcmFtZXRlch9FrhfTSbDqAgAEWgAKaGFzRGVmYXVsdEwACG1vZGlmaWVydAAdTHhzYnRpL2FwaS9QYXJhbWV0ZXJNb2RpZmllcjtMAARuYW1lcQB+AA1MAAN0cGVxAH4Ar3hwAH5yABt4c2J0aS5hcGkuUGFyYW1ldGVyTW9kaWZpZXIAAAAAAAAAABIAAHhxAH4AmXQABVBsYWlucQB+AFdzcgAXeHNidGkuYXBpLlBhcmFtZXRlcml6ZWQWbO5pA8m7fwIAAkwACGJhc2VUeXBlcQB+ALZbAA10eXBlQXJndW1lbnRzdAARW0x4c2J0aS9hcGkvVHlwZTt4cQB+AKRzcQB+ALV0AAVBcnJheXEAfgC7dXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAFzcQB+ALV0AAZTdHJpbmdzcQB+ALlzcQB+ALx1cQB+AL8AAAADc3EAfgDBdAAEamF2YXNxAH4AwXQABGxhbmdxAH4AxnBzcQB+AJ4BdXEAfgDZAAAABHNxAH4AtXQAA0FwcHEAfgC7c3EAfgC1dAALRGVsYXllZEluaXRxAH4Au3NxAH4AtXQABk9iamVjdHEAfgDdc3EAfgC1dAADQW55cQB+ALtwcHVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAAAc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFVnbLFvnVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0AEcvaG9tZS9ka2FnbGUvc3JjL3NjYWxhL2FuZHJvaWQvc3JjL21haW4vc2NhbGEvdGFyZ2V0L3NjYWxhLTIuMTAvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFK45vqqUXKwfdBQuPGjeCdwpiYiU
+/home/dkagle/src/scala/android/src/main/scala/printAddActivity.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHA7HwPkAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAK3NyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cKRXM590AAZub3RpZnlzcQB+AAzh+P4UdAAEd2FpdHNxAH4ADNlAPGt0ABN1cHBlckNhc2VPYmplY3ROYW1lc3EAfgAMoAemXHQADSRhc0luc3RhbmNlT2ZzcQB+AAytidK2dAAGZXF1YWxzc3EAfgAMGZ5vWnQAA3RhYnNxAH4ADLU+Rfl0AAVzbGFzaHNxAH4ADFTcVnd0AAxhc0luc3RhbmNlT2ZzcQB+AAw1ek3FdAAFcHJpbnRzcQB+AAxKdFoddAAKbG9va3VwVHlwZXNxAH4ADAD384p0AAxzeW5jaHJvbml6ZWRzcQB+AAyaSZL6dAAJdGFnU3RyaW5nc3EAfgAM6p5Ck3QADSRpc0luc3RhbmNlT2ZzcQB+AAxDbbW9dAATbG93ZXJDYXNlT2JqZWN0TmFtZXNxAH4ADLXiVQl0AAlwbHVzcXVvdGVzcQB+AAy/6hjbdAALQWRkQWN0aXZpdHlzcQB+AAxGQ5nidAAJbm90aWZ5QWxsc3EAfgAMY4KWtXQAEWxvb2t1cE1pbktleVZhbHVlc3EAfgAM+FaT3nQABXF1b3Rlc3EAfgAM/zY3zHQADGlzSW5zdGFuY2VPZnNxAH4ADCsR2M50AAY8aW5pdD5zcQB+AAySKA7odAAJY2FsY3VsYXRlc3EAfgAMoFtvZHQACXVwZGF0ZVVSTHNxAH4ADDrdqZl0AAI9PXNxAH4ADLO4qd50ABVjYXBpdGFsaXplZE9iamVjdE5hbWVzcQB+AAwptzO9dAAFY2xvbmVzcQB+AAwDFWK8dAAHZ2V0VHlwZXNxAH4ADNLD3Ox0ABlwbHVyYWxVcHBlckNhc2VPYmplY3ROYW1lc3EAfgAMSjB7x3QACHRvU3RyaW5nc3EAfgAMTaZIenQACGlkU3RyaW5nc3EAfgAM51WaAnQAAiE9c3EAfgAMI3NyJHQACGdldENsYXNzc3EAfgAMC1JqL3QAAm5lc3EAfgAMDbVI6nQAEGxvb2t1cE1pbktleVdvcmRzcQB+AAz28JYodAAUbG9va3VwQ29udHJvbGxlclR5cGVzcQB+AAzDZYoodAACZXFzcQB+AAxWnmLmdAAFd3JpdGVzcQB+AAypQxnZdAAFY29tbWFzcQB+AAyyBECRdAACIyNzcQB+AAzBegK6dAAIZmluYWxpemVzcQB+AAzCkJ3qdAAHanNvbkFkZHNxAH4ADMcUmB10AAhoYXNoQ29kZXNxAH4ADBI21VZ0AAxnZXRGaWVsZE5hbWVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBteHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnPHERMhaZzcJAIAAUIABWZsYWdzeHAAdAAVZXpidWlsZGVyLkFkZEFjdGl2aXR5dXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAIQ2xhc3NEZWZ1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAE3hzYnRpLlNhZmVMYXp5JEltcGxQAi6Tl5dAPwIAA1oACGJpdG1hcCQwTAACX3R0ABJMamF2YS9sYW5nL09iamVjdDtMAARldmFsdAARTHNjYWxhL0Z1bmN0aW9uMDt4cgAWeHNidGkuYXBpLkFic3RyYWN0TGF6edN3tQFfu+egAgAAeHAAcHNyACB4c2J0aS5TYWZlTGF6eSQkYW5vbmZ1biRzdHJpY3QkMQAAAAAAAAAAAgABTAAHdmFsdWUkMXEAfgCGeHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgCFAHBzcQB+AIpzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4AbUwACWluaGVyaXRlZHEAfgBtTAAHcGFyZW50c3EAfgBteHEAfgCOc3EAfgCFAHBzcQB+AIp1cQB+AGgAAAAAc3EAfgCFAHBzcQB+AIp1cQB+AGgAAAAAc3EAfgCFAHBzcQB+AIp1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAABHNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AI10AAxzY2FsYU1WQ0ZpbGVzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AI1zcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAAJzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQACWV6YnVpbGRlcnNyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgCrc3EAfgCedAAIc2NhbGFNVkNxAH4ApHNxAH4AnnQABk9iamVjdHNxAH4AonNxAH4ApXVxAH4AqAAAAANzcQB+AKp0AARqYXZhc3EAfgCqdAAEbGFuZ3EAfgCvc3EAfgCedAADQW55c3EAfgCic3EAfgCldXEAfgCoAAAAAnNxAH4AqnQABXNjYWxhcQB+AK91cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAXNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0AAllemJ1aWxkZXJzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAVWdPLKJdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQARy9ob21lL2RrYWdsZS9zcmMvc2NhbGEvYW5kcm9pZC9zcmMvbWFpbi9zY2FsYS90YXJnZXQvc2NhbGEtMi4xMC9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUhptFEZWnyLMQHa/5vbYKT3UGpes=
+/home/dkagle/src/scala/android/src/main/scala/printAndroidManifest.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHAWWGDfAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAALHNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cLAg20N0AAZub3RpZnlzcQB+AAydw8oxdAAEd2FpdHNxAH4ADOm90sx0AA9BbmRyb2lkTWFuaWZlc3RzcQB+AAwSxeLJdAATdXBwZXJDYXNlT2JqZWN0TmFtZXNxAH4ADBf7rGB0AA0kYXNJbnN0YW5jZU9mc3EAfgAM6TXGbHQABmVxdWFsc3NxAH4ADNoyHdh0AAN0YWJzcQB+AAxMm+GpdAAFc2xhc2hzcQB+AAxm7paOdAAMYXNJbnN0YW5jZU9mc3EAfgAM861ChXQABXByaW50c3EAfgAMqOUEbHQACmxvb2t1cFR5cGVzcQB+AAz+EzosdAAMc3luY2hyb25pemVkc3EAfgAMpP2l+HQACXRhZ1N0cmluZ3NxAH4ADGyKaRB0AA0kaXNJbnN0YW5jZU9mc3EAfgAMZ1mlbXQAE2xvd2VyQ2FzZU9iamVjdE5hbWVzcQB+AAy39psZdAAJcGx1c3F1b3Rlc3EAfgAMzAxNFXQACW5vdGlmeUFsbHNxAH4ADO0w9mN0ABFsb29rdXBNaW5LZXlWYWx1ZXNxAH4ADADQDvJ0AAVxdW90ZXNxAH4ADBR5shV0AAxpc0luc3RhbmNlT2ZzcQB+AAzhBpFldAAGPGluaXQ+c3EAfgAMu9mBJXQACWNhbGN1bGF0ZXNxAH4ADMJ4T3l0AAl1cGRhdGVVUkxzcQB+AAwndvOmdAACPT1zcQB+AAx/jkWwdAAVY2FwaXRhbGl6ZWRPYmplY3ROYW1lc3EAfgAMTaE1XnQABWNsb25lc3EAfgAMBu2njXQAB2dldFR5cGVzcQB+AAwbKLTydAAZcGx1cmFsVXBwZXJDYXNlT2JqZWN0TmFtZXNxAH4ADIzkDtp0AAh0b1N0cmluZ3NxAH4ADFGkR/p0AAhpZFN0cmluZ3NxAH4ADLUKakB0AAIhPXNxAH4ADLwJN/R0AAhnZXRDbGFzc3NxAH4ADFdNF410AAJuZXNxAH4ADIa+Rqh0ABBsb29rdXBNaW5LZXlXb3Jkc3EAfgAMaBrTnXQAFGxvb2t1cENvbnRyb2xsZXJUeXBlc3EAfgAMnoV+2XQAAmVxc3EAfgAM0kTAwnQABXdyaXRlc3EAfgAMrM+vnHQABWNvbW1hc3EAfgAMQr40+nQAAiMjc3EAfgAMPWiRl3QACGZpbmFsaXplc3EAfgAMi6NqM3QAC3ByaW50RmllbGRzc3EAfgAMTojLU3QAB2pzb25BZGRzcQB+AAyNCW45dAAIaGFzaENvZGVzcQB+AAyXSCnhdAAMZ2V0RmllbGROYW1lc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4Ab3hyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzxxETIWmc3CQCAAFCAAVmbGFnc3hwAHQAGWV6YnVpbGRlci5BbmRyb2lkTWFuaWZlc3R1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAhDbGFzc0RlZnVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgATeHNidGkuU2FmZUxhenkkSW1wbFACLpOXl0A/AgADWgAIYml0bWFwJDBMAAJfdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wABGV2YWx0ABFMc2NhbGEvRnVuY3Rpb24wO3hyABZ4c2J0aS5hcGkuQWJzdHJhY3RMYXp503e1AV+756ACAAB4cABwc3IAIHhzYnRpLlNhZmVMYXp5JCRhbm9uZnVuJHN0cmljdCQxAAAAAAAAAAACAAFMAAd2YWx1ZSQxcQB+AIh4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AIcAcHNxAH4AjHNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBvTAAJaW5oZXJpdGVkcQB+AG9MAAdwYXJlbnRzcQB+AG94cQB+AJBzcQB+AIcAcHNxAH4AjHVxAH4AagAAAABzcQB+AIcAcHNxAH4AjHVxAH4AagAAAABzcQB+AIcAcHNxAH4AjHVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAAEc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4Aj3QADHNjYWxhTVZDRmlsZXNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4Aj3NyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAAnNyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAJZXpidWlsZGVyc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AK1zcQB+AKB0AAhzY2FsYU1WQ3EAfgCmc3EAfgCgdAAGT2JqZWN0c3EAfgCkc3EAfgCndXEAfgCqAAAAA3NxAH4ArHQABGphdmFzcQB+AKx0AARsYW5ncQB+ALFzcQB+AKB0AANBbnlzcQB+AKRzcQB+AKd1cQB+AKoAAAACc3EAfgCsdAAFc2NhbGFxAH4AsXVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAABc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AA14cHQACWV6YnVpbGRlcnNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABVZ08sol1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdABHL2hvbWUvZGthZ2xlL3NyYy9zY2FsYS9hbmRyb2lkL3NyYy9tYWluL3NjYWxhL3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABTbYGw55GBcNbYgVJR4CTUrld96nw==
+/home/dkagle/src/scala/android/src/main/scala/printDeleteFormActivity.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHAI3ERRAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAK3NyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cLuJqrR0AAZub3RpZnlzcQB+AAy161gWdAAEd2FpdHNxAH4ADCCzsZ50ABN1cHBlckNhc2VPYmplY3ROYW1lc3EAfgAMs/8Th3QADSRhc0luc3RhbmNlT2ZzcQB+AAw2pr29dAAGZXF1YWxzc3EAfgAM3VZsinQAA3RhYnNxAH4ADIRvd0J0AAVzbGFzaHNxAH4ADEKmGVR0AAxhc0luc3RhbmNlT2ZzcQB+AAwOZJj9dAAFcHJpbnRzcQB+AAzqFhGSdAAKbG9va3VwVHlwZXNxAH4ADLNBopR0AAxzeW5jaHJvbml6ZWRzcQB+AAwkoprldAAJdGFnU3RyaW5nc3EAfgAMjniZJ3QADSRpc0luc3RhbmNlT2ZzcQB+AAz8QPiZdAATbG93ZXJDYXNlT2JqZWN0TmFtZXNxAH4ADNW8Hsp0AAlwbHVzcXVvdGVzcQB+AAyr5n/3dAAJbm90aWZ5QWxsc3EAfgAMjhi/bHQAEWxvb2t1cE1pbktleVZhbHVlc3EAfgAMmRbUknQABXF1b3Rlc3EAfgAMWPWCPXQADGlzSW5zdGFuY2VPZnNxAH4ADD3bAph0ABJEZWxldGVGb3JtQWN0aXZpdHlzcQB+AAz3GxKjdAAGPGluaXQ+c3EAfgAMekTiuHQACWNhbGN1bGF0ZXNxAH4ADIUdqyt0AAl1cGRhdGVVUkxzcQB+AAwQFg0ZdAACPT1zcQB+AAwJqQEPdAAVY2FwaXRhbGl6ZWRPYmplY3ROYW1lc3EAfgAMZ8VP4XQABWNsb25lc3EAfgAM6FkcOXQAB2dldFR5cGVzcQB+AAxOSNkvdAAZcGx1cmFsVXBwZXJDYXNlT2JqZWN0TmFtZXNxAH4ADM7x20J0AAh0b1N0cmluZ3NxAH4ADDwXwj10AAhpZFN0cmluZ3NxAH4ADMT0mWd0AAIhPXNxAH4ADIQF90R0AAhnZXRDbGFzc3NxAH4ADK4glt90AAJuZXNxAH4ADGMokvt0ABBsb29rdXBNaW5LZXlXb3Jkc3EAfgAMP7BLRHQAFGxvb2t1cENvbnRyb2xsZXJUeXBlc3EAfgAMudT3ZHQAAmVxc3EAfgAMyytewHQABXdyaXRlc3EAfgAMj7NlW3QABWNvbW1hc3EAfgAMX8ZhuXQAAiMjc3EAfgAMTKzMpXQACGZpbmFsaXplc3EAfgAMjLcYVnQAB2pzb25BZGRzcQB+AAwDy3jGdAAIaGFzaENvZGVzcQB+AAxkJ7MqdAAMZ2V0RmllbGROYW1lc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AbXhyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzxxETIWmc3CQCAAFCAAVmbGFnc3hwAHQAHGV6YnVpbGRlci5EZWxldGVGb3JtQWN0aXZpdHl1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAhDbGFzc0RlZnVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgATeHNidGkuU2FmZUxhenkkSW1wbFACLpOXl0A/AgADWgAIYml0bWFwJDBMAAJfdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wABGV2YWx0ABFMc2NhbGEvRnVuY3Rpb24wO3hyABZ4c2J0aS5hcGkuQWJzdHJhY3RMYXp503e1AV+756ACAAB4cABwc3IAIHhzYnRpLlNhZmVMYXp5JCRhbm9uZnVuJHN0cmljdCQxAAAAAAAAAAACAAFMAAd2YWx1ZSQxcQB+AIZ4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AIUAcHNxAH4AinNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBtTAAJaW5oZXJpdGVkcQB+AG1MAAdwYXJlbnRzcQB+AG14cQB+AI5zcQB+AIUAcHNxAH4AinVxAH4AaAAAAABzcQB+AIUAcHNxAH4AinVxAH4AaAAAAABzcQB+AIUAcHNxAH4AinVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAAEc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AjXQADHNjYWxhTVZDRmlsZXNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AjXNyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAAnNyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAJZXpidWlsZGVyc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AKtzcQB+AJ50AAhzY2FsYU1WQ3EAfgCkc3EAfgCedAAGT2JqZWN0c3EAfgCic3EAfgCldXEAfgCoAAAAA3NxAH4AqnQABGphdmFzcQB+AKp0AARsYW5ncQB+AK9zcQB+AJ50AANBbnlzcQB+AKJzcQB+AKV1cQB+AKgAAAACc3EAfgCqdAAFc2NhbGFxAH4Ar3VyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAABc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AA14cHQACWV6YnVpbGRlcnNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABVZ08sol1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdABHL2hvbWUvZGthZ2xlL3NyYy9zY2FsYS9hbmRyb2lkL3NyYy9tYWluL3NjYWxhL3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABThegw6+4njxu3hIf72qFGyTk6hCg==
+/home/dkagle/src/scala/android/src/main/scala/printDeleteListActivity.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHBSLMXSAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAK3NyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cJrW3Sd0AAZub3RpZnlzcQB+AAz+TGfcdAAEd2FpdHNxAH4ADGl7cUR0ABN1cHBlckNhc2VPYmplY3ROYW1lc3EAfgAMKVj+PXQADSRhc0luc3RhbmNlT2ZzcQB+AAwJX/5YdAAGZXF1YWxzc3EAfgAM49e+BnQAA3RhYnNxAH4ADIq3gP90AAVzbGFzaHNxAH4ADHipo7p0AAxhc0luc3RhbmNlT2ZzcQB+AAzKDQsadAAFcHJpbnRzcQB+AAzl/SwrdAAKbG9va3VwVHlwZXNxAH4ADFEMw5d0AAxzeW5jaHJvbml6ZWRzcQB+AAyybJLNdAAJdGFnU3RyaW5nc3EAfgAMzQNDHnQADSRpc0luc3RhbmNlT2ZzcQB+AAzUlzgbdAATbG93ZXJDYXNlT2JqZWN0TmFtZXNxAH4ADEKYLIF0AAlwbHVzcXVvdGVzcQB+AAydtoDMdAAJbm90aWZ5QWxsc3EAfgAMBl/lsXQAEWxvb2t1cE1pbktleVZhbHVlc3EAfgAMq00SRXQABXF1b3Rlc3EAfgAMmT5fwnQADGlzSW5zdGFuY2VPZnNxAH4ADOuX9/B0AAY8aW5pdD5zcQB+AAyUVThzdAAJY2FsY3VsYXRlc3EAfgAMakjrbnQACXVwZGF0ZVVSTHNxAH4ADI+M+hh0AAI9PXNxAH4ADCzHtYN0ABVjYXBpdGFsaXplZE9iamVjdE5hbWVzcQB+AAz1LG9ndAAFY2xvbmVzcQB+AAzb0o4XdAAHZ2V0VHlwZXNxAH4ADNywfGV0ABlwbHVyYWxVcHBlckNhc2VPYmplY3ROYW1lc3EAfgAMN5NxgnQACHRvU3RyaW5nc3EAfgAMNPIX8nQACGlkU3RyaW5nc3EAfgAMrm+wenQAAiE9c3EAfgAMIkPPF3QACGdldENsYXNzc3EAfgAMcBJkEHQAAm5lc3EAfgAMmqwG5nQAEGxvb2t1cE1pbktleVdvcmRzcQB+AAyFollhdAAUbG9va3VwQ29udHJvbGxlclR5cGVzcQB+AAwLQnXCdAASRGVsZXRlTGlzdEFjdGl2aXR5c3EAfgAM1sGeFnQAAmVxc3EAfgAMPNpmOXQABXdyaXRlc3EAfgAMFHgOR3QABWNvbW1hc3EAfgAMJ6JOR3QAAiMjc3EAfgAMsPKYPHQACGZpbmFsaXplc3EAfgAMbhhlN3QAB2pzb25BZGRzcQB+AAxEk5MOdAAIaGFzaENvZGVzcQB+AAxLevWvdAAMZ2V0RmllbGROYW1lc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AbXhyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzxxETIWmc3CQCAAFCAAVmbGFnc3hwAHQAHGV6YnVpbGRlci5EZWxldGVMaXN0QWN0aXZpdHl1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAhDbGFzc0RlZnVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgATeHNidGkuU2FmZUxhenkkSW1wbFACLpOXl0A/AgADWgAIYml0bWFwJDBMAAJfdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wABGV2YWx0ABFMc2NhbGEvRnVuY3Rpb24wO3hyABZ4c2J0aS5hcGkuQWJzdHJhY3RMYXp503e1AV+756ACAAB4cABwc3IAIHhzYnRpLlNhZmVMYXp5JCRhbm9uZnVuJHN0cmljdCQxAAAAAAAAAAACAAFMAAd2YWx1ZSQxcQB+AIZ4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AIUAcHNxAH4AinNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBtTAAJaW5oZXJpdGVkcQB+AG1MAAdwYXJlbnRzcQB+AG14cQB+AI5zcQB+AIUAcHNxAH4AinVxAH4AaAAAAABzcQB+AIUAcHNxAH4AinVxAH4AaAAAAABzcQB+AIUAcHNxAH4AinVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAAEc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AjXQADHNjYWxhTVZDRmlsZXNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AjXNyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAAnNyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAJZXpidWlsZGVyc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AKtzcQB+AJ50AAhzY2FsYU1WQ3EAfgCkc3EAfgCedAAGT2JqZWN0c3EAfgCic3EAfgCldXEAfgCoAAAAA3NxAH4AqnQABGphdmFzcQB+AKp0AARsYW5ncQB+AK9zcQB+AJ50AANBbnlzcQB+AKJzcQB+AKV1cQB+AKgAAAACc3EAfgCqdAAFc2NhbGFxAH4Ar3VyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAABc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AA14cHQACWV6YnVpbGRlcnNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABVZ08sol1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdABHL2hvbWUvZGthZ2xlL3NyYy9zY2FsYS9hbmRyb2lkL3NyYy9tYWluL3NjYWxhL3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABQElE/OZ3t0CKBe8AOwy6D64nUHgg==
+/home/dkagle/src/scala/android/src/main/scala/printFormActivity.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHC38J5DAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAK3NyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cJ+ZK4J0AAZub3RpZnlzcQB+AAxj5IW3dAAEd2FpdHNxAH4ADOIqn310ABN1cHBlckNhc2VPYmplY3ROYW1lc3EAfgAMIT7MAXQADSRhc0luc3RhbmNlT2ZzcQB+AAygOuM+dAAGZXF1YWxzc3EAfgAMsOlfSXQAA3RhYnNxAH4ADF45Amh0AAVzbGFzaHNxAH4ADHX5h/t0AAxhc0luc3RhbmNlT2ZzcQB+AAy1PBVmdAAFcHJpbnRzcQB+AAwmpQ9XdAAKbG9va3VwVHlwZXNxAH4ADF4bZLF0AAxzeW5jaHJvbml6ZWRzcQB+AAzTL/GvdAAJdGFnU3RyaW5nc3EAfgAMh3/tdXQADSRpc0luc3RhbmNlT2ZzcQB+AAyYhs22dAATbG93ZXJDYXNlT2JqZWN0TmFtZXNxAH4ADKGls8p0AAlwbHVzcXVvdGVzcQB+AAwinR25dAAJbm90aWZ5QWxsc3EAfgAMAR3QrXQAEWxvb2t1cE1pbktleVZhbHVlc3EAfgAMmeYOAXQABXF1b3Rlc3EAfgAMlDclfXQADGlzSW5zdGFuY2VPZnNxAH4ADMuDT3l0AAY8aW5pdD5zcQB+AAx4gUApdAAMRm9ybUFjdGl2aXR5c3EAfgAMKixGHHQACWNhbGN1bGF0ZXNxAH4ADJfYhSx0AAl1cGRhdGVVUkxzcQB+AAxWsYV0dAACPT1zcQB+AAya+UJ7dAAVY2FwaXRhbGl6ZWRPYmplY3ROYW1lc3EAfgAMbD9SqnQABWNsb25lc3EAfgAMqPVJU3QAB2dldFR5cGVzcQB+AAx+HCDAdAAZcGx1cmFsVXBwZXJDYXNlT2JqZWN0TmFtZXNxAH4ADAlTEeZ0AAh0b1N0cmluZ3NxAH4ADAtnRZV0AAhpZFN0cmluZ3NxAH4ADJlvEFh0AAIhPXNxAH4ADFFx49N0AAhnZXRDbGFzc3NxAH4ADOo5jAR0AAJuZXNxAH4ADLZ57a90ABBsb29rdXBNaW5LZXlXb3Jkc3EAfgAMyTP9CXQAFGxvb2t1cENvbnRyb2xsZXJUeXBlc3EAfgAMkJM+OXQAAmVxc3EAfgAMWo3j9HQABXdyaXRlc3EAfgAMccKzRXQABWNvbW1hc3EAfgAM94+MrnQAAiMjc3EAfgAM3HI+SnQACGZpbmFsaXplc3EAfgAMLkFcv3QAB2pzb25BZGRzcQB+AAzaapvxdAAIaGFzaENvZGVzcQB+AAzk1NsCdAAMZ2V0RmllbGROYW1lc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AbXhyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzxxETIWmc3CQCAAFCAAVmbGFnc3hwAHQAFmV6YnVpbGRlci5Gb3JtQWN0aXZpdHl1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAhDbGFzc0RlZnVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgATeHNidGkuU2FmZUxhenkkSW1wbFACLpOXl0A/AgADWgAIYml0bWFwJDBMAAJfdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wABGV2YWx0ABFMc2NhbGEvRnVuY3Rpb24wO3hyABZ4c2J0aS5hcGkuQWJzdHJhY3RMYXp503e1AV+756ACAAB4cABwc3IAIHhzYnRpLlNhZmVMYXp5JCRhbm9uZnVuJHN0cmljdCQxAAAAAAAAAAACAAFMAAd2YWx1ZSQxcQB+AIZ4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AIUAcHNxAH4AinNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBtTAAJaW5oZXJpdGVkcQB+AG1MAAdwYXJlbnRzcQB+AG14cQB+AI5zcQB+AIUAcHNxAH4AinVxAH4AaAAAAABzcQB+AIUAcHNxAH4AinVxAH4AaAAAAABzcQB+AIUAcHNxAH4AinVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAAEc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AjXQADHNjYWxhTVZDRmlsZXNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AjXNyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAAnNyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAJZXpidWlsZGVyc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AKtzcQB+AJ50AAhzY2FsYU1WQ3EAfgCkc3EAfgCedAAGT2JqZWN0c3EAfgCic3EAfgCldXEAfgCoAAAAA3NxAH4AqnQABGphdmFzcQB+AKp0AARsYW5ncQB+AK9zcQB+AJ50AANBbnlzcQB+AKJzcQB+AKV1cQB+AKgAAAACc3EAfgCqdAAFc2NhbGFxAH4Ar3VyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAABc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AA14cHQACWV6YnVpbGRlcnNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABVZ08sol1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdABHL2hvbWUvZGthZ2xlL3NyYy9zY2FsYS9hbmRyb2lkL3NyYy9tYWluL3NjYWxhL3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABQ1y6aRG2Ms2duOgjCNpZK2F7c1mg==
+/home/dkagle/src/scala/android/src/main/scala/printListActivity.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHD9E4nRAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAK3NyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cOKcVU10AAZub3RpZnlzcQB+AAwvloS6dAAEd2FpdHNxAH4ADDAEXm50ABN1cHBlckNhc2VPYmplY3ROYW1lc3EAfgAMkAVKknQADSRhc0luc3RhbmNlT2ZzcQB+AAxrYSPsdAAGZXF1YWxzc3EAfgAM8mfFbHQAA3RhYnNxAH4ADK4tUuR0AAVzbGFzaHNxAH4ADKJAkIJ0AAxhc0luc3RhbmNlT2ZzcQB+AAxcam/ZdAAFcHJpbnRzcQB+AAycv/IRdAAKbG9va3VwVHlwZXNxAH4ADNHRQQN0AAxzeW5jaHJvbml6ZWRzcQB+AAzvPZOTdAAJdGFnU3RyaW5nc3EAfgAMQ1uEzXQADSRpc0luc3RhbmNlT2ZzcQB+AAxjB4krdAATbG93ZXJDYXNlT2JqZWN0TmFtZXNxAH4ADGpUt6l0AAxMaXN0QWN0aXZpdHlzcQB+AAwKyXgkdAAJcGx1c3F1b3Rlc3EAfgAMpALp+3QACW5vdGlmeUFsbHNxAH4ADDzRhhB0ABFsb29rdXBNaW5LZXlWYWx1ZXNxAH4ADJJukZN0AAVxdW90ZXNxAH4ADAeyXKR0AAxpc0luc3RhbmNlT2ZzcQB+AAw15JWAdAAGPGluaXQ+c3EAfgAMEDQm8nQACWNhbGN1bGF0ZXNxAH4ADATZBUZ0AAl1cGRhdGVVUkxzcQB+AAyrpRDodAACPT1zcQB+AAzl3dAudAAVY2FwaXRhbGl6ZWRPYmplY3ROYW1lc3EAfgAMM9Xr73QABWNsb25lc3EAfgAMb/LyOnQAB2dldFR5cGVzcQB+AAxdtdbVdAAZcGx1cmFsVXBwZXJDYXNlT2JqZWN0TmFtZXNxAH4ADJ21Ccl0AAh0b1N0cmluZ3NxAH4ADKbDeLV0AAhpZFN0cmluZ3NxAH4ADKmwT6F0AAIhPXNxAH4ADLHVbY10AAhnZXRDbGFzc3NxAH4ADEHjGzN0AAJuZXNxAH4ADOo2qCN0ABBsb29rdXBNaW5LZXlXb3Jkc3EAfgAM4weXrnQAFGxvb2t1cENvbnRyb2xsZXJUeXBlc3EAfgAMYrqGQ3QAAmVxc3EAfgAM/zMPmXQABXdyaXRlc3EAfgAMPF3TInQABWNvbW1hc3EAfgAMLrazI3QAAiMjc3EAfgAMUehxtnQACGZpbmFsaXplc3EAfgAMCJVXhXQAB2pzb25BZGRzcQB+AAwsgddkdAAIaGFzaENvZGVzcQB+AAw5SO7SdAAMZ2V0RmllbGROYW1lc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AbXhyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzxxETIWmc3CQCAAFCAAVmbGFnc3hwAHQAFmV6YnVpbGRlci5MaXN0QWN0aXZpdHl1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAhDbGFzc0RlZnVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgATeHNidGkuU2FmZUxhenkkSW1wbFACLpOXl0A/AgADWgAIYml0bWFwJDBMAAJfdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wABGV2YWx0ABFMc2NhbGEvRnVuY3Rpb24wO3hyABZ4c2J0aS5hcGkuQWJzdHJhY3RMYXp503e1AV+756ACAAB4cABwc3IAIHhzYnRpLlNhZmVMYXp5JCRhbm9uZnVuJHN0cmljdCQxAAAAAAAAAAACAAFMAAd2YWx1ZSQxcQB+AIZ4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AIUAcHNxAH4AinNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBtTAAJaW5oZXJpdGVkcQB+AG1MAAdwYXJlbnRzcQB+AG14cQB+AI5zcQB+AIUAcHNxAH4AinVxAH4AaAAAAABzcQB+AIUAcHNxAH4AinVxAH4AaAAAAABzcQB+AIUAcHNxAH4AinVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAAEc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AjXQADHNjYWxhTVZDRmlsZXNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AjXNyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAAnNyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAJZXpidWlsZGVyc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AKtzcQB+AJ50AAhzY2FsYU1WQ3EAfgCkc3EAfgCedAAGT2JqZWN0c3EAfgCic3EAfgCldXEAfgCoAAAAA3NxAH4AqnQABGphdmFzcQB+AKp0AARsYW5ncQB+AK9zcQB+AJ50AANBbnlzcQB+AKJzcQB+AKV1cQB+AKgAAAACc3EAfgCqdAAFc2NhbGFxAH4Ar3VyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAABc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AA14cHQACWV6YnVpbGRlcnNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABVZ08sol1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdABHL2hvbWUvZGthZ2xlL3NyYy9zY2FsYS9hbmRyb2lkL3NyYy9tYWluL3NjYWxhL3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABRPss648ZNCCuKWKZKrf6FNy3cJMQ==
+/home/dkagle/src/scala/android/src/main/scala/printMain.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHBZ0CkyAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAK3NyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cKabojV0AAZub3RpZnlzcQB+AAypJwkadAAEd2FpdHNxAH4ADMxNPzZ0ABN1cHBlckNhc2VPYmplY3ROYW1lc3EAfgAMTdGykHQADSRhc0luc3RhbmNlT2ZzcQB+AAyO6XuedAAMTWFpbkFjdGl2aXR5c3EAfgAMzOMThHQABmVxdWFsc3NxAH4ADGgyk8t0AAN0YWJzcQB+AAz2C98wdAAFc2xhc2hzcQB+AAx9YdPndAAMYXNJbnN0YW5jZU9mc3EAfgAMPUsD0XQABXByaW50c3EAfgAMHShMcHQACmxvb2t1cFR5cGVzcQB+AAx1fArddAAMc3luY2hyb25pemVkc3EAfgAMJXQobHQACXRhZ1N0cmluZ3NxAH4ADBnRNGJ0AA0kaXNJbnN0YW5jZU9mc3EAfgAMBQW24HQAE2xvd2VyQ2FzZU9iamVjdE5hbWVzcQB+AAwy9xeUdAAJcGx1c3F1b3Rlc3EAfgAMWQg2q3QACW5vdGlmeUFsbHNxAH4ADLPaBXp0ABFsb29rdXBNaW5LZXlWYWx1ZXNxAH4ADJIyecZ0AAVxdW90ZXNxAH4ADIWtJ7V0AAxpc0luc3RhbmNlT2ZzcQB+AAwFol/1dAAGPGluaXQ+c3EAfgAMg1GJgnQACWNhbGN1bGF0ZXNxAH4ADMqOrPZ0AAl1cGRhdGVVUkxzcQB+AAzEqsA5dAACPT1zcQB+AAxTpCx9dAAVY2FwaXRhbGl6ZWRPYmplY3ROYW1lc3EAfgAMgyD6z3QABWNsb25lc3EAfgAMj08Y0XQAB2dldFR5cGVzcQB+AAzvz0QXdAAZcGx1cmFsVXBwZXJDYXNlT2JqZWN0TmFtZXNxAH4ADPrUr+B0AAh0b1N0cmluZ3NxAH4ADFLyOKd0AAhpZFN0cmluZ3NxAH4ADKjxngl0AAIhPXNxAH4ADIs8osl0AAhnZXRDbGFzc3NxAH4ADNAlPOp0AAJuZXNxAH4ADBoYeQV0ABBsb29rdXBNaW5LZXlXb3Jkc3EAfgAMaGA4LHQAFGxvb2t1cENvbnRyb2xsZXJUeXBlc3EAfgAMPzJWHXQAAmVxc3EAfgAM02fhCnQABXdyaXRlc3EAfgAMdj/qPHQABWNvbW1hc3EAfgAMMFyJpnQAAiMjc3EAfgAM/noZpXQACGZpbmFsaXplc3EAfgAMSItd0nQAB2pzb25BZGRzcQB+AAzg5WbDdAAIaGFzaENvZGVzcQB+AAxx1zXjdAAMZ2V0RmllbGROYW1lc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AbXhyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzxxETIWmc3CQCAAFCAAVmbGFnc3hwAHQAFmV6YnVpbGRlci5NYWluQWN0aXZpdHl1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAhDbGFzc0RlZnVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgATeHNidGkuU2FmZUxhenkkSW1wbFACLpOXl0A/AgADWgAIYml0bWFwJDBMAAJfdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wABGV2YWx0ABFMc2NhbGEvRnVuY3Rpb24wO3hyABZ4c2J0aS5hcGkuQWJzdHJhY3RMYXp503e1AV+756ACAAB4cABwc3IAIHhzYnRpLlNhZmVMYXp5JCRhbm9uZnVuJHN0cmljdCQxAAAAAAAAAAACAAFMAAd2YWx1ZSQxcQB+AIZ4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AIUAcHNxAH4AinNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBtTAAJaW5oZXJpdGVkcQB+AG1MAAdwYXJlbnRzcQB+AG14cQB+AI5zcQB+AIUAcHNxAH4AinVxAH4AaAAAAABzcQB+AIUAcHNxAH4AinVxAH4AaAAAAABzcQB+AIUAcHNxAH4AinVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAAEc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AjXQADHNjYWxhTVZDRmlsZXNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AjXNyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAAnNyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAJZXpidWlsZGVyc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AKtzcQB+AJ50AAhzY2FsYU1WQ3EAfgCkc3EAfgCedAAGT2JqZWN0c3EAfgCic3EAfgCldXEAfgCoAAAAA3NxAH4AqnQABGphdmFzcQB+AKp0AARsYW5ncQB+AK9zcQB+AJ50AANBbnlzcQB+AKJzcQB+AKV1cQB+AKgAAAACc3EAfgCqdAAFc2NhbGFxAH4Ar3VyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAABc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AA14cHQACWV6YnVpbGRlcnNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABVZ08sol1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdABHL2hvbWUvZGthZ2xlL3NyYy9zY2FsYS9hbmRyb2lkL3NyYy9tYWluL3NjYWxhL3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABQCkgoYQQMUWCYg61ct2KAfcTwPSg==
+/home/dkagle/src/scala/android/src/main/scala/printStaticLayout.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHCf0hCgAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAHXNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cNJR57t0AAZub3RpZnlzcQB+AAy96s0sdAAEd2FpdHNxAH4ADK0pt650AA0kYXNJbnN0YW5jZU9mc3EAfgAMwYgoRnQABmVxdWFsc3NxAH4ADGY3CaB0AAxhc0luc3RhbmNlT2ZzcQB+AAxLEb/bdAAFcHJpbnRzcQB+AAwPn5pOdAAKbG9va3VwVHlwZXNxAH4ADERXrpd0AAxzeW5jaHJvbml6ZWRzcQB+AAybl2tYdAANJGlzSW5zdGFuY2VPZnNxAH4ADDrj3IJ0AAlub3RpZnlBbGxzcQB+AAyptukidAARbG9va3VwTWluS2V5VmFsdWVzcQB+AAw7VkLAdAAMU3RhdGljTGF5b3V0c3EAfgAMzMvVY3QADGlzSW5zdGFuY2VPZnNxAH4ADLaRPbV0AAY8aW5pdD5zcQB+AAwkLqordAACPT1zcQB+AAy0wVjodAAFY2xvbmVzcQB+AAyNQvitdAAHZ2V0VHlwZXNxAH4ADDI56qp0AAh0b1N0cmluZ3NxAH4ADGznfGZ0AAIhPXNxAH4ADPUua8V0AAhnZXRDbGFzc3NxAH4ADMTfhIl0AAJuZXNxAH4ADO3RbY90ABBsb29rdXBNaW5LZXlXb3Jkc3EAfgAMS99W1nQAFGxvb2t1cENvbnRyb2xsZXJUeXBlc3EAfgAM7OHOJHQAAmVxc3EAfgAMLp+tu3QABXdyaXRlc3EAfgAM/z4+uXQAAiMjc3EAfgAMm7OUYHQACGZpbmFsaXplc3EAfgAMQ+6573QACGhhc2hDb2Rlc3EAfgAMYEHxznQADGdldEZpZWxkTmFtZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AFF4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc8cREyFpnNwkAgABQgAFZmxhZ3N4cAB0ABZlemJ1aWxkZXIuU3RhdGljTGF5b3V0dXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAIQ2xhc3NEZWZ1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAE3hzYnRpLlNhZmVMYXp5JEltcGxQAi6Tl5dAPwIAA1oACGJpdG1hcCQwTAACX3R0ABJMamF2YS9sYW5nL09iamVjdDtMAARldmFsdAARTHNjYWxhL0Z1bmN0aW9uMDt4cgAWeHNidGkuYXBpLkFic3RyYWN0TGF6edN3tQFfu+egAgAAeHABc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHBzcQB+AGkBc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AFFMAAlpbmhlcml0ZWRxAH4AUUwAB3BhcmVudHNxAH4AUXhxAH4AcHNxAH4AaQF1cQB+AEwAAAAAcHNxAH4AaQF1cQB+AEwAAAAAcHNxAH4AaQF1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAA3NyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AG90AAhzY2FsYU1WQ3NyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4Ab3NyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAAnNyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAJZXpidWlsZGVyc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AIlzcQB+AHx0AAZPYmplY3RzcQB+AIBzcQB+AIN1cQB+AIYAAAADc3EAfgCIdAAEamF2YXNxAH4AiHQABGxhbmdxAH4AjXNxAH4AfHQAA0FueXNxAH4AgHNxAH4Ag3VxAH4AhgAAAAJzcQB+AIh0AAVzY2FsYXEAfgCNcHB1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAXNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0AAllemJ1aWxkZXJzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAVWddL1FdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQARy9ob21lL2RrYWdsZS9zcmMvc2NhbGEvYW5kcm9pZC9zcmMvbWFpbi9zY2FsYS90YXJnZXQvc2NhbGEtMi4xMC9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUIChMSZusitOvXww2L8Xltf9h3ic=
+/home/dkagle/src/scala/android/src/main/scala/printStaticMain.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHDVURUwAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAHXNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cNy4xa90AAZub3RpZnlzcQB+AAzHKXLOdAAEd2FpdHNxAH4ADCTpZ450AA0kYXNJbnN0YW5jZU9mc3EAfgAMJwFzPXQABmVxdWFsc3NxAH4ADJWIN3l0AAxhc0luc3RhbmNlT2ZzcQB+AAwAgMuzdAAFcHJpbnRzcQB+AAyqZh9TdAAKbG9va3VwVHlwZXNxAH4ADMxa8d10AAxzeW5jaHJvbml6ZWRzcQB+AAyyI8mWdAANJGlzSW5zdGFuY2VPZnNxAH4ADHCm2SR0AAlub3RpZnlBbGxzcQB+AAw36Ho0dAARbG9va3VwTWluS2V5VmFsdWVzcQB+AAwSlS9udAAMaXNJbnN0YW5jZU9mc3EAfgAMPXNN+nQAElN0YXRpY01haW5BY3Rpdml0eXNxAH4ADFJoTql0AAY8aW5pdD5zcQB+AAy2UFzKdAACPT1zcQB+AAylAdUAdAAFY2xvbmVzcQB+AAyVVVIQdAAHZ2V0VHlwZXNxAH4ADBcanHJ0AAh0b1N0cmluZ3NxAH4ADI1pZ2Z0AAIhPXNxAH4ADCWPmY90AAhnZXRDbGFzc3NxAH4ADMhUfoB0AAJuZXNxAH4ADJqz6Np0ABBsb29rdXBNaW5LZXlXb3Jkc3EAfgAMPZKArHQAFGxvb2t1cENvbnRyb2xsZXJUeXBlc3EAfgAM0N63NHQAAmVxc3EAfgAMWaWQjXQABXdyaXRlc3EAfgAMLPzd1XQAAiMjc3EAfgAMhEaIyHQACGZpbmFsaXplc3EAfgAMYcW803QACGhhc2hDb2Rlc3EAfgAMrEfxvHQADGdldEZpZWxkTmFtZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AFF4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc8cREyFpnNwkAgABQgAFZmxhZ3N4cAB0ABxlemJ1aWxkZXIuU3RhdGljTWFpbkFjdGl2aXR5dXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAIQ2xhc3NEZWZ1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAE3hzYnRpLlNhZmVMYXp5JEltcGxQAi6Tl5dAPwIAA1oACGJpdG1hcCQwTAACX3R0ABJMamF2YS9sYW5nL09iamVjdDtMAARldmFsdAARTHNjYWxhL0Z1bmN0aW9uMDt4cgAWeHNidGkuYXBpLkFic3RyYWN0TGF6edN3tQFfu+egAgAAeHAAcHNyACB4c2J0aS5TYWZlTGF6eSQkYW5vbmZ1biRzdHJpY3QkMQAAAAAAAAAAAgABTAAHdmFsdWUkMXEAfgBqeHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgBpAHBzcQB+AG5zcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4AUUwACWluaGVyaXRlZHEAfgBRTAAHcGFyZW50c3EAfgBReHEAfgByc3EAfgBpAHBzcQB+AG51cQB+AEwAAAAAc3EAfgBpAHBzcQB+AG51cQB+AEwAAAAAc3EAfgBpAHBzcQB+AG51cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAA3NyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AHF0AAhzY2FsYU1WQ3NyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AcXNyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAAnNyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAJZXpidWlsZGVyc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AI9zcQB+AIJ0AAZPYmplY3RzcQB+AIZzcQB+AIl1cQB+AIwAAAADc3EAfgCOdAAEamF2YXNxAH4AjnQABGxhbmdxAH4Ak3NxAH4AgnQAA0FueXNxAH4AhnNxAH4AiXVxAH4AjAAAAAJzcQB+AI50AAVzY2FsYXEAfgCTdXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAAFzcgAReHNidGkuYXBpLlBhY2thZ2V+WY/2rs45WAIAAUwABG5hbWVxAH4ADXhwdAAJZXpidWlsZGVyc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFVnTyyiXVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0AEcvaG9tZS9ka2FnbGUvc3JjL3NjYWxhL2FuZHJvaWQvc3JjL21haW4vc2NhbGEvdGFyZ2V0L3NjYWxhLTIuMTAvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFMqSk3e3dqVKxFSGFvRy3ItnlEi2
+/home/dkagle/src/scala/android/src/main/scala/printStaticValues.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHBImraeAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAHnNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cMAfSvl0AAZub3RpZnlzcQB+AAwTDib3dAAEd2FpdHNxAH4ADK9KuQl0AA0kYXNJbnN0YW5jZU9mc3EAfgAM/B73jXQAEnByaW50T2JqZWN0U3RyaW5nc3NxAH4ADFHpgkl0AAZlcXVhbHNzcQB+AAyAdb0CdAAMYXNJbnN0YW5jZU9mc3EAfgAMkOMyJ3QABXByaW50c3EAfgAMm09Vr3QACmxvb2t1cFR5cGVzcQB+AAziJRXBdAAMc3luY2hyb25pemVkc3EAfgAMVvAZ8nQADSRpc0luc3RhbmNlT2ZzcQB+AAy7uUQldAAMU3RhdGljVmFsdWVzc3EAfgAM+SHE4XQACW5vdGlmeUFsbHNxAH4ADBrt7xB0ABFsb29rdXBNaW5LZXlWYWx1ZXNxAH4ADHQNzSl0AAxpc0luc3RhbmNlT2ZzcQB+AAz4H361dAAGPGluaXQ+c3EAfgAMrk2DcHQAAj09c3EAfgAMhlqdY3QABWNsb25lc3EAfgAMbwEmTXQAB2dldFR5cGVzcQB+AAzlsoUYdAAIdG9TdHJpbmdzcQB+AAxrs7h1dAACIT1zcQB+AAypF6HCdAAIZ2V0Q2xhc3NzcQB+AAw4YmRYdAACbmVzcQB+AAyZvqNJdAAQbG9va3VwTWluS2V5V29yZHNxAH4ADNPLXRd0ABRsb29rdXBDb250cm9sbGVyVHlwZXNxAH4ADM6JIF50AAJlcXNxAH4ADF1zxvd0AAV3cml0ZXNxAH4ADAzY+zd0AAIjI3NxAH4ADJx7zst0AAhmaW5hbGl6ZXNxAH4ADJps0RZ0AAhoYXNoQ29kZXNxAH4ADBHexf10AAxnZXRGaWVsZE5hbWVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBTeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnPHERMhaZzcJAIAAUIABWZsYWdzeHAAdAAWZXpidWlsZGVyLlN0YXRpY1ZhbHVlc3VyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQACENsYXNzRGVmdXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyABN4c2J0aS5TYWZlTGF6eSRJbXBsUAIuk5eXQD8CAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAHBzcgAgeHNidGkuU2FmZUxhenkkJGFub25mdW4kc3RyaWN0JDEAAAAAAAAAAAIAAUwAB3ZhbHVlJDFxAH4AbHhwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AawBwc3EAfgBwc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AFNMAAlpbmhlcml0ZWRxAH4AU0wAB3BhcmVudHNxAH4AU3hxAH4AdHNxAH4AawBwc3EAfgBwdXEAfgBOAAAAAHNxAH4AawBwc3EAfgBwdXEAfgBOAAAAAHNxAH4AawBwc3EAfgBwdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAANzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgBzdAAIc2NhbGFNVkNzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AHNzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAAJzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQACWV6YnVpbGRlcnNyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgCRc3EAfgCEdAAGT2JqZWN0c3EAfgCIc3EAfgCLdXEAfgCOAAAAA3NxAH4AkHQABGphdmFzcQB+AJB0AARsYW5ncQB+AJVzcQB+AIR0AANBbnlzcQB+AIhzcQB+AIt1cQB+AI4AAAACc3EAfgCQdAAFc2NhbGFxAH4AlXVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAABc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AA14cHQACWV6YnVpbGRlcnNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABVZ08sol1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdABHL2hvbWUvZGthZ2xlL3NyYy9zY2FsYS9hbmRyb2lkL3NyYy9tYWluL3NjYWxhL3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABSbcFmW6IZo1z+9Wdz54KkTUA4Uiw==
+/home/dkagle/src/scala/android/src/main/scala/printValues.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHCh6fyTAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAALHNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cKb9bV10AAZub3RpZnlzcQB+AAyBTFlEdAAEd2FpdHNxAH4ADMyzMLB0ABN1cHBlckNhc2VPYmplY3ROYW1lc3EAfgAMxkmB6nQADSRhc0luc3RhbmNlT2ZzcQB+AAzTiC7NdAAGZXF1YWxzc3EAfgAMEbwYtXQAA3RhYnNxAH4ADINHE/Z0AAVzbGFzaHNxAH4ADOmgVB10AAxhc0luc3RhbmNlT2ZzcQB+AAzDBQKMdAAFcHJpbnRzcQB+AAxZB3SxdAAKbG9va3VwVHlwZXNxAH4ADCS3QJl0AAxzeW5jaHJvbml6ZWRzcQB+AAxtmk+RdAAJdGFnU3RyaW5nc3EAfgAMAp+073QADSRpc0luc3RhbmNlT2ZzcQB+AAxdSiUndAATbG93ZXJDYXNlT2JqZWN0TmFtZXNxAH4ADEMf4410AAlwbHVzcXVvdGVzcQB+AAzILJrOdAAJbm90aWZ5QWxsc3EAfgAMqwXP2HQAEWxvb2t1cE1pbktleVZhbHVlc3EAfgAMynXtO3QABXF1b3Rlc3EAfgAM0HHxp3QADGlzSW5zdGFuY2VPZnNxAH4ADHj4nUN0AAY8aW5pdD5zcQB+AAyLkNq6dAAJY2FsY3VsYXRlc3EAfgAMmMBjP3QACXVwZGF0ZVVSTHNxAH4ADCDkgFJ0AAI9PXNxAH4ADNmogc10ABVjYXBpdGFsaXplZE9iamVjdE5hbWVzcQB+AAxr0emmdAAFY2xvbmVzcQB+AAwNqNzRdAAHZ2V0VHlwZXNxAH4ADMlrcdF0ABlwbHVyYWxVcHBlckNhc2VPYmplY3ROYW1lc3EAfgAMlOb2rXQACHRvU3RyaW5nc3EAfgAMpbmKRXQACGlkU3RyaW5nc3EAfgAMBYAAIHQAAiE9c3EAfgAMUniTkXQABlZhbHVlc3NxAH4ADC2N/NN0AAhnZXRDbGFzc3NxAH4ADNKW7CB0AAJuZXNxAH4ADAclC/50ABBsb29rdXBNaW5LZXlXb3Jkc3EAfgAMp3OCQ3QAFGxvb2t1cENvbnRyb2xsZXJUeXBlc3EAfgAMCnt1YnQAAmVxc3EAfgAMJ0hRNHQABXdyaXRlc3EAfgAMdHetJnQABWNvbW1hc3EAfgAMhgrYgXQAAiMjc3EAfgAMj41nkXQACGZpbmFsaXplc3EAfgAM9OccGXQAC3ByaW50RmllbGRzc3EAfgAMKHC93HQAB2pzb25BZGRzcQB+AAxJm6TNdAAIaGFzaENvZGVzcQB+AAzaVPvEdAAMZ2V0RmllbGROYW1lc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4Ab3hyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzxxETIWmc3CQCAAFCAAVmbGFnc3hwAHQAEGV6YnVpbGRlci5WYWx1ZXN1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAhDbGFzc0RlZnVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgATeHNidGkuU2FmZUxhenkkSW1wbFACLpOXl0A/AgADWgAIYml0bWFwJDBMAAJfdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wABGV2YWx0ABFMc2NhbGEvRnVuY3Rpb24wO3hyABZ4c2J0aS5hcGkuQWJzdHJhY3RMYXp503e1AV+756ACAAB4cABwc3IAIHhzYnRpLlNhZmVMYXp5JCRhbm9uZnVuJHN0cmljdCQxAAAAAAAAAAACAAFMAAd2YWx1ZSQxcQB+AIh4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AIcAcHNxAH4AjHNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBvTAAJaW5oZXJpdGVkcQB+AG9MAAdwYXJlbnRzcQB+AG94cQB+AJBzcQB+AIcAcHNxAH4AjHVxAH4AagAAAABzcQB+AIcAcHNxAH4AjHVxAH4AagAAAABzcQB+AIcAcHNxAH4AjHVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAAEc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4Aj3QADHNjYWxhTVZDRmlsZXNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4Aj3NyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAAnNyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAJZXpidWlsZGVyc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AK1zcQB+AKB0AAhzY2FsYU1WQ3EAfgCmc3EAfgCgdAAGT2JqZWN0c3EAfgCkc3EAfgCndXEAfgCqAAAAA3NxAH4ArHQABGphdmFzcQB+AKx0AARsYW5ncQB+ALFzcQB+AKB0AANBbnlzcQB+AKRzcQB+AKd1cQB+AKoAAAACc3EAfgCsdAAFc2NhbGFxAH4AsXVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAABc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AA14cHQACWV6YnVpbGRlcnNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABVZ08sol1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdABHL2hvbWUvZGthZ2xlL3NyYy9zY2FsYS9hbmRyb2lkL3NyYy9tYWluL3NjYWxhL3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABRtzoz7NWhkcJPKFsajzh30C3USJA==
+/home/dkagle/src/scala/android/src/main/scala/printlayout.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHClmdHzAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAK3NyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cJ/1neF0AAZub3RpZnlzcQB+AAzPYBZAdAAGTGF5b3V0c3EAfgAM6Imot3QABHdhaXRzcQB+AAwl246DdAATdXBwZXJDYXNlT2JqZWN0TmFtZXNxAH4ADI2mNbR0AA0kYXNJbnN0YW5jZU9mc3EAfgAM/YUkbnQABmVxdWFsc3NxAH4ADBIKQSN0AAN0YWJzcQB+AAy9CSMJdAAFc2xhc2hzcQB+AAwWeUB+dAAMYXNJbnN0YW5jZU9mc3EAfgAMNBn7cXQABXByaW50c3EAfgAMDXLjQnQACmxvb2t1cFR5cGVzcQB+AAwrwYG5dAAMc3luY2hyb25pemVkc3EAfgAMTOw8M3QACXRhZ1N0cmluZ3NxAH4ADJBHQ2x0AA0kaXNJbnN0YW5jZU9mc3EAfgAMJ2XRRHQAE2xvd2VyQ2FzZU9iamVjdE5hbWVzcQB+AAyidspBdAAJcGx1c3F1b3Rlc3EAfgAM/GmSH3QACW5vdGlmeUFsbHNxAH4ADEecNy50ABFsb29rdXBNaW5LZXlWYWx1ZXNxAH4ADEAN6tN0AAVxdW90ZXNxAH4ADAihbrV0AAxpc0luc3RhbmNlT2ZzcQB+AAxLpY/odAAGPGluaXQ+c3EAfgAMWQ7SuXQACWNhbGN1bGF0ZXNxAH4ADB0vsRh0AAl1cGRhdGVVUkxzcQB+AAykxVHNdAACPT1zcQB+AAwwzesKdAAVY2FwaXRhbGl6ZWRPYmplY3ROYW1lc3EAfgAM7hiMNHQABWNsb25lc3EAfgAMCEV6XXQAB2dldFR5cGVzcQB+AAzOZ/O3dAAZcGx1cmFsVXBwZXJDYXNlT2JqZWN0TmFtZXNxAH4ADPMroZt0AAh0b1N0cmluZ3NxAH4ADH0D3lF0AAhpZFN0cmluZ3NxAH4ADMeFjYx0AAIhPXNxAH4ADGJOIpt0AAhnZXRDbGFzc3NxAH4ADNuswaF0AAJuZXNxAH4ADOqtVu90ABBsb29rdXBNaW5LZXlXb3Jkc3EAfgAMZ8z4knQAFGxvb2t1cENvbnRyb2xsZXJUeXBlc3EAfgAMwyELHnQAAmVxc3EAfgAM5TYIsHQABXdyaXRlc3EAfgAM0az32XQABWNvbW1hc3EAfgAMQRgXe3QAAiMjc3EAfgAM6oD47XQACGZpbmFsaXplc3EAfgAMNnhTo3QAB2pzb25BZGRzcQB+AAwHb5rldAAIaGFzaENvZGVzcQB+AAxzqjBJdAAMZ2V0RmllbGROYW1lc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AbXhyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzxxETIWmc3CQCAAFCAAVmbGFnc3hwAHQAEGV6YnVpbGRlci5MYXlvdXR1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAhDbGFzc0RlZnVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgATeHNidGkuU2FmZUxhenkkSW1wbFACLpOXl0A/AgADWgAIYml0bWFwJDBMAAJfdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wABGV2YWx0ABFMc2NhbGEvRnVuY3Rpb24wO3hyABZ4c2J0aS5hcGkuQWJzdHJhY3RMYXp503e1AV+756ACAAB4cABwc3IAIHhzYnRpLlNhZmVMYXp5JCRhbm9uZnVuJHN0cmljdCQxAAAAAAAAAAACAAFMAAd2YWx1ZSQxcQB+AIZ4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AIUAcHNxAH4AinNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBtTAAJaW5oZXJpdGVkcQB+AG1MAAdwYXJlbnRzcQB+AG14cQB+AI5zcQB+AIUAcHNxAH4AinVxAH4AaAAAAABzcQB+AIUAcHNxAH4AinVxAH4AaAAAAABzcQB+AIUAcHNxAH4AinVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAAEc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AjXQADHNjYWxhTVZDRmlsZXNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AjXNyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAAnNyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAJZXpidWlsZGVyc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AKtzcQB+AJ50AAhzY2FsYU1WQ3EAfgCkc3EAfgCedAAGT2JqZWN0c3EAfgCic3EAfgCldXEAfgCoAAAAA3NxAH4AqnQABGphdmFzcQB+AKp0AARsYW5ncQB+AK9zcQB+AJ50AANBbnlzcQB+AKJzcQB+AKV1cQB+AKgAAAACc3EAfgCqdAAFc2NhbGFxAH4Ar3VyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAABc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AA14cHQACWV6YnVpbGRlcnNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABVZ08sol1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdABHL2hvbWUvZGthZ2xlL3NyYy9zY2FsYS9hbmRyb2lkL3NyYy9tYWluL3NjYWxhL3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABTwFRsWLH89ysz4GHtE7J4VAu4MRw==
+/home/dkagle/src/scala/android/src/main/scala/printmenu.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHAg+MHXAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAK3NyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cHCF7D10AAZub3RpZnlzcQB+AAwX8SNWdAAEd2FpdHNxAH4ADNNx5V50ABN1cHBlckNhc2VPYmplY3ROYW1lc3EAfgAMa+yRYXQADSRhc0luc3RhbmNlT2ZzcQB+AAwH1ERrdAAGZXF1YWxzc3EAfgAMcgOD6XQAA3RhYnNxAH4ADIhcVAh0AAVzbGFzaHNxAH4ADJZpEEZ0AAxhc0luc3RhbmNlT2ZzcQB+AAyB6DcydAAFcHJpbnRzcQB+AAzzH/DqdAAKbG9va3VwVHlwZXNxAH4ADNPhV9R0AAxzeW5jaHJvbml6ZWRzcQB+AAzoXuLKdAAETWVudXNxAH4ADJ1ImY10AAl0YWdTdHJpbmdzcQB+AAysORI8dAANJGlzSW5zdGFuY2VPZnNxAH4ADJKjLtR0ABNsb3dlckNhc2VPYmplY3ROYW1lc3EAfgAM6Q5mYnQACXBsdXNxdW90ZXNxAH4ADOfPabN0AAlub3RpZnlBbGxzcQB+AAx2F1sedAARbG9va3VwTWluS2V5VmFsdWVzcQB+AAy7/oJhdAAFcXVvdGVzcQB+AAw3d8sZdAAMaXNJbnN0YW5jZU9mc3EAfgAMoBrjlHQABjxpbml0PnNxAH4ADCClEsd0AAljYWxjdWxhdGVzcQB+AAwTOAcldAAJdXBkYXRlVVJMc3EAfgAMXckhQnQAAj09c3EAfgAMn+B5b3QAFWNhcGl0YWxpemVkT2JqZWN0TmFtZXNxAH4ADIfwIsR0AAVjbG9uZXNxAH4ADLz/1Jx0AAdnZXRUeXBlc3EAfgAM1juM+XQAGXBsdXJhbFVwcGVyQ2FzZU9iamVjdE5hbWVzcQB+AAx0pmTLdAAIdG9TdHJpbmdzcQB+AAxzMeBcdAAIaWRTdHJpbmdzcQB+AAzndm7ndAACIT1zcQB+AAxHUi8BdAAIZ2V0Q2xhc3NzcQB+AAwVMOHadAACbmVzcQB+AAzrbc4rdAAQbG9va3VwTWluS2V5V29yZHNxAH4ADIrtmi10ABRsb29rdXBDb250cm9sbGVyVHlwZXNxAH4ADJHcZG10AAJlcXNxAH4ADN9F4MV0AAV3cml0ZXNxAH4ADFOXFWp0AAVjb21tYXNxAH4ADMbQq/Z0AAIjI3NxAH4ADCCcqb90AAhmaW5hbGl6ZXNxAH4ADGXuf2Z0AAdqc29uQWRkc3EAfgAMq+xhKnQACGhhc2hDb2Rlc3EAfgAM6Wp7E3QADGdldEZpZWxkTmFtZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AG14cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc8cREyFpnNwkAgABQgAFZmxhZ3N4cAB0AA5lemJ1aWxkZXIuTWVudXVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQACENsYXNzRGVmdXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyABN4c2J0aS5TYWZlTGF6eSRJbXBsUAIuk5eXQD8CAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAXNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBwc3EAfgCFAXNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBtTAAJaW5oZXJpdGVkcQB+AG1MAAdwYXJlbnRzcQB+AG14cQB+AIxzcQB+AIUBdXEAfgBoAAAAAHBzcQB+AIUBdXEAfgBoAAAAAHBzcQB+AIUBdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAARzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgCLdAAMc2NhbGFNVkNGaWxlc3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgCLc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAACc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AAllemJ1aWxkZXJzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4ApXNxAH4AmHQACHNjYWxhTVZDcQB+AJ5zcQB+AJh0AAZPYmplY3RzcQB+AJxzcQB+AJ91cQB+AKIAAAADc3EAfgCkdAAEamF2YXNxAH4ApHQABGxhbmdxAH4AqXNxAH4AmHQAA0FueXNxAH4AnHNxAH4An3VxAH4AogAAAAJzcQB+AKR0AAVzY2FsYXEAfgCpcHB1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAXNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0AAllemJ1aWxkZXJzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAVWdgkFHdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQARy9ob21lL2RrYWdsZS9zcmMvc2NhbGEvYW5kcm9pZC9zcmMvbWFpbi9zY2FsYS90YXJnZXQvc2NhbGEtMi4xMC9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUn1EQa9PA7k528JzOQrh1BIShj30=
+/home/dkagle/src/scala/android/src/main/scala/scalaMVC.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHBiEhX6AHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAHHNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cD3a2vx0AAZub3RpZnlzcQB+AAzlHGeudAAEd2FpdHNxAH4ADEFFrxh0AA0kYXNJbnN0YW5jZU9mc3EAfgAMeAH5oHQABmVxdWFsc3NxAH4ADBUOApl0AAxhc0luc3RhbmNlT2ZzcQB+AAyALa9TdAAKbG9va3VwVHlwZXNxAH4ADPaC8410AAxzeW5jaHJvbml6ZWRzcQB+AAwkfaGIdAANJGlzSW5zdGFuY2VPZnNxAH4ADHcA9Ip0AAlub3RpZnlBbGxzcQB+AAxIFROLdAARbG9va3VwTWluS2V5VmFsdWVzcQB+AAzdOT8KdAAMaXNJbnN0YW5jZU9mc3EAfgAMRrLydHQABjxpbml0PnNxAH4ADAKxGZV0AAI9PXNxAH4ADAyS7ZF0AAVjbG9uZXNxAH4ADByB0cV0AAdnZXRUeXBlc3EAfgAMBI1HeXQACHNjYWxhTVZDc3EAfgAMjozvOXQACHRvU3RyaW5nc3EAfgAMCbUd+XQAAiE9c3EAfgAMFuev1XQACGdldENsYXNzc3EAfgAMT88MWHQAAm5lc3EAfgAMMidPnnQAEGxvb2t1cE1pbktleVdvcmRzcQB+AAwsBsBhdAAUbG9va3VwQ29udHJvbGxlclR5cGVzcQB+AAyUH1lvdAACZXFzcQB+AAzkASfOdAAFd3JpdGVzcQB+AAybimqWdAACIyNzcQB+AAyFV+nydAAIZmluYWxpemVzcQB+AAwlh8JddAAIaGFzaENvZGVzcQB+AAzmM0sodAAMZ2V0RmllbGROYW1lc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AT3hyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzxxETIWmc3CQCAAFCAAVmbGFnc3hwAXQAEmV6YnVpbGRlci5zY2FsYU1WQ3VyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQACENsYXNzRGVmdXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyABN4c2J0aS5TYWZlTGF6eSRJbXBsUAIuk5eXQD8CAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAHBzcgAgeHNidGkuU2FmZUxhenkkJGFub25mdW4kc3RyaWN0JDEAAAAAAAAAAAIAAUwAB3ZhbHVlJDFxAH4AaHhwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AZwBwc3EAfgBsc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AE9MAAlpbmhlcml0ZWRxAH4AT0wAB3BhcmVudHNxAH4AT3hxAH4AcHNxAH4AZwBwc3EAfgBsdXEAfgBKAAAAAHNxAH4AZwBwc3EAfgBsdXEAfgBKAAAAAHNxAH4AZwBwc3EAfgBsdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAJzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgBvdAAGT2JqZWN0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgBvc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAADc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AARqYXZhc3EAfgCMdAAEbGFuZ3NyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgCNc3EAfgCAdAADQW55c3EAfgCEc3EAfgCHdXEAfgCKAAAAAnNxAH4AjHQABXNjYWxhcQB+AJN1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAXNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0AAllemJ1aWxkZXJzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAVWdPLKJdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQARy9ob21lL2RrYWdsZS9zcmMvc2NhbGEvYW5kcm9pZC9zcmMvbWFpbi9zY2FsYS90YXJnZXQvc2NhbGEtMi4xMC9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUx6fsS8po9kj8S50xLIrsFj2AssY=
+/home/dkagle/src/scala/android/src/main/scala/scalaMVCFile.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHALwSD1AHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAK3NyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cOtETdp0AAZub3RpZnlzcQB+AAxH10I0dAAEd2FpdHNxAH4ADHnGhBp0ABN1cHBlckNhc2VPYmplY3ROYW1lc3EAfgAMBTioiHQADSRhc0luc3RhbmNlT2ZzcQB+AAzg3fUCdAAMc2NhbGFNVkNGaWxlc3EAfgAMcRPOTnQABmVxdWFsc3NxAH4ADCwoxyd0AAN0YWJzcQB+AAxK2HU/dAAFc2xhc2hzcQB+AAzZNyUedAAMYXNJbnN0YW5jZU9mc3EAfgAMNXsYBXQABXByaW50c3EAfgAM1JDxXnQACmxvb2t1cFR5cGVzcQB+AAyX4EoxdAAMc3luY2hyb25pemVkc3EAfgAM8ywVZnQACXRhZ1N0cmluZ3NxAH4ADKaFsM50AA0kaXNJbnN0YW5jZU9mc3EAfgAMZ9dGTnQAE2xvd2VyQ2FzZU9iamVjdE5hbWVzcQB+AAzj0UBCdAAJcGx1c3F1b3Rlc3EAfgAMK5jeMnQACW5vdGlmeUFsbHNxAH4ADG5X8Nh0ABFsb29rdXBNaW5LZXlWYWx1ZXNxAH4ADD1Gwjx0AAVxdW90ZXNxAH4ADF6kdp10AAxpc0luc3RhbmNlT2ZzcQB+AAz9c2kEdAAGPGluaXQ+c3EAfgAMZ93y6HQACWNhbGN1bGF0ZXNxAH4ADAWnvXR0AAl1cGRhdGVVUkxzcQB+AAy28TKgdAACPT1zcQB+AAySp5+VdAAVY2FwaXRhbGl6ZWRPYmplY3ROYW1lc3EAfgAMu3C4tHQABWNsb25lc3EAfgAMSJvVr3QAB2dldFR5cGVzcQB+AAwOyVVUdAAZcGx1cmFsVXBwZXJDYXNlT2JqZWN0TmFtZXNxAH4ADE/BQTB0AAh0b1N0cmluZ3NxAH4ADNMI4gl0AAhpZFN0cmluZ3NxAH4ADPnF/3l0AAIhPXNxAH4ADLz7vs90AAhnZXRDbGFzc3NxAH4ADC/7ME10AAJuZXNxAH4ADDVnKhF0ABBsb29rdXBNaW5LZXlXb3Jkc3EAfgAM8LQMbnQAFGxvb2t1cENvbnRyb2xsZXJUeXBlc3EAfgAMbE3UvHQAAmVxc3EAfgAMQr0mRXQABXdyaXRlc3EAfgAMxZBhhXQABWNvbW1hc3EAfgAMCHtPc3QAAiMjc3EAfgAMZrg5InQACGZpbmFsaXplc3EAfgAMuGHuMnQAB2pzb25BZGRzcQB+AAy/G4e/dAAIaGFzaENvZGVzcQB+AAwEw6+kdAAMZ2V0RmllbGROYW1lc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AbXhyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzxxETIWmc3CQCAAFCAAVmbGFnc3hwAXQAFmV6YnVpbGRlci5zY2FsYU1WQ0ZpbGV1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAhDbGFzc0RlZnVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgATeHNidGkuU2FmZUxhenkkSW1wbFACLpOXl0A/AgADWgAIYml0bWFwJDBMAAJfdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wABGV2YWx0ABFMc2NhbGEvRnVuY3Rpb24wO3hyABZ4c2J0aS5hcGkuQWJzdHJhY3RMYXp503e1AV+756ACAAB4cABwc3IAIHhzYnRpLlNhZmVMYXp5JCRhbm9uZnVuJHN0cmljdCQxAAAAAAAAAAACAAFMAAd2YWx1ZSQxcQB+AIZ4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AIUAcHNxAH4AinNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBtTAAJaW5oZXJpdGVkcQB+AG1MAAdwYXJlbnRzcQB+AG14cQB+AI5zcQB+AIUAcHNxAH4AinVxAH4AaAAAAABzcQB+AIUAcHNxAH4AinVxAH4AaAAAAABzcQB+AIUAcHNxAH4AinVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAADc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AjXQACHNjYWxhTVZDc3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgCNc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAACc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AAllemJ1aWxkZXJzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4Aq3NxAH4AnnQABk9iamVjdHNxAH4AonNxAH4ApXVxAH4AqAAAAANzcQB+AKp0AARqYXZhc3EAfgCqdAAEbGFuZ3EAfgCvc3EAfgCedAADQW55c3EAfgCic3EAfgCldXEAfgCoAAAAAnNxAH4AqnQABXNjYWxhcQB+AK91cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAXNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0AAllemJ1aWxkZXJzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAVWdPLKJdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQARy9ob21lL2RrYWdsZS9zcmMvc2NhbGEvYW5kcm9pZC9zcmMvbWFpbi9zY2FsYS90YXJnZXQvc2NhbGEtMi4xMC9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUokBufD3R3Nai2ad6gZW9zWGhnko=
+external apis:
+0 items
+source infos:
+16 items
+/home/dkagle/src/scala/android/src/main/scala/androidbuild.scala -> 
+AAAAAAAAAAIAAAEAAABYABEJInJtICIrZmlsZU5hbWUgIQEAAAtdAQAAABABABAJICAgICAgICAgICAgICAgAQBAL2hvbWUvZGthZ2xlL3NyYy9zY2FsYS9hbmRyb2lkL3NyYy9tYWluL3NjYWxhL2FuZHJvaWRidWlsZC5zY2FsYQEAQC9ob21lL2RrYWdsZS9zcmMvc2NhbGEvYW5kcm9pZC9zcmMvbWFpbi9zY2FsYS9hbmRyb2lkYnVpbGQuc2NhbGEBZnBvc3RmaXggb3BlcmF0b3IgISBzaG91bGQgYmUgZW5hYmxlZApieSBtYWtpbmcgdGhlIGltcGxpY2l0IHZhbHVlIHNjYWxhLmxhbmd1YWdlLnBvc3RmaXhPcHMgdmlzaWJsZS4KVGhpcyBjYW4gYmUgYWNoaWV2ZWQgYnkgYWRkaW5nIHRoZSBpbXBvcnQgY2xhdXNlICdpbXBvcnQgc2NhbGEubGFuZ3VhZ2UucG9zdGZpeE9wcycKb3IgYnkgc2V0dGluZyB0aGUgY29tcGlsZXIgb3B0aW9uIC1sYW5ndWFnZTpwb3N0Zml4T3BzLgpTZWUgdGhlIFNjYWxhIGRvY3MgZm9yIHZhbHVlIHNjYWxhLmxhbmd1YWdlLnBvc3RmaXhPcHMgZm9yIGEgZGlzY3Vzc2lvbgp3aHkgdGhlIGZlYXR1cmUgc2hvdWxkIGJlIGV4cGxpY2l0bHkgZW5hYmxlZC4BAAABAAAAXAAUCSJybSAiK2ZpbGVOYW1lICEJCQkBAAALnAEAAAAQAQAQCSAgICAgICAgICAgICAgIAEAQC9ob21lL2RrYWdsZS9zcmMvc2NhbGEvYW5kcm9pZC9zcmMvbWFpbi9zY2FsYS9hbmRyb2lkYnVpbGQuc2NhbGEBAEAvaG9tZS9ka2FnbGUvc3JjL3NjYWxhL2FuZHJvaWQvc3JjL21haW4vc2NhbGEvYW5kcm9pZGJ1aWxkLnNjYWxhAGRwb3N0Zml4IG9wZXJhdG9yICEgc2hvdWxkIGJlIGVuYWJsZWQKYnkgbWFraW5nIHRoZSBpbXBsaWNpdCB2YWx1ZSBzY2FsYS5sYW5ndWFnZS5wb3N0Zml4T3BzIHZpc2libGUuAQ==
+/home/dkagle/src/scala/android/src/main/scala/printAddActivity.scala -> 
+AAAAAAAAAAA=
+/home/dkagle/src/scala/android/src/main/scala/printAndroidManifest.scala -> 
+AAAAAAAAAAEAAAEAAAAOADkJCSJtdiAiK3F1YWxpZmllZEZpbGVOYW1lKyIgIitxdWFsaWZpZWRGaWxlTmFtZSsiLmJhY2siICEBAAABrAEAAAA4AQA4CQkgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICABAEgvaG9tZS9ka2FnbGUvc3JjL3NjYWxhL2FuZHJvaWQvc3JjL21haW4vc2NhbGEvcHJpbnRBbmRyb2lkTWFuaWZlc3Quc2NhbGEBAEgvaG9tZS9ka2FnbGUvc3JjL3NjYWxhL2FuZHJvaWQvc3JjL21haW4vc2NhbGEvcHJpbnRBbmRyb2lkTWFuaWZlc3Quc2NhbGEAZHBvc3RmaXggb3BlcmF0b3IgISBzaG91bGQgYmUgZW5hYmxlZApieSBtYWtpbmcgdGhlIGltcGxpY2l0IHZhbHVlIHNjYWxhLmxhbmd1YWdlLnBvc3RmaXhPcHMgdmlzaWJsZS4B
+/home/dkagle/src/scala/android/src/main/scala/printDeleteFormActivity.scala -> 
+AAAAAAAAAAA=
+/home/dkagle/src/scala/android/src/main/scala/printDeleteListActivity.scala -> 
+AAAAAAAAAAA=
+/home/dkagle/src/scala/android/src/main/scala/printFormActivity.scala -> 
+AAAAAAAAAAA=
+/home/dkagle/src/scala/android/src/main/scala/printListActivity.scala -> 
+AAAAAAAAAAA=
+/home/dkagle/src/scala/android/src/main/scala/printMain.scala -> 
+AAAAAAAAAAA=
+/home/dkagle/src/scala/android/src/main/scala/printStaticLayout.scala -> 
+AAAAAAAAAAEAAAEAAAAkABsJCSJta2RpciAiK2Jhc2VkaXIrbXZjRGlyICEBAAAEwAEAAAAaAQAaCQkgICAgICAgICAgICAgICAgICAgICAgICABAEUvaG9tZS9ka2FnbGUvc3JjL3NjYWxhL2FuZHJvaWQvc3JjL21haW4vc2NhbGEvcHJpbnRTdGF0aWNMYXlvdXQuc2NhbGEBAEUvaG9tZS9ka2FnbGUvc3JjL3NjYWxhL2FuZHJvaWQvc3JjL21haW4vc2NhbGEvcHJpbnRTdGF0aWNMYXlvdXQuc2NhbGEBZnBvc3RmaXggb3BlcmF0b3IgISBzaG91bGQgYmUgZW5hYmxlZApieSBtYWtpbmcgdGhlIGltcGxpY2l0IHZhbHVlIHNjYWxhLmxhbmd1YWdlLnBvc3RmaXhPcHMgdmlzaWJsZS4KVGhpcyBjYW4gYmUgYWNoaWV2ZWQgYnkgYWRkaW5nIHRoZSBpbXBvcnQgY2xhdXNlICdpbXBvcnQgc2NhbGEubGFuZ3VhZ2UucG9zdGZpeE9wcycKb3IgYnkgc2V0dGluZyB0aGUgY29tcGlsZXIgb3B0aW9uIC1sYW5ndWFnZTpwb3N0Zml4T3BzLgpTZWUgdGhlIFNjYWxhIGRvY3MgZm9yIHZhbHVlIHNjYWxhLmxhbmd1YWdlLnBvc3RmaXhPcHMgZm9yIGEgZGlzY3Vzc2lvbgp3aHkgdGhlIGZlYXR1cmUgc2hvdWxkIGJlIGV4cGxpY2l0bHkgZW5hYmxlZC4B
+/home/dkagle/src/scala/android/src/main/scala/printStaticMain.scala -> 
+AAAAAAAAAAA=
+/home/dkagle/src/scala/android/src/main/scala/printStaticValues.scala -> 
+AAAAAAAAAAEAAAEAAAAPADkJCSJtdiAiK3F1YWxpZmllZEZpbGVOYW1lKyIgIitxdWFsaWZpZWRGaWxlTmFtZSsiLmJhY2siICEBAAABSQEAAAA4AQA4CQkgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICABAEUvaG9tZS9ka2FnbGUvc3JjL3NjYWxhL2FuZHJvaWQvc3JjL21haW4vc2NhbGEvcHJpbnRTdGF0aWNWYWx1ZXMuc2NhbGEBAEUvaG9tZS9ka2FnbGUvc3JjL3NjYWxhL2FuZHJvaWQvc3JjL21haW4vc2NhbGEvcHJpbnRTdGF0aWNWYWx1ZXMuc2NhbGEAZHBvc3RmaXggb3BlcmF0b3IgISBzaG91bGQgYmUgZW5hYmxlZApieSBtYWtpbmcgdGhlIGltcGxpY2l0IHZhbHVlIHNjYWxhLmxhbmd1YWdlLnBvc3RmaXhPcHMgdmlzaWJsZS4B
+/home/dkagle/src/scala/android/src/main/scala/printValues.scala -> 
+AAAAAAAAAAEAAAEAAAAPADkJCSJtdiAiK3F1YWxpZmllZEZpbGVOYW1lKyIgIitxdWFsaWZpZWRGaWxlTmFtZSsiLmJhY2siICEBAAABugEAAAA4AQA4CQkgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICABAD8vaG9tZS9ka2FnbGUvc3JjL3NjYWxhL2FuZHJvaWQvc3JjL21haW4vc2NhbGEvcHJpbnRWYWx1ZXMuc2NhbGEBAD8vaG9tZS9ka2FnbGUvc3JjL3NjYWxhL2FuZHJvaWQvc3JjL21haW4vc2NhbGEvcHJpbnRWYWx1ZXMuc2NhbGEAZHBvc3RmaXggb3BlcmF0b3IgISBzaG91bGQgYmUgZW5hYmxlZApieSBtYWtpbmcgdGhlIGltcGxpY2l0IHZhbHVlIHNjYWxhLmxhbmd1YWdlLnBvc3RmaXhPcHMgdmlzaWJsZS4B
+/home/dkagle/src/scala/android/src/main/scala/printlayout.scala -> 
+AAAAAAAAAAA=
+/home/dkagle/src/scala/android/src/main/scala/printmenu.scala -> 
+AAAAAAAAAAEAAAEAAAAgADkJCSJtdiAiK3F1YWxpZmllZEZpbGVOYW1lKyIgIitxdWFsaWZpZWRGaWxlTmFtZSsiLmJhY2siICEBAAAFIQEAAAA4AQA4CQkgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICABAD0vaG9tZS9ka2FnbGUvc3JjL3NjYWxhL2FuZHJvaWQvc3JjL21haW4vc2NhbGEvcHJpbnRtZW51LnNjYWxhAQA9L2hvbWUvZGthZ2xlL3NyYy9zY2FsYS9hbmRyb2lkL3NyYy9tYWluL3NjYWxhL3ByaW50bWVudS5zY2FsYQBkcG9zdGZpeCBvcGVyYXRvciAhIHNob3VsZCBiZSBlbmFibGVkCmJ5IG1ha2luZyB0aGUgaW1wbGljaXQgdmFsdWUgc2NhbGEubGFuZ3VhZ2UucG9zdGZpeE9wcyB2aXNpYmxlLgE=
+/home/dkagle/src/scala/android/src/main/scala/scalaMVC.scala -> 
+AAAAAAAAAAA=
+/home/dkagle/src/scala/android/src/main/scala/scalaMVCFile.scala -> 
+AAAAAAAAAAA=
+compilations:
+10 items
+0 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABVIc+xXt1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARy9ob21lL2RrYWdsZS9zcmMvc2NhbGEvZXpidWlsZC9zcmMvbWFpbi9zY2FsYS90YXJnZXQvc2NhbGEtMi4xMC9jbGFzc2VzdAABLw==
+1 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABVZ08sol1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARy9ob21lL2RrYWdsZS9zcmMvc2NhbGEvYW5kcm9pZC9zcmMvbWFpbi9zY2FsYS90YXJnZXQvc2NhbGEtMi4xMC9jbGFzc2VzdAABLw==
+2 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABVZ1vNJd1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARy9ob21lL2RrYWdsZS9zcmMvc2NhbGEvYW5kcm9pZC9zcmMvbWFpbi9zY2FsYS90YXJnZXQvc2NhbGEtMi4xMC9jbGFzc2VzdAABLw==
+3 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABVZ1xCJR1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARy9ob21lL2RrYWdsZS9zcmMvc2NhbGEvYW5kcm9pZC9zcmMvbWFpbi9zY2FsYS90YXJnZXQvc2NhbGEtMi4xMC9jbGFzc2VzdAABLw==
+4 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABVZ10vUV1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARy9ob21lL2RrYWdsZS9zcmMvc2NhbGEvYW5kcm9pZC9zcmMvbWFpbi9zY2FsYS90YXJnZXQvc2NhbGEtMi4xMC9jbGFzc2VzdAABLw==
+5 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABVZ13mWh1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARy9ob21lL2RrYWdsZS9zcmMvc2NhbGEvYW5kcm9pZC9zcmMvbWFpbi9zY2FsYS90YXJnZXQvc2NhbGEtMi4xMC9jbGFzc2VzdAABLw==
+6 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABVZ1/f+t1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARy9ob21lL2RrYWdsZS9zcmMvc2NhbGEvYW5kcm9pZC9zcmMvbWFpbi9zY2FsYS90YXJnZXQvc2NhbGEtMi4xMC9jbGFzc2VzdAABLw==
+7 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABVZ2CQUd1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARy9ob21lL2RrYWdsZS9zcmMvc2NhbGEvYW5kcm9pZC9zcmMvbWFpbi9zY2FsYS90YXJnZXQvc2NhbGEtMi4xMC9jbGFzc2VzdAABLw==
+8 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABVZ2DwB11cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARy9ob21lL2RrYWdsZS9zcmMvc2NhbGEvYW5kcm9pZC9zcmMvbWFpbi9zY2FsYS90YXJnZXQvc2NhbGEtMi4xMC9jbGFzc2VzdAABLw==
+9 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABVZ2yxb51cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARy9ob21lL2RrYWdsZS9zcmMvc2NhbGEvYW5kcm9pZC9zcmMvbWFpbi9zY2FsYS90YXJnZXQvc2NhbGEtMi4xMC9jbGFzc2VzdAABLw==

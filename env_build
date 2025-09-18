@@ -41,8 +41,8 @@ set db connection
 create $EZBUILD/conf/application.conf
 db.default.driver=com.mysql.jdbc.Driver
 db.default.url="jdbc:mysql://localhost:3306/test?characterEncoding=UTF-8"
-db.default.user=root
-db.default.pass="dk525125"
+db.default.user=user
+db.default.pass="password"
 
 
 copy sql files to $EZBUILD/scalaplay/conf/evolutions/default

@@ -34,3 +34,7 @@ To run the generated Play system.
 Modify build.sbt name := """name"""
 
 cd ( directory you specified as the scala play directory ) 
+-----------------------------------------------------
+Update.
+
+Added the andriod generation code that communicates with the scala server from an Andriod app.
